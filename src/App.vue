@@ -3,7 +3,9 @@
 
     <header-component class="header"></header-component>
 
-    <router-view/>
+    <router-view class="mainContent"/>
+
+    <mik-footer class="footer"></mik-footer>
 
   </div>
 </template>
@@ -11,11 +13,13 @@
 <script>
 
 import HeaderComponent from '@/components/Header.vue'
+import MikFooter from '@/components/MikFooter.vue'
 
 export default {
   name: 'app',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    MikFooter
   }
 }
 </script>
@@ -39,11 +43,16 @@ html{
     font-weight: 300;
     font-size: 13pt;
     line-height: 1.3em;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 body{
-	padding: 0px 0px 50px 0px;
-	margin: 0px;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
 }
 
 a{
@@ -64,7 +73,6 @@ a.nodecoration:hover{
 a:hover, a.active{
   background: #ff6600;
   color: white;
-
   border-radius: 0px;
 }
 
@@ -73,6 +81,20 @@ a[disabled] {
 	color: gray;
 	pointer-events: none;
 	cursor: not-allowed !important;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#app .mainContent{
+  flex: 1 0 auto;
+}
+
+#app .footer{
+  margin-top: 100px;
 }
 
 .container{

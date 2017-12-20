@@ -54,7 +54,8 @@ export default {
     display: flex;
     /*background: #fffae8;*/
     padding: 0px;
-    border: 2px solid #ff6600;
+    border-top: 2px solid #ff6600;
+    border-bottom: 2px solid #ff6600;
     /*min-height: 40px;*/
     height: 3em;
     font-size: small;

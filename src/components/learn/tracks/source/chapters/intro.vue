@@ -6,7 +6,7 @@
     </p>
 
     <p>
-      För den som vill skapa och publicera eget innehåll innebär internet stora möjligheter. Även om det kan våra svårt att nå ut i bruset så erbjuder <a-wiki c="sociala_medier">sociala medier</a-wiki> riktade kanaler för att göra sin röst hörd, och anpassade verktyg gör det enkelt att till en låg kostnad skapa en egen <a-wiki c="Webbplats">webbplats</a-wiki>. Detta innebär att vem som helst kan publicera, i stort sett, vad som helst och göra det fritt tillgängligt för alla att ta del av. Som en följd innebär detta att internet är fyllt av såväl sanningar som osanningar, och allt där emellan.
+      För den som vill skapa och publicera eget innehåll innebär internet stora möjligheter. Även om det kan våra svårt att nå ut i bruset så erbjuder <a-wiki c="sociala_medier">sociala medier</a-wiki> riktade kanaler för att göra sin röst hörd, och anpassade verktyg gör det enkelt att till en låg kostnad skapa en egen <a-wiki c="Webbplats">webbplats</a-wiki>. Detta innebär att vem som helst kan publicera nästan vad som helst och göra det fritt tillgängligt för alla att ta del av. Som en följd innebär detta att internet är fyllt av såväl sanningar som osanningar, och allt där emellan.
     </p>
 
     <p>
