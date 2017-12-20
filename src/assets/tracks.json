@@ -1,0 +1,46 @@
+{
+  "data": {
+    "chapters": {
+      "trackSearch": {
+        "id": "trackSearch",
+        "header": "Sökteknik och sökkritik",
+        "chapters": [{
+            "header": "Introduktion",
+            "content": "<p><a title='Wikipedia: Internet' href='https://sv.wikipedia.org/wiki/Internet' target='_blank' rel='noopener'>Internet</a> är världens största nätverk av sammankopplade datorer som tillsammans innehåller en otrolig mängd data. Det innebär fantastiska möjligheter att hitta information om i stort sett vad som helst.</p><p>Problemet är just att vi har ett <em>överflöd</em> av information som är helt omöjligt att överblicka och navigera i manuellt, och vi har därför behov av filter och <a title='Wikipedia: Algoritm' href='https://sv.wikipedia.org/wiki/Algoritm' target='_blank' rel='noopener'>algoritmer</a> som hanterar informationsflödet åt oss. I grund och botten är de allra flesta sådana algoritmer designade för att ge dig som användare en så smidig och trevlig upplevelse som möjligt, och är anpassade för att ge personliga resultat. Ett exempel på tjänster som använder sådana algoritmer är <a title='Wikipedia: Söktjänst' href='https://sv.wikipedia.org/wiki/S%C3%B6ktj%C3%A4nst' target='_blank' rel='noopener'>sökmotorer</a> som ger resultat baserat på din geografiska position, din och andra användares internethistorik och andra personliga parametrar.</p><p><a title='Internetstiftelsen' href='https://www.iis.se/' target='_blank' rel='noopener'>Internetstiftelsens</a> forskning <a title='Svenskarna och internet' href='http://www.soi2017.se/' target='_blank' rel='noopener'>Svenskarna och internet 2017</a> visar att vi <a title='SOI: Sökord' href='http://www.soi2017.se/soka-och-vardera-information-pa-internet' target='_blank' rel='noopener'>svenskar tycker det är enkelt att hitta bra sökord</a> vid webbsökning, men att många, framförallt äldre personer, saknar information om hur man värderar information på nätet. Du kommer i kommande kapitel lära dig att både söka smart samt skapa en förståelse för varför du behöver vara kritisk till sökresultaten.</p>",
+            "chapters": []
+          },
+          {
+            "header": "Sökmotorer på internet: så funkar det!",
+            "content": "Kapitelinnehåll",
+            "chapters": []
+          },
+          {
+            "header": "Bli expert på att söka",
+            "content": "Kapitelinnehåll",
+            "chapters": []
+          },
+          {
+            "header": "Bland sökresultat och annonser",
+            "content": "Kapitelinnehåll",
+            "chapters": []
+          },
+          {
+            "header": "IT-jättar och digitala fotspår",
+            "content": "Kapitelinnehåll",
+            "chapters": []
+          },
+          {
+            "header": "AI och mänsklig bias",
+            "content": "Kapitelinnehåll",
+            "chapters": []
+          },
+          {
+            "header": "Andra vägar till information",
+            "content": "Kapitelinnehåll",
+            "chapters": []
+          }
+        ]
+      }
+    }
+  }
+}
