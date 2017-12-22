@@ -20,7 +20,7 @@
 
         <p>
           Digital kompetens handlar även om att veta hur man kritiskt värderar information i digitala kanaler, och att veta när man behöver vara extra uppmärksam.
-          Detta gäller oavsett om man själv har hittat informationen via en sökmotor, eller ifall informationen har dykt upp i exempelvis sociala medier.
+          Detta gäller oavsett om man själv har hittat informationen via en sökmotor, eller ifall informationen har dykt upp i sociala medier.
         </p>
 
         <h3>Fortbildning och praktiska övningar</h3>
@@ -30,8 +30,13 @@
         </p>
 
         <p>
-          Kursmaterialet är anpassat som kompetensutveckling för lärare och bibliotekspersonal men riktar sig även till allmänheten.
-          Nivån är anpassad för att fungera oavsett förkunskaper.
+          Aktuell forskning från <a href="https://www.iis.se/" title="Internetstiftelsen" target="_blank">Internetstiftelsens</a> årliga rapport <a href="http://www.svenskarnaochinternet.se/" title="Svenskarna och internet" target="_blank">Svenskarna och internet</a> ligger till grund för mycket av det statistiska innehållet som presenteras i form av interaktiva grafer, likt exemplet nedan.
+        </p>
+
+        <soi-graph graph="555"></soi-graph>
+
+        <p>
+          Kursmaterialet är anpassat som kompetensutveckling för lärare och bibliotekspersonal men riktar sig även till allmänheten. Nivån är anpassad för att fungera oavsett förkunskaper, med länkar till externt material för vidare fördjupning.
         </p>
 
         <h3>Ämnen</h3>
@@ -58,11 +63,13 @@
 
 import ARoute from '@/components/ARoute.vue'
 import CoverImage from '../CoverImage.vue'
+import SoiGraph from '@/components/SoiGraph.vue'
 
 export default {
   components: {
     ARoute,
-    CoverImage
+    CoverImage,
+    SoiGraph
   },
   data () {
     return {

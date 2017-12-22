@@ -1,0 +1,11 @@
+.flexContainer{
+  display: flex;
+}
+
+.flexContainer .flexItemGrow{
+  flex: 1 0 0;
+}
+
+.flexContainer .flexItemShrink{
+  flex: 0 1 1;
+}

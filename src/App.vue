@@ -36,6 +36,7 @@ export default {
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 @import '/assets/style/form.css';
+@import '/assets/style/flex.css';
 
 html{
     background-color: #ffffff;
@@ -171,6 +172,10 @@ hr{
 
 .small{
 	font-size: smaller;
+}
+
+.semibold{
+  font-weight: 400;
 }
 
 </style>

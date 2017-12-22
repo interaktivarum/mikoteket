@@ -1,5 +1,6 @@
 <template>
-  <div class="hello">
+
+  <div>
 
     <div v-if="!routes[$route.params['track']]">
       <track-landing :routes="routes"></track-landing>
@@ -9,6 +10,7 @@
     </div>
 
   </div>
+
 </template>
 
 <script>

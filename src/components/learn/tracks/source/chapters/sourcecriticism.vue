@@ -18,7 +18,7 @@ export default {
   },
   data () {
     return {
-      'header': 'Klassisk källkritik'
+      'header': 'Källkritik offline och online'
     }
   },
   created () {
