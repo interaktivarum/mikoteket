@@ -15,11 +15,15 @@
 
   	<media-container class="mediaContainer">
   		<div>
-  		<iframe width="560" height="315" src="https://www.youtube.com/embed/BNHR6IQJGZs" frameborder="0" allowfullscreen></iframe>
-  		<div class="caption">
-  			Google förklarar hur webbsök fungerar i en video från 2010. Även om videon är flera år gammal är informationen fortfarande relevant.
-  		</div>
-  		Källa: <a href="https://www.youtube.com/watch?v=BNHR6IQJGZs" title="Youtube: How Search Works" target="_blank">Youtube</a>
+        <div class="content">
+    		    <iframe width="560" height="315" src="https://www.youtube.com/embed/BNHR6IQJGZs" frameborder="0" allowfullscreen></iframe>
+        </div>
+    		<div class="caption">
+    			Google förklarar hur webbsök fungerar i en video från 2010. Även om videon är flera år gammal är informationen fortfarande relevant.
+    		</div>
+        <div class="source">
+          Källa: <a href="https://www.youtube.com/watch?v=BNHR6IQJGZs" title="Youtube: How Search Works" target="_blank">Youtube</a>
+    		</div>
   		</div>
   	</media-container>
 
@@ -129,11 +133,15 @@
 
 			<media-container class="mediaContainer">
 				<div>
-  				<iframe width="560" height="315" src="https://www.youtube.com/embed/mmQl6VGvX-c" frameborder="0" allowfullscreen></iframe>
+          <div class="content">
+  		      <iframe width="560" height="315" src="https://www.youtube.com/embed/mmQl6VGvX-c" frameborder="0" allowfullscreen></iframe>
+          </div>
   				<div class="caption">
   					Google förklarar principerna kring sökmotorns kunskapsgraf.
   				</div>
-  				Källa: <a href="https://www.youtube.com/watch?v=mmQl6VGvX-c" title="Youtube: Introducing the Knowledge Graph" target="_blank">Youtube</a>
+          <div class="source">
+            Källa: <a href="https://www.youtube.com/watch?v=mmQl6VGvX-c" title="Youtube: Introducing the Knowledge Graph" target="_blank">Youtube</a>
+          </div>
 				</div>
 			</media-container>
 
@@ -191,7 +199,7 @@
 
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
-import SearchComponent from '../SearchComponent.vue'
+import SearchComponent from '@/components/learn/SearchComponent.vue'
 import LocationComponent from '../LocationComponent.vue'
 
 export default {

@@ -47,11 +47,15 @@
 
 		<media-container class="mediaContainer">
 			<div>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/xQ4ba28-oGs" frameborder="0" allowfullscreen></iframe>
+        <div class="content">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xQ4ba28-oGs" frameborder="0" allowfullscreen></iframe>
+        </div>
 				<div class="caption">
 					Wikipedia om sin roll som fritt uppslagsverk och verifierbarhet.
 				</div>
-				Källa: <a href="https://www.youtube.com/watch?v=xQ4ba28-oGs" title="Youtube: Wikipedia: #FactsMatter" target="_blank">Youtube</a>
+        <div class="source">
+  				Källa: <a href="https://www.youtube.com/watch?v=xQ4ba28-oGs" title="Youtube: Wikipedia: #FactsMatter" target="_blank">Youtube</a>
+        </div>
 			</div>
 		</media-container>
 
@@ -70,11 +74,15 @@
 
 		<media-container class="mediaContainer">
 			<div>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/rRGNS6z5bLY" frameborder="0" allowfullscreen></iframe>
+        <div class="content">
+  	      <iframe width="560" height="315" src="https://www.youtube.com/embed/rRGNS6z5bLY" frameborder="0" allowfullscreen></iframe>
+        </div>
 				<div class="caption">
 					Wolfram|Alpha introducerar sin beräknings- och kunskapsmotor.
 				</div>
-				Källa: <a href="https://www.youtube.com/watch?v=rRGNS6z5bLY" title="Youtube: Wolfram|Alpha in a Nutshell" target="_blank">Youtube</a>
+        <div class="source">
+  				Källa: <a href="https://www.youtube.com/watch?v=rRGNS6z5bLY" title="Youtube: Wolfram|Alpha in a Nutshell" target="_blank">Youtube</a>
+        </div>
 			</div>
 		</media-container>
 
@@ -97,23 +105,27 @@
 
 		<media-container class="mediaContainer">
 			<div>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/hPXS7rC1PWo" frameborder="0" allowfullscreen></iframe>
+        <div class="content">
+  				<iframe width="560" height="315" src="https://www.youtube.com/embed/hPXS7rC1PWo" frameborder="0" allowfullscreen></iframe>
+        </div>
 				<div class="caption">
 					Amazon introducerar sin smarta högtalare Echo Dot.
 				</div>
-				Källa: <a href="https://www.youtube.com/watch?v=hPXS7rC1PWo" title="Youtube: Introducing the all-new Echo Dot" target="_blank">Youtube</a>
+        <div class="source">
+  				Källa: <a href="https://www.youtube.com/watch?v=hPXS7rC1PWo" title="Youtube: Introducing the all-new Echo Dot" target="_blank">Youtube</a>
+        </div>
 			</div>
 		</media-container>
 
   </div>
-  
+
 </template>
 
 <script>
 
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
-import SearchComponent from '../SearchComponent.vue'
+import SearchComponent from '@/components/learn/SearchComponent.vue'
 
 export default {
   components: {

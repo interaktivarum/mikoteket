@@ -12,7 +12,7 @@
 		<p>
 			<a href="https://www.iis.se/" title="Internetstiftelsen" target="_blank">Internetstiftelsens</a> forskning <a href="http://www.soi2017.se/" title="Svenskarna och internet" target="_blank">Svenskarna och internet 2017</a> visar att vi <a href="http://www.soi2017.se/soka-och-vardera-information-pa-internet" title="SOI: Sökord" target="_blank">svenskar tycker det är enkelt att hitta bra sökord</a> vid webbsökning, men att många, framförallt äldre personer, saknar information om hur man värderar information på nätet. Du kommer i kommande kapitel lära dig att både söka smart samt skapa en förståelse för varför du behöver vara kritisk till sökresultaten.
 		</p>
-    
+
     <soi-graph graph="661"></soi-graph>
 
     <info-fields class="infoFields">
@@ -69,7 +69,7 @@
 
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
-import SearchComponent from '../SearchComponent.vue'
+import SearchComponent from '@/components/learn/SearchComponent.vue'
 import SoiGraph from '@/components/SoiGraph.vue'
 
 export default {

@@ -100,36 +100,37 @@ a[disabled] {
 
 .container{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center; /* horizontal centering */
   width: 100%;
 }
 
 .containerInner{
   display: flex;
+
   max-width: 100%;
   width: 100%;
 }
 
 .columnLeft, .columnRight {
-  flex: 0 1 20%;
+  /*flex: 0 1 20%;*/
+  flex: 1 1 20%;
   padding: 0px 50px 0px 50px;
   width: 20%;
 }
 
-.columnLeft.smallPadding{
-  padding: 0px 80px 0px 20px;
-}
-
-.columnRight.smallPadding{
-  padding: 0px 20px 0px 80px;
-}
-
 .columnCenter {
-  flex: 1 0 60%;
+  /*flex: 1 0 60%;*/
+  flex: 0 1 750px;
   text-align: justify;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: flex-start;
+  padding: 0px 20px 0px 20px;
+}
+
+.columnRight{
+  text-align: right;
 }
 
 .middle{
@@ -147,7 +148,7 @@ h2{
 	color: #555;
 	font-size: 24pt;
 	font-weight: 300;
-	margin: 0px 0 0.75em 0;
+	margin: 30px 0 0.75em 0;
 }
 
 h3{

@@ -26,12 +26,15 @@
 
   	<media-container class="mediaContainer">
   		<div>
-  			<iframe width="560" height="315" src="https://www.youtube.com/embed/59bMh59JQDo" frameborder="0" allowfullscreen></iframe>
+        <div class="content">
+  			     <iframe width="560" height="315" src="https://www.youtube.com/embed/59bMh59JQDo" frameborder="0" allowfullscreen></iframe>
+        </div>
   			<div class="caption">
   				Google förklarar maskininlärning och mänsklig bias.
   			</div>
-  			Källa: <a href="https://www.youtube.com/watch?v=59bMh59JQDo" title="Youtube: Machine Learning and Human Bias" target="_blank">Youtube</a>
-
+        <div class="source">
+          Källa: <a href="https://www.youtube.com/watch?v=59bMh59JQDo" title="Youtube: Machine Learning and Human Bias" target="_blank">Youtube</a>
+        </div>
   		</div>
   	</media-container>
 
@@ -87,7 +90,7 @@
   			<search-component query="läkare" type="image"></search-component>
   			<search-component query="terrorist" type="image"></search-component>
   			<search-component query="familj" type="image"></search-component>
-  			<search-component query="lycka" type="image"></search-component>
+        <search-component query="lycka" type="image"></search-component>
 
   			<div class="hBox">
   				DISKUTERA
@@ -137,11 +140,15 @@
 
   	<media-container class="mediaContainer">
   		<div>
-  			<div style="max-width:100%"><div style="position:relative;height:0;padding-bottom:50.25%"><iframe src="https://embed.ted.com/talks/lang/sv/andreas_ekstrom_the_moral_bias_behind_your_search_results" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+        <div class="content">
+          <div style="max-width:100%"><div style="position:relative;height:0;padding-bottom:50.25%"><iframe src="https://embed.ted.com/talks/lang/sv/andreas_ekstrom_the_moral_bias_behind_your_search_results" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+        </div>
   			<div class="caption">
   				TED Talk av Andreas Ekström, The moral bias behind your search results.
   			</div>
-  			Källa: <a href="https://www.ted.com/talks/andreas_ekstrom_the_moral_bias_behind_your_search_results?utm_campaign=tedspread--a&utm_medium=referral&utm_source=tedcomshare" title="TED Talk" target="_blank">TED</a>
+        <div class="source">
+          Källa: <a href="https://www.ted.com/talks/andreas_ekstrom_the_moral_bias_behind_your_search_results?utm_campaign=tedspread--a&utm_medium=referral&utm_source=tedcomshare" title="TED Talk" target="_blank">TED</a>
+        </div>
   		</div>
   	</media-container>
 
@@ -163,7 +170,7 @@
 
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
-import SearchComponent from '../SearchComponent.vue'
+import SearchComponent from '@/components/learn/SearchComponent.vue'
 
 export default {
   components: {

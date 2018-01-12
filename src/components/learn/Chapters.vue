@@ -1,9 +1,10 @@
 <template>
   <div>
 
-    <ol class="small">
+    <h3>Kapitel</h3>
+    <ol>
       <li v-for="(chapter, index) in chapters">
-        <a :href="'/digitalkompetens/'+routeTrack+'/'+index" :class="{active: index == idActive}">{{chapter.data().header}}</a>
+        <a :href="'/digitalkompetens/'+routeTrack+'/'+(index+1)" :class="{active: index == idActive}">{{chapter.data().header}}</a>
       </li>
     </ol>
 

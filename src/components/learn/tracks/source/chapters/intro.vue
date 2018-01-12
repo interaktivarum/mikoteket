@@ -10,7 +10,7 @@
     </p>
 
     <p>
-      <a href="https://www.iis.se/" title="Internetstiftelsen" target="_blank">Internetstiftelsens</a> forskning <a href="http://www.soi2017.se/" title="Svenskarna och internet" target="_blank">Svenskarna och internet 2017</a> visar att många, framförallt äldre, <a href="http://www.soi2017.se/soka-och-vardera-information-pa-internet" title="SOI: Sökord" target="_blank">svenskar saknar information om hur man värderar information på nätet</a>. Du kommer i kommande kapitel lära dig hur du granskar källor på nätet och hur du värderar den information du hittar.
+      <a href="https://www.iis.se/" title="Internetstiftelsen" target="_blank">Internetstiftelsens</a> forskning <a href="http://www.soi2017.se/" title="Svenskarna och internet" target="_blank">Svenskarna och internet 2017</a> visar att många, framförallt äldre, <a href="http://www.soi2017.se/soka-och-vardera-information-pa-internet" title="SOI: Sökord" target="_blank">svenskar saknar information om hur man värderar information på nätet</a>. Du kommer i kommande kapitel lära dig hur information sprids på nätet, hur du värderar den information du hittar och hur du granskar onlinekällor.
     </p>
 
     <soi-graph graph="663"></soi-graph>

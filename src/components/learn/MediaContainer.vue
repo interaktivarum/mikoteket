@@ -18,10 +18,15 @@
 	color: #333;
 	font-size: smaller;
 	margin: 30px 0px 30px 0px;
+  overflow-x: hidden;
 }
 
-.mediaContainer div{
-	max-width: 560px;
+.mediaContainer > div{
+  width: 80%;
+  text-align: center;
+}
+
+.mediaContainer .content{
 }
 
 .mediaContainer img{
@@ -30,6 +35,11 @@
 }
 
 .mediaContainer .caption{
+	margin: 5px 0px 5px 0px;
+	line-height: 1.2em;
+}
+
+.mediaContainer .source{
 	margin: 5px 0px 5px 0px;
 	line-height: 1.2em;
 }

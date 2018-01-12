@@ -13,20 +13,21 @@
 export default {
   data() {
     return {
-      base: 'https://sv.wikipedia.org/wiki/'
+      base: 'https://' + this.lang + '.wikipedia.org/wiki/'
     }
   },
   props: {
     c: {},
     target: {},
-    title: {}
+    title: {},
+    lang: {default: "sv"}
   },
   methods: {
     href: function () {
       return this.base + this.c;
     },
     titleFunc: function () {
-      var t = this.title ? this.title : this.chapter;
+      var t = this.title ? this.title : this.c;
       return 'Wikipedia: ' + t;
     }
 

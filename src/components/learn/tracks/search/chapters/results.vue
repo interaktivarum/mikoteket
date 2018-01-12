@@ -274,7 +274,7 @@
 
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
-import SearchComponent from '../SearchComponent.vue'
+import SearchComponent from '@/components/learn/SearchComponent.vue'
 import SearchCustom from '../SearchCustom.vue'
 
 export default {

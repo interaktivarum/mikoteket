@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div :id="'graphtool'+graph"></div>
+  <div :id="'graphtool'+graph" class="graph"></div>
 </div>
 </template>
 
@@ -17,3 +17,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+.graph{
+  /*width: 100%;
+  max-width: 100%;*/
+
+}
+
+</style>

@@ -5,15 +5,10 @@
       <input type="search" v-model="query" :placeholder="placeholder" />
       <input type="hidden" :value="type"/>
       <input type="hidden" :value="search"/>
+
       <select v-model="selectedEngine">
-        <option disabled>Välj sökmotor</option>
 
         <option v-for="engine in enginesArray">{{engine}}</option>
-
-        <!--option value="google" v-if="offerEngine(&quot;google&quot;)" selected>Google</option>
-        <option value="duckduckgo" v-if="offerEngine(&quot;duckduckgo&quot;)">DuckDuckGo</option>
-        <option value="bing" v-if="offerEngine(&quot;bing&quot;)">Bing</option-->
-        <!--option value="yahoo">Yahoo</option-->
         <option value="-" disabled>――――</option>
         <option value="all">Samtliga</option>
       </select>
@@ -28,7 +23,7 @@ export default {
   name: 'DoSearch',
   data () {
     return {
-      selectedEngine: 'Google'
+      selectedEngine: this.enginesArray[0]
     }
   },
   props: {
@@ -129,12 +124,37 @@ export default {
     			window.open("https://www.bing.com/images/search?q=imgurl:" + encodeURIComponent(this.query) + "&view=detailv2&iss=sbi");
     		}
     	}
+
+      //FLASHBACK
+      if(this.useEngine('Flashback')){
+        if(this.search == "text"){
+          window.open("https://www.flashback.org/sok/" + this.query);
+        }
+      }
+
+      //REDDIT
+      if(this.useEngine('Reddit')){
+        if(this.search == "text"){
+          window.open("https://www.reddit.com/search?q=" + this.query);
+        }
+      }
+
+      //FAMILJELIV
+      if(this.useEngine('Familjeliv')){
+        if(this.search == "text"){
+          window.open("https://www.familjeliv.se/search?q=" + this.query);
+        }
+      }
+
     }
   },
   computed: {
     enginesArray: function () {
       return JSON.parse(this.engines)
     }
+  },
+  created: function(){
+    this.selectedEngine = this.enginesArray[0]
   }
 }
 </script>

@@ -61,8 +61,8 @@ export default {
     font-size: small;
     /*justify-content: center; /* horizontal centering */
     filter: grayscale(1) brightness(1);
-    -webkit-transition: all 0.5s; /* Safari */
-    transition: all 0.5s;
+    /*-webkit-transition: all 0.5s;
+    transition: all 0.5s;*/
 
   }
 
@@ -92,8 +92,8 @@ export default {
 
     cursor: pointer;
 
-    -webkit-transition: all 0.1s; /* Safari */
-    transition: all 0.1s;
+    /*-webkit-transition: all 0.1s;
+    transition: all 0.1s;*/
 
     text-transform: uppercase;
 

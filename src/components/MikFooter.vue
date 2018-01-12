@@ -48,8 +48,7 @@ export default {
     border-bottom: 2px solid #ff6600;
     /*min-height: 40px;*/
     filter: grayscale(1) brightness(1);
-    -webkit-transition: all 0.5s; /* Safari */
-    transition: all 0.5s;
+    
 
     justify-content: center; /* horizontal centering */
     align-items: center; /* vertical centering */
@@ -69,8 +68,6 @@ export default {
 
   a{
     color: lightgray;
-    -webkit-transition: all 0.5s; /* Safari */
-    transition: all 0.5s;
   }
 
   a:hover{

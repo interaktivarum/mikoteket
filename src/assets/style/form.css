@@ -7,6 +7,7 @@ form *:not(:last-child){
 	margin-right: 10px;
 }
 
+input[type="text"],
 input[type="search"]{
 	/*flex: 1 0 0;*/
 
@@ -25,7 +26,9 @@ input[type="search"]{
 	transition: all 0.25s;
 }
 
-input[type="search"]:hover, input[type="search"]:focus{
+input[type="text"]:hover, input[type="text"]:focus,
+input[type="search"]:hover, input[type="search"]:focus
+{
 	background: #fffae8;
 	border-color: #ff6600;
 	outline: none;
@@ -33,6 +36,7 @@ input[type="search"]:hover, input[type="search"]:focus{
 
 input[type="button"],input[type="submit"],button{
 
+	width: auto;
 	-webkit-appearance: button;
 	-moz-appearance:    button;
 	appearance:         button;

@@ -3,8 +3,6 @@
 
   <cover-image :header="track.data().header" :background="track.data().background" route="/digitalkompetens" route-name="Digital kompetens" :margin="true"></cover-image>
 
-  <div class="margin"></div>
-
   <div class="container">
 
     <div class="containerInner">
@@ -21,7 +19,11 @@
       </div>
 
       <div class="columnRight">
-
+        <p class="small">
+          <strong>Vill du surfa privat?</strong>
+          <br />
+          Öppna ett privat/inkognitofönster i din webbläsare.
+        </p>
       </div>
 
       <slot></slot>
@@ -60,8 +62,8 @@ export default {
   computed: {
     idChapter: function () {
       if (this.$route.params['idChapter']) {
-        if (this.$route.params['idChapter'] >= 0 && this.$route.params['idChapter'] < this.track.data().chapters.length) {
-          return this.$route.params['idChapter']
+        if (this.$route.params['idChapter'] >= 1 && this.$route.params['idChapter'] <= this.track.data().chapters.length) {
+          return this.$route.params['idChapter'] - 1
         }
       }
       return 0
@@ -71,7 +73,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
+
+.chapter {
+  margin-top: 20px;
+}
 
 .margin {
   margin-bottom: 20px;
