@@ -1,6 +1,14 @@
 <template>
   <div>
 
+    <slide-component>
+      <ul>
+  			<li>Sökmotorer: Google, Bing, Yahoo, DuckDuckGo</li>
+  			<li>Spindlar och indexering</li>
+  			<li>Sökning i egna databaser</li>
+  		</ul>
+    </slide-component>
+
 		<p>
 			Det finns flera populära sökmotorer på internet, varav den överlägset största är <a href="http://www.google.com" title="Google" target="_blank">Google</a>. Det är även på Google som vi kommer att fokusera i denna text. Andra populära sökmotorer är Microsofts <a href="http://www.bing.com" title="Bing" target="_blank">Bing</a>, <a href="http://www.yahoo.com" title="Yahoo" target="_blank">Yahoo!</a>, kinesiska <a href="http://www.baidu.com" title="Baidu" target="_blank">Baidu</a> samt <a href="http://www.duckduckgo.com" title="DuckDuckGo" target="_blank">DuckDuckGo</a> som jämfört med många andra sökmotorer har striktare riktlinjer kring användarintegritet och lagring av personliga uppgifter.
 		</p>
@@ -22,7 +30,7 @@
     			Google förklarar hur webbsök fungerar i en video från 2010. Även om videon är flera år gammal är informationen fortfarande relevant.
     		</div>
         <div class="source">
-          Källa: <a href="https://www.youtube.com/watch?v=BNHR6IQJGZs" title="Youtube: How Search Works" target="_blank">Youtube</a>
+          Källa: <a href="https://www.youtube.com/watch?v=BNHR6IQJGZs" title="Youtube: How Search Works" target="_blank">Google (Youtube)</a>
     		</div>
   		</div>
   	</media-container>
@@ -52,6 +60,14 @@
   	</info-fields>
 
     <h3>Sökmotorernas algoritmer</h3>
+
+      <slide-component>
+        <ul>
+					<li>Språk- och textanalys</li>
+					<li>Matchande sidor: webbplatsens parametrar</li>
+					<li>Personliga resultat: användarens parametrar</li>
+				</ul>
+      </slide-component>
 
 			<div>
 
@@ -111,6 +127,15 @@
 
 			<h3>En djupare förståelse</h3>
 
+      <slide-component>
+        <ul>
+					<li>Försöker förstå vad du söker efter, e.g. <i>fisk</i></li>
+					<li>AI: sökmönster och relaterade termer, e.g. <i>huvudvärk</i></li>
+					<li>Ge svar som vanligtvis efterfrågas</li>
+					<li>Kunskapsgrafer</li>
+				</ul>
+      </slide-component>
+
 			<div>
 
 				<p>
@@ -140,7 +165,7 @@
   					Google förklarar principerna kring sökmotorns kunskapsgraf.
   				</div>
           <div class="source">
-            Källa: <a href="https://www.youtube.com/watch?v=mmQl6VGvX-c" title="Youtube: Introducing the Knowledge Graph" target="_blank">Youtube</a>
+            Källa: <a href="https://www.youtube.com/watch?v=mmQl6VGvX-c" title="Youtube: Introducing the Knowledge Graph" target="_blank">Google (Youtube)</a>
           </div>
 				</div>
 			</media-container>
@@ -201,13 +226,15 @@ import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
 import SearchComponent from '@/components/learn/SearchComponent.vue'
 import LocationComponent from '../LocationComponent.vue'
+import SlideComponent from '@/components/learn/SlideComponent.vue'
 
 export default {
   components: {
     InfoFields,
     MediaContainer,
     SearchComponent,
-    LocationComponent
+    LocationComponent,
+    SlideComponent
   },
   data () {
     return {

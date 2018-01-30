@@ -30,6 +30,7 @@
 	font-size: smaller;
 	font-weight: bold;
 	margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .hBox:not(:first-child){

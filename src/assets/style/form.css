@@ -69,6 +69,10 @@ label{
 	cursor: pointer;
 }
 
+label:hover{
+	text-decoration: underline;
+}
+
 select{
 
 	background: white;

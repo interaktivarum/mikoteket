@@ -23,7 +23,7 @@ export default {
   name: 'DoSearch',
   data () {
     return {
-      selectedEngine: this.enginesArray[0]
+      selectedEngine: ""
     }
   },
   props: {

@@ -1,24 +1,30 @@
 <template>
   <div>
 
-    <div>
+    <slide-component>
+      <ul>
+				<li>De översta resultaten är inte alltid de bästa</li>
+				<li>Jämför olika resultat, granska källorna</li>
+				<li>Verktyg för att filtrera resultaten</li>
+				<li>Upp till dig att omvandla informationen till egen kunskap</li>
+			</ul>
+    </slide-component>
 
-			<p>
-				När du söker på webben så gör sökmotorn en gissning av vad du letar efter och presenterar resultaten i en lista. Det är lätt att tro att de översta resultaten alltid är de bästa, men informationen du söker kan mycket väl finnas längre ner i resultatlistan. Ibland är det nödvändigt att göra en personlig sammanvägning av flera olika sökresultat för att själv komma fram till ett godtagbart svar.
-			</p>
+		<p>
+			När du söker på webben så gör sökmotorn en gissning av vad du letar efter och presenterar resultaten i en lista. Det är lätt att tro att de översta resultaten alltid är de bästa, men informationen du söker kan mycket väl finnas längre ner i resultatlistan. Ibland är det nödvändigt att göra en personlig sammanvägning av flera olika sökresultat för att själv komma fram till ett godtagbart svar.
+		</p>
 
-			<p>
-				Ifall du söker efter objektiv fakta, e.g. <i>vilket är Frankrikes statsskick?</i>, är det sannolikt att det korrekta svaret framgår högt upp i resultatlistan; medan subjektiva sökningar, e.g. <i>vilket är det bästa statsskicket?</i> kräver att du ställer dig betydligt mer kritisk till sökresultaten. Nöj dig inte med att godta de översta resultaten, utan granska och jämför fler olika resultat och dess källor.
-			</p>
+		<p>
+			Ifall du söker efter objektiv fakta, e.g. <i>vilket är Frankrikes statsskick?</i>, är det sannolikt att det korrekta svaret framgår högt upp i resultatlistan; medan subjektiva sökningar, e.g. <i>vilket är det bästa statsskicket?</i> kräver att du ställer dig betydligt mer kritisk till sökresultaten. Nöj dig inte med att godta de översta resultaten, utan granska och jämför fler olika resultat och dess källor.
+		</p>
 
-			<p>
-				Sökmotorerna erbjuder ofta verktyg eller avancerade sökfunktioner för att låta dig filtrera resultaten, exempelvis på datum, språk och region.
-			</p>
+		<p>
+			Sökmotorerna erbjuder ofta verktyg eller avancerade sökfunktioner för att låta dig filtrera resultaten, exempelvis på datum, språk och region.
+		</p>
 
-			<p>
-				Kom ihåg: sökmotorerna är designade för att hjälpa dig, som användare, att navigera på internet. De är inte allvetande orakel, utan följer algoritmer som är programmerade av människor. Det är upp till dig själv att göra det slutgiltiga källkritiska arbetet, och att omvandla informationen till egen kunskap.
-			</p>
-		</div>
+		<p>
+			Kom ihåg: sökmotorerna är designade för att hjälpa dig, som användare, att navigera på internet. De är inte allvetande orakel, utan följer algoritmer som är programmerade av människor. Det är upp till dig själv att göra det slutgiltiga källkritiska arbetet, och att omvandla informationen till egen kunskap.
+		</p>
 
 		<info-fields class="infoFields">
 			<div class="excercise">
@@ -60,27 +66,31 @@
 
 		</info-fields>
 
-
 		<h3>Organiska sökresultat och sökoptimering</h3>
 
-		<div>
+    <slide-component>
+      <ul>
+				<li>Grundprincip: resultaten sorteras efter bedömd relevans</li>
+				<li>Går ej att köpa bättre placering</li>
+				<li>Sökoptimering: relevant information, nyckelord, m.m.</li>
+			</ul>
+    </slide-component>
 
-			<p>
-				Du har tidigare fått lära dig hur sökmotorers algoritmer arbetar för att presentera de mest relevanta svaren för din sökning. Sådana resultat kallas för <a href="https://support.google.com/adwords/answer/6054492" title="Google: Organiska sökresultat" target="_blank">organiska sökresultat</a> och utgår från en mängd webbplats- och användarspecifika parametrar. Grundprincipen för de organiska resultaten är att de ska ha så hög relevans som möjligt och att ordningen inte ska gå att påverka genom att köpa sig till en bättre placering.
-			</p>
+		<p>
+			Du har tidigare fått lära dig hur sökmotorers algoritmer arbetar för att presentera de mest relevanta svaren för din sökning. Sådana resultat kallas för <a href="https://support.google.com/adwords/answer/6054492" title="Google: Organiska sökresultat" target="_blank">organiska sökresultat</a> och utgår från en mängd webbplats- och användarspecifika parametrar. Grundprincipen för de organiska resultaten är att de ska ha så hög relevans som möjligt och att ordningen inte ska gå att påverka genom att köpa sig till en bättre placering.
+		</p>
 
-			<p>
-				För företag, och andra som vill synas på internet, är det värdefullt att hamna högt upp bland de organiska sökresultaten. Detta ökar avsevärt chanserna att användare klickar sig vidare till företagets egna webbplats, vilket kan leda till nya kunder och större intäkter.
-			</p>
+		<p>
+			För företag, och andra som vill synas på internet, är det värdefullt att hamna högt upp bland de organiska sökresultaten. Detta ökar avsevärt chanserna att användare klickar sig vidare till företagets egna webbplats, vilket kan leda till nya kunder och större intäkter.
+		</p>
 
-			<p>
-				Det går att utforma sin webbplats för att få bättre placering i sökmotorerna, exempelvis genom att ange relevant information och nyckelord, samt genom att se till att andra webbplatser länkar till sidan. Att <a href="https://sv.wikipedia.org/wiki/S%C3%B6kmotoroptimering" title="Wikipedia: Sökoptimering" target="_blank">sökoptimera</a> sin webbplats förkortas ofta SEO (Search Engine Optimization) och är något som företag investerar stora pengar i.
-			</p>
+		<p>
+			Det går att utforma sin webbplats för att få bättre placering i sökmotorerna, exempelvis genom att ange relevant information och nyckelord, samt genom att se till att andra webbplatser länkar till sidan. Att <a href="https://sv.wikipedia.org/wiki/S%C3%B6kmotoroptimering" title="Wikipedia: Sökoptimering" target="_blank">sökoptimera</a> sin webbplats förkortas ofta SEO (Search Engine Optimization) och är något som företag investerar stora pengar i.
+		</p>
 
-			<p>
-				Seriösa webbplatser som anses hålla hög genomsnittlig kvalitet, e.g. Wikipedia, kan komma att prioriteras i resultatlistan, även om informationen från annan webbplats innehåller mer specifik information kring just din sökning.
-			</p>
-		</div>
+		<p>
+			Seriösa webbplatser som anses hålla hög genomsnittlig kvalitet, e.g. Wikipedia, kan komma att prioriteras i resultatlistan, även om informationen från annan webbplats innehåller mer specifik information kring just din sökning.
+		</p>
 
 		<info-fields class="infoFields">
 			<div class="excercise">
@@ -144,20 +154,25 @@
 
 		<h3>Annonser och sponsrade resultat</h3>
 
-		<div>
+    <slide-component>
+      <ul>
+				<li>Skräddarsydda annonser</li>
+				<li>Relevans för den aktuella sökningen</li>
+				<li>Kan vara svåra att urskilja</li>
+			</ul>
+    </slide-component>
 
-			<p>
-				Du har säkert noterat att många sökningar visar annonser ovanför resultatlistan. Till skillnad mot de organiska sökresultaten kostar denna topplacering pengar och de betalande företagen har möjlighet att <a href="https://adwords.google.com/home/how-it-works/search-ads/" title="Google: Annonser" target="_blank">skräddarsy sina annonser</a> för specifika sökningar och utifrån sin egen budget.
-			</p>
+		<p>
+			Du har säkert noterat att många sökningar visar annonser ovanför resultatlistan. Till skillnad mot de organiska sökresultaten kostar denna topplacering pengar och de betalande företagen har möjlighet att <a href="https://adwords.google.com/home/how-it-works/search-ads/" title="Google: Annonser" target="_blank">skräddarsy sina annonser</a> för specifika sökningar och utifrån sin egen budget.
+		</p>
 
-			<p>
-				Ju mer specifik en sökning är desto större är chansen att de organiska resultaten kommer att föregås av annonser, särskilt ifall sökningen går att koppla till en specifik produkt. Vilka annonser du ser baseras på din aktuella sökning men även på vilka sidor du tidigare har besökt: har du tidigare besökt en särskild sportbutiks webbplats så ökar chanserna att just deras annons visas.
-			</p>
+		<p>
+			Ju mer specifik en sökning är desto större är chansen att de organiska resultaten kommer att föregås av annonser, särskilt ifall sökningen går att koppla till en specifik produkt. Vilka annonser du ser baseras på din aktuella sökning men även på vilka sidor du tidigare har besökt: har du tidigare besökt en särskild sportbutiks webbplats så ökar chanserna att just deras annons visas.
+		</p>
 
-			<p>
-				Intill betalda annonser så anger sökmotorerna ofta orden Annons eller Sponsrad. Trots det kan det ibland vara svårt att skilja annonserna från de organiska resultaten.
-			</p>
-		</div>
+		<p>
+			Intill betalda annonser så anger sökmotorerna ofta orden Annons eller Sponsrad. Trots det kan det ibland vara svårt att skilja annonserna från de organiska resultaten.
+		</p>
 
 		<info-fields class="infoFields">
 			<div class="excercise">
@@ -198,24 +213,28 @@
 
 		<h3>Att anpassa sin egen sökmotor</h3>
 
-		<div>
+    <slide-component>
+      <ul>
+				<li>Anpassa och använd Googles sökmotor på egen webbsida</li>
+				<li>Ställ in parametrar: påverka sökresultaten</li>
+				<li>Inkluderade webbplatser, språk, extra sökord, m.m.</li>
+			</ul>
+    </slide-component>
 
-			<p>
-				Det är möjligt att, med Googles teknik, skapa egna <a href="https://cse.google.com" title="Google CSE" target="_blank">anpassade sökmotorer</a> att använda på sin egen webbsida. Webbutvecklaren erbjuds möjligheten att styra en mängd parametrar för såväl sökning som presentation av sökresultaten. Det är på så sätt möjligt att påverka sökresultaten, även utan att användaren är medveten om det.
-			</p>
+		<p>
+			Det är möjligt att, med Googles teknik, skapa egna <a href="https://cse.google.com" title="Google CSE" target="_blank">anpassade sökmotorer</a> att använda på sin egen webbsida. Webbutvecklaren erbjuds möjligheten att styra en mängd parametrar för såväl sökning som presentation av sökresultaten. Det är på så sätt möjligt att påverka sökresultaten, även utan att användaren är medveten om det.
+		</p>
 
-			<p>
-				Exempel på styrbara parametrar:
-				<ul>
-					<li>Vilka webbplatser som ska inkluderas/exkluderas.</li>
-					<li>Vilka språk som ska inkluderas i sökresultaten.</li>
-					<li>Extra sökord eller ämnen, som inte syns för användaren.</li>
-					<li>Prioriterade annonser.</li>
-				</ul>
+		<p>
+			Exempel på styrbara parametrar:
+			<ul>
+				<li>Vilka webbplatser som ska inkluderas/exkluderas.</li>
+				<li>Vilka språk som ska inkluderas i sökresultaten.</li>
+				<li>Extra sökord eller ämnen, som inte syns för användaren.</li>
+				<li>Prioriterade annonser.</li>
+			</ul>
 
-			</p>
-
-		</div>
+		</p>
 
 		<info-fields class="infoFields">
 
@@ -276,13 +295,15 @@ import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
 import SearchComponent from '@/components/learn/SearchComponent.vue'
 import SearchCustom from '../SearchCustom.vue'
+import SlideComponent from '@/components/learn/SlideComponent.vue'
 
 export default {
   components: {
     InfoFields,
     MediaContainer,
     SearchComponent,
-    SearchCustom
+    SearchCustom,
+    SlideComponent
   },
   data () {
     return {

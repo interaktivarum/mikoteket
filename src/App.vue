@@ -71,10 +71,27 @@ a.nodecoration:hover{
 	text-decoration: none;
 }
 
-a:hover, a.active{
+a:hover:not(.nohover), a.active{
   background: #ff6600;
   color: white;
   border-radius: 0px;
+}
+
+a img:hover {
+  background: none !important;
+}
+
+a.button, .button a{
+  border: 2px solid #ff6600;
+  display: inline-block;
+  margin: 2px;
+  background: #ff6600;
+  color: white;
+}
+
+a.button:hover, .button a:hover{
+  background: white;
+  color: #ff6600;
 }
 
 a[disabled] {
@@ -122,7 +139,7 @@ a[disabled] {
 .columnCenter {
   /*flex: 1 0 60%;*/
   flex: 0 1 750px;
-  text-align: justify;
+  text-align: left;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: flex-start;
@@ -161,8 +178,10 @@ h3{
 
 h4{
 	font-size: 12pt;
-	font-weight: 500;
+	font-weight: 400;
 	margin: 1em 0 0.25em 0;
+  color: #888;
+  text-transform: uppercase;
 }
 
 hr{

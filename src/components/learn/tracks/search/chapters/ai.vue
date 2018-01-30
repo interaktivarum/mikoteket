@@ -1,28 +1,34 @@
 <template>
   <div>
 
-    <div>
+    <slide-component>
+      <ul>
+				<li>Sökmotorernas algoritmer följer givna instruktioner</li>
+				<li>Resultaten beror på människors programmering</li>
+				<li>AI: påverkas och lär sig av användarnas beteenden</li>
+				<li>Speglar både positiva och negativa mönster</li>
+			</ul>
+    </slide-component>
 
-  		<p>
-  			Sökmotorernas algoritmer är skapade för att tolka sina användares sökningar och presentera relevanta sökresultat. Detta sker helt automatiskt, i.e. inga manuella handpåläggningar görs för enskilda sökningar, men processen styrs av datorprogram som är designade och programmerade av människor. Ett digitalt verktyg följer helt enkelt de steg som dess utvecklare har instruerat den att följa.
-  		</p>
+		<p>
+			Sökmotorernas algoritmer är skapade för att tolka sina användares sökningar och presentera relevanta sökresultat. Detta sker helt automatiskt, i.e. inga manuella handpåläggningar görs för enskilda sökningar, men processen styrs av datorprogram som är designade och programmerade av människor. Ett digitalt verktyg följer helt enkelt de steg som dess utvecklare har instruerat den att följa.
+		</p>
 
-  		<p>
-  			Varför är detta viktigt att ha i åtanke? Önskvärt vore givetvis att sökmotorer var så smarta att de visste exakt vad vi letade efter och alltid presenterade nyanserade och korrekta svar till våra sökfrågor. Detta är, och kommer aldrig att vara, fallet. Lika lite som du bör lita blint på att en person, oavsett vad du frågar, alltid svarar med en objektiv och korrekt sanning, bör du lita blint på en sökmotors resultat. Du har tidigare sett exempel på hur olika sökmotorer ger olika relevanta sökresultat, allt utifrån hur de är programmerade.
-  		</p>
+		<p>
+			Varför är detta viktigt att ha i åtanke? Önskvärt vore givetvis att sökmotorer var så smarta att de visste exakt vad vi letade efter och alltid presenterade nyanserade och korrekta svar till våra sökfrågor. Detta är, och kommer aldrig att vara, fallet. Lika lite som du bör lita blint på att en person, oavsett vad du frågar, alltid svarar med en objektiv och korrekt sanning, bör du lita blint på en sökmotors resultat. Du har tidigare sett exempel på hur olika sökmotorer ger olika relevanta sökresultat, allt utifrån hur de är programmerade.
+		</p>
 
-  		<p>
-  			Även om så <u>ej är fallet</u> så äger en sökmotor makten att, med bakomliggande programmering, styra sina algoritmer att endast visa resultat som nämner <i>Islam</i> då en användare söker på <i>terrorism</i>.
-  		</p>
+		<p>
+			Även om så <u>ej är fallet</u> så äger en sökmotor makten att, med bakomliggande programmering, styra sina algoritmer att endast visa resultat som nämner <i>Islam</i> då en användare söker på <i>terrorism</i>.
+		</p>
 
-  		<p>
-  			Även söksystem som använder artificiell intelligens och  <a href="https://sv.wikipedia.org/wiki/Maskininl%C3%A4rning" title="Wikipedia: Maskininlärning" target="_blank">maskininlärning</a> för självlärande styrs av bakomliggande kod. Och även om AI är kraftfullt för att minska effekten av programmerarens direkta påverkan på enskilda sökresultat, så påverkas AI-styrda system desto mer av användarnas beteenden. Allteftersom användare söker på termer i stil med <i>terrorism islam</i> riskerar ett system att på sikt förknippa dessa två sökord med varandra.
-  		</p>
+		<p>
+			Även söksystem som använder artificiell intelligens och  <a href="https://sv.wikipedia.org/wiki/Maskininl%C3%A4rning" title="Wikipedia: Maskininlärning" target="_blank">maskininlärning</a> för självlärande styrs av bakomliggande kod. Och även om AI är kraftfullt för att minska effekten av programmerarens direkta påverkan på enskilda sökresultat, så påverkas AI-styrda system desto mer av användarnas beteenden. Allteftersom användare söker på termer i stil med <i>terrorism islam</i> riskerar ett system att på sikt förknippa dessa två sökord med varandra.
+		</p>
 
-  		<p>
-  			Man kan säga att AI-system inte bara lär sig våra positiva beteenden utan riskerar även att spegla våra fördomar, rädslor och förutfattade meningar - helt enkelt vår personliga <a href="https://sv.wikipedia.org/wiki/Bias_(syns%C3%A4tt)" title="Wikipedia: Bias" target="_blank">bias</a>. Detta är ofta synligt vid bildsökningar, vilka tenderar att spegla och riskerar att förstärka normativa och stereotypa bilder av exempelvis läkare eller terrorister.
-  		</p>
-  	</div>
+		<p>
+			Man kan säga att AI-system inte bara lär sig våra positiva beteenden utan riskerar även att spegla våra fördomar, rädslor och förutfattade meningar - helt enkelt vår personliga <a href="https://sv.wikipedia.org/wiki/Bias_(syns%C3%A4tt)" title="Wikipedia: Bias" target="_blank">bias</a>. Detta är ofta synligt vid bildsökningar, vilka tenderar att spegla och riskerar att förstärka normativa och stereotypa bilder av exempelvis läkare eller terrorister.
+		</p>
 
   	<media-container class="mediaContainer">
   		<div>
@@ -33,7 +39,7 @@
   				Google förklarar maskininlärning och mänsklig bias.
   			</div>
         <div class="source">
-          Källa: <a href="https://www.youtube.com/watch?v=59bMh59JQDo" title="Youtube: Machine Learning and Human Bias" target="_blank">Youtube</a>
+          Källa: <a href="https://www.youtube.com/watch?v=59bMh59JQDo" title="Youtube: Machine Learning and Human Bias" target="_blank">Google (Youtube)</a>
         </div>
   		</div>
   	</media-container>
@@ -119,24 +125,21 @@
 
   	<h3>Manipulerade sökresultat</h3>
 
-  	<div v-if="!presentation">
-
-  		<p>
-  			Även om sökmotorerna arbetar automatiskt och är självlärande så är det möjligt för de bakomliggande företagen att, när som helst, programmera om algoritmerna för att påverka sökresultaten i önskad riktning. Syftet kan exempelvis vara att motverka kraftigt vinklad bias, eller att undvika att hamna i politiskt blåsväder.
-  		</p>
-
-  		<p>
-  			Sökmotorerna porträtterar sig gärna som politiskt neutrala, men stora moraliska beslut kan ofta innebära politiska ställningstaganden. Exempel, som tas upp i Andreas Ekströms presentation nedan, är Googles ställningstaganden till att manuellt justera sina algoritmer för att påverka bildresultat för <i>Michelle Obama</i> och <i>Anders Breivik</i>.
-  		</p>
-  	</div>
-
-  	<div class="slide" v-if="presentation">
+    <slide-component>
   		<ul>
   			<li>Företagen kan programmera om sin algoritmer</li>
   			<li>Styra resultaten i önskad riktning</li>
   			<li>Minska vinklade resultat, undvika blåsväder</li>
   		</ul>
-  	</div>
+  	</slide-component>
+
+		<p>
+			Även om sökmotorerna arbetar automatiskt och är självlärande så är det möjligt för de bakomliggande företagen att, när som helst, programmera om algoritmerna för att påverka sökresultaten i önskad riktning. Syftet kan exempelvis vara att motverka kraftigt vinklad bias, eller att undvika att hamna i politiskt blåsväder.
+		</p>
+
+		<p>
+			Sökmotorerna porträtterar sig gärna som politiskt neutrala, men stora moraliska beslut kan ofta innebära politiska ställningstaganden. Exempel, som tas upp i Andreas Ekströms presentation nedan, är Googles ställningstaganden till att manuellt justera sina algoritmer för att påverka bildresultat för <i>Michelle Obama</i> och <i>Anders Breivik</i>.
+		</p>
 
   	<media-container class="mediaContainer">
   		<div>
@@ -147,7 +150,7 @@
   				TED Talk av Andreas Ekström, The moral bias behind your search results.
   			</div>
         <div class="source">
-          Källa: <a href="https://www.ted.com/talks/andreas_ekstrom_the_moral_bias_behind_your_search_results?utm_campaign=tedspread--a&utm_medium=referral&utm_source=tedcomshare" title="TED Talk" target="_blank">TED</a>
+          Källa: Andreas Ekström, <a href="https://www.ted.com/talks/andreas_ekstrom_the_moral_bias_behind_your_search_results?utm_campaign=tedspread--a&utm_medium=referral&utm_source=tedcomshare" title="TED Talk" target="_blank">TED</a>
         </div>
   		</div>
   	</media-container>
@@ -171,12 +174,14 @@
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
 import SearchComponent from '@/components/learn/SearchComponent.vue'
+import SlideComponent from '@/components/learn/SlideComponent.vue'
 
 export default {
   components: {
     InfoFields,
     MediaContainer,
-    SearchComponent
+    SearchComponent,
+    SlideComponent
   },
   data () {
     return {

@@ -24,7 +24,12 @@ export default {
         TrackSearchFootprints,
         TrackSearchAI,
         TrackSearchOther
-      ]
+      ],
+      sponsor: {
+        name: "Stockholms Stadsbibliotek",
+        url: "https://biblioteket.stockholm.se/",
+        image: "http://resources.mynewsdesk.com/image/upload/t_open_graph_image/fyy161rnegf4jrboahyh.jpg"
+      }
     }
   }
 }

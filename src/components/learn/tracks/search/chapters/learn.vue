@@ -1,25 +1,28 @@
 <template>
   <div>
 
-    <div>
+    <slide-component>
+      <ul>
+				<li>Objektiva och subjektiva sökningar</li>
+				<li>Användning av nyckelord</li>
+			</ul>
+    </slide-component>
 
-			<p>
-				Att hitta rätt information med sökmotorer kan vara både busenkelt eller ganska knepigt, mycket beroende på typen av information du söker. <a href="https://sv.wikipedia.org/wiki/Objektivitet" title="Wikipedia: Objeltivitet" target="_blank">Objektiv</a> fakta går ofta att hitta mängder av information kring, medan konkreta svar inom <a href="https://sv.wikipedia.org/wiki/Subjektivitet" title="Wikipedia: Subjektiv" target="_blank">subjektiva</a> ämnen är - per definition - svårare att söka fram.
-			</p>
+		<p>
+			Att hitta rätt information med sökmotorer kan vara både busenkelt eller ganska knepigt, mycket beroende på typen av information du söker. <a href="https://sv.wikipedia.org/wiki/Objektivitet" title="Wikipedia: Objeltivitet" target="_blank">Objektiv</a> fakta går ofta att hitta mängder av information kring, medan konkreta svar inom <a href="https://sv.wikipedia.org/wiki/Subjektivitet" title="Wikipedia: Subjektiv" target="_blank">subjektiva</a> ämnen är - per definition - svårare att söka fram.
+		</p>
 
-			<p>
-				Vi kommer hädanefter att skilja på följande begrepp:
-				<ul>
-					<li><span class="semi-bold">Objektiva sökningar</span>: Sökning efter objektiv fakta, e.g. <i>Vilket är Frankrikes statsskick?</i></li>
-					<li><span class="semi-bold">Subjektiva sökningar</span>: Sökning efter subjektiva sanningar, e.g. <i>Vilket statsskick är bäst?</i></li>
-				</ul>
-			</p>
+		<p>
+			Vi kommer hädanefter att skilja på följande begrepp:
+			<ul>
+				<li><span class="semi-bold">Objektiva sökningar</span>: Sökning efter objektiv fakta, e.g. <i>Vilket är Frankrikes statsskick?</i></li>
+				<li><span class="semi-bold">Subjektiva sökningar</span>: Sökning efter subjektiva sanningar, e.g. <i>Vilket statsskick är bäst?</i></li>
+			</ul>
+		</p>
 
-			<p>
-				Ifall ett ämne innehåller flera aspekter eller vinklar så arbetar sökmotorerna för att inte presentera en alltför snäv bild. För att erhålla mer specifika svar är grundprincipen i webbsökning att inkludera relevanta nyckelord.
-			</p>
-
-		</div>
+		<p>
+			Ifall ett ämne innehåller flera aspekter eller vinklar så arbetar sökmotorerna för att inte presentera en alltför snäv bild. För att erhålla mer specifika svar är grundprincipen i webbsökning att inkludera relevanta nyckelord.
+		</p>
 
 		<info-fields class="infoFields">
 			<div class="excercise">
@@ -67,25 +70,21 @@
 
 		<h3>Som du frågar får du svar</h3>
 
-		<div v-if="!presentation">
-
-			<p>
-				Precis som i verkligheten så har det betydelse hur du formulerar dina frågor när du söker på webben. Ledande frågor riskerar att ge ett alltför snävt urval av svar. Detta är ofta inte önskvärt, såvida du inte specifikt letar efter en särskild vinkling eller åsikt kring ett ämne.
-			</p>
-
-			<p>
-				För att öka chanserna att erhålla nyanserade resultat så är en tumregel att undvika värdeladdade ord, såsom <i>fel</i> eller <i>ett hot</i>, i dina söktermer.
-			</p>
-
-		</div>
-
-		<div class="slide" v-if="presentation">
+    <slide-component>
 			<ul>
 				<li>Formuleringen har betydelse</li>
 				<li>Ledande frågor ger ett snävt urval av svar</li>
 				<li>Värdeladdade ord bör undvikas</li>
 			</ul>
-		</div>
+		</slide-component>
+
+		<p>
+			Precis som i verkligheten så har det betydelse hur du formulerar dina frågor när du söker på webben. Ledande frågor riskerar att ge ett alltför snävt urval av svar. Detta är ofta inte önskvärt, såvida du inte specifikt letar efter en särskild vinkling eller åsikt kring ett ämne.
+		</p>
+
+		<p>
+			För att öka chanserna att erhålla nyanserade resultat så är en tumregel att undvika värdeladdade ord, såsom <i>fel</i> eller <i>ett hot</i>, i dina söktermer.
+		</p>
 
 		<info-fields class="infoFields">
 			<div class="excercise">
@@ -127,11 +126,16 @@
 
 		<h3>Avancerad sökning</h3>
 
-		<div v-if="!presentation">
-			<p>
-				Utöver nyckelord så finns en mängd kraftfulla tekniker för att göra avancerade sökningar för att hitta den information du söker. Du kan exempelvis använda <a href="https://www.google.com/advanced_search" title="Google: Avancerad sökning" target="_blank">verktyget för avancerad sökning</a>, använda <a href="https://support.google.com/websearch/answer/142143?hl=sv&ref_topic=3081620" title="Google: Filtrera sökresultaten" target="_blank">sökfilter</a> eller göra <a href="https://www.google.se/insidesearch/tipstricks/basics.html" title="Google: Tips och knep" target="_blank">finjusterade sökningar</a> direkt i sökfältet.
-			</p>
-		</div>
+    <slide-component>
+      <ul>
+				<li><a href="https://www.google.com/advanced_search" title="Google: Avancerad sökning" target="_blank">Avancerad sökning</a></li>
+				<li>Finjusterade sökningar</li>
+			</ul>
+    </slide-component>
+
+		<p>
+			Utöver nyckelord så finns en mängd kraftfulla tekniker för att göra avancerade sökningar för att hitta den information du söker. Du kan exempelvis använda <a href="https://www.google.com/advanced_search" title="Google: Avancerad sökning" target="_blank">verktyget för avancerad sökning</a>, använda <a href="https://support.google.com/websearch/answer/142143?hl=sv&ref_topic=3081620" title="Google: Filtrera sökresultaten" target="_blank">sökfilter</a> eller göra <a href="https://www.google.se/insidesearch/tipstricks/basics.html" title="Google: Tips och knep" target="_blank">finjusterade sökningar</a> direkt i sökfältet.
+		</p>
 
 		<info-fields class="infoFields">
 			<div class="excercise">
@@ -187,22 +191,20 @@
 
 		<h3>Mer än text och webbplatser</h3>
 
-		<div>
-			<p>
-				När du använder en sökmotor så visas resultatet ofta som en lista med webbplatser, men du har i övningarna ovan även sett exempel på hur vissa sökresultat visas som bland annat bilder, kartor eller Wikipedia-artiklar. Typen av sökresultat avgörs utifrån vad som bedöms vara relevant för din sökning, och kan skilja sig mellan sökmotorerna.
-			</p>
+    <slide-component>
+      <ul>
+        <li>Sök efter bilder, kartor, Wikipedia-artiklar, m.m.</li>
+        <li>Ange själv vad du söker efter</li>
+      </ul>
+    </slide-component>
 
-			<p>
-				Som användare har du stora möjligheter att själv ange vilken typ av resultat du söker. Detta gör du enklast genom att välja typ av resultat direkt under sökrutan på respektive sökmotors egen webbsida.
-			</p>
-		</div>
+		<p>
+			När du använder en sökmotor så visas resultatet ofta som en lista med webbplatser, men du har i övningarna ovan även sett exempel på hur vissa sökresultat visas som bland annat bilder, kartor eller Wikipedia-artiklar. Typen av sökresultat avgörs utifrån vad som bedöms vara relevant för din sökning, och kan skilja sig mellan sökmotorerna.
+		</p>
 
-		<div class="slide">
-			<ul>
-				<li>Sök efter bilder, kartor, Wikipedia-artiklar, m.m.</li>
-				<li>Ange själv vad du söker efter</li>
-			</ul>
-		</div>
+		<p>
+			Som användare har du stora möjligheter att själv ange vilken typ av resultat du söker. Detta gör du enklast genom att välja typ av resultat direkt under sökrutan på respektive sökmotors egen webbsida.
+		</p>
 
 		<info-fields class="infoFields">
 			<div class="excercise">
@@ -237,17 +239,21 @@
 
 		<h3>Omvänd bildsökning</h3>
 
-		<div>
+    <slide-component>
+      <ul>
+				<li>Sök med bild istället för text</li>
+				<li>Få information om bildens innehåll</li>
+				<li>Se sidor som använder bilden, liknande bilder, m.m.</li>
+			</ul>
+    </slide-component>
 
-			<p>
-				Det vanligaste sättet att använda en sökmotor är att skriva relevanta sökord med text. <a href="https://support.google.com/websearch/answer/1325808?hl=sv&ref_topic=3180360" title="Google: Omvänd bildsökning" target="_blank">Omvänd bildsökning</a> innebär att du istället använder en bild för att genomföra sökningen. Du kan exempelvis få information om bildens innehåll, hitta andra sidor som använder bilden, eller hitta liknande bilder.
-			</p>
+		<p>
+			Det vanligaste sättet att använda en sökmotor är att skriva relevanta sökord med text. <a href="https://support.google.com/websearch/answer/1325808?hl=sv&ref_topic=3180360" title="Google: Omvänd bildsökning" target="_blank">Omvänd bildsökning</a> innebär att du istället använder en bild för att genomföra sökningen. Du kan exempelvis få information om bildens innehåll, hitta andra sidor som använder bilden, eller hitta liknande bilder.
+		</p>
 
-			<p>
-				Utöver Googles och Bings tjänster för omvänd bildsökning finns det även andra företag som erbjuder motsvarande verktyg, exempelvis <a href="https://tineye.com/" title="Tineye" target="_blank">TinEye</a>.
-			</p>
-
-		</div>
+		<p>
+			Utöver Googles och Bings tjänster för omvänd bildsökning finns det även andra företag som erbjuder motsvarande verktyg, exempelvis <a href="https://tineye.com/" title="Tineye" target="_blank">TinEye</a>.
+		</p>
 
 		<info-fields class="infoFields">
 
@@ -268,11 +274,6 @@
 				</p>
 
 				<search-component placeholder="Klistra in bildadress" button-text="Sök med bild" search="image" engines='["Google","Bing"]'></search-component>
-
-				<!--form onsubmit="doGoogleImage(this); return false;">
-					<input type="search" placeholder="Klistra in bildadress"/>
-					<input type="submit" value="Sök med bild på Google" />
-				</form-->
 
 				<div class="hBox">
 					DISKUTERA
@@ -297,31 +298,28 @@
 
 		<h3>Populära sökningar</h3>
 
-		<div v-if="!presentation">
+    <slide-component>
+      <ul>
+        <li>Auto-complete, förslag utifrån populära sökningar</li>
+        <li>Beror på din egen och andras sökhistorik</li>
+        <li><a href="https://trends.google.com" title="Google Trends" target="_blank">Google Trends</a>: söktermers popularitet över tid</li>
+      </ul>
+    </slide-component>
 
-			<p>
-				Ibland kan det vara svårt att formulera sina sökningar, och sökmotorerna har därför en funktion som föreslår färdiga söktermer i takt med att du fyller i sökrutan. Förslagen hämtas från populära sökningar från andra användare, och urvalet baseras delvis på din egen sökhistorik.
-			</p>
+		<p>
+			Ibland kan det vara svårt att formulera sina sökningar, och sökmotorerna har därför en funktion som föreslår färdiga söktermer i takt med att du fyller i sökrutan. Förslagen hämtas från populära sökningar från andra användare, och urvalet baseras delvis på din egen sökhistorik.
+		</p>
 
-			<p>
-				I verktyget <a href="https://trends.google.com" title="Google Trends" target="_blank">Google Trends</a> kan du undersöka söktermers populäritet över tid på Google, exempelvis <a href="https://trends.google.com/trends/explore?date=today%205-y&q=sweden,denmark" title="Google Trends: Sweden, Denmark" target="_blank">hur sökningar på <i>Sweden</i> och <i>Denmark</i> har varierat i populäritet</a>. <a href="https://www.google.se/search?q=what+happened+last+night+in+sweden" title="Google: what happened last night in sweden" target="_blank">Vad hände egentligen i Sverige</a> i februari 2017 som genererade en stor mängd sökningar på vårt land?
-			</p>
+		<p>
+			I verktyget <a href="https://trends.google.com" title="Google Trends" target="_blank">Google Trends</a> kan du undersöka söktermers populäritet över tid på Google, exempelvis <a href="https://trends.google.com/trends/explore?date=today%205-y&q=sweden,denmark" title="Google Trends: Sweden, Denmark" target="_blank">hur sökningar på <i>Sweden</i> och <i>Denmark</i> har varierat i populäritet</a>. <a href="https://www.google.se/search?q=what+happened+last+night+in+sweden" title="Google: what happened last night in sweden" target="_blank">Vad hände egentligen i Sverige</a> i februari 2017 som genererade en stor mängd sökningar på vårt land?
+		</p>
 
-			<!--div>
-				<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1173_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"sweden","geo":"","time":"today 5-y"},{"keyword":"denmark","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today 5-y,today 5-y&q=sweden,denmark","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 									</div-->
+		<!--div>
+			<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1173_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"sweden","geo":"","time":"today 5-y"},{"keyword":"denmark","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today 5-y,today 5-y&q=sweden,denmark","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 									</div-->
 
-			<p>
-				Google Trends är ett kraftfullt verktyg för att analysera söktrender, och som diskussionsunderlag kring exempelvis stora nyhetshändelser.
-			</p>
-		</div>
-
-		<div class="slide" v-if="presentation">
-			<ul>
-				<li>Auto-complete, förslag utifrån populära sökningar</li>
-				<li>Beror på din egen och andras sökhistorik</li>
-				<li><a href="https://trends.google.com" title="Google Trends" target="_blank">Google Trends</a>: söktermers popularitet över tid</li>
-			</ul>
-		</div>
+		<p>
+			Google Trends är ett kraftfullt verktyg för att analysera söktrender, och som diskussionsunderlag kring exempelvis stora nyhetshändelser.
+		</p>
 
 		<info-fields class="infoFields">
 
@@ -378,12 +376,14 @@
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
 import SearchComponent from '@/components/learn/SearchComponent.vue'
+import SlideComponent from '@/components/learn/SlideComponent.vue'
 
 export default {
   components: {
     InfoFields,
     MediaContainer,
-    SearchComponent
+    SearchComponent,
+    SlideComponent
   },
   data () {
     return {

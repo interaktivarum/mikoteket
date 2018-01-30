@@ -2,11 +2,15 @@
   <div>
 
     <p>
-      <a-wiki c="Internet">Internet</a-wiki> innehåller en enorm mängd data, och det går att hitta information och åsikter kring det mesta. Saklig och objektiv fakta är ofta enkelt att hitta med hjälp av en <a-wiki c="Söktjänst">sökmotor</a-wiki>, medan ämnen kring vilka det finns spridda åsikter kräver att du som användare ställer dig kritisk till den information du presenteras för.
+      <a-wiki c="Internet">Internet</a-wiki> innehåller en enorm mängd data, och det går att hitta information och åsikter kring det mesta. Saklig och objektiv fakta är ofta enkelt att hitta med hjälp av en <a-wiki c="Söktjänst">sökmotor</a-wiki>, medan ämnen kring vilka det finns spridda åsikter kräver att du som användare ställer dig kritisk till den information du tar del av.
     </p>
 
     <p>
-      För den som vill skapa och publicera eget innehåll innebär internet stora möjligheter. Även om det kan våra svårt att nå ut i bruset så erbjuder <a-wiki c="sociala_medier">sociala medier</a-wiki> riktade kanaler för att göra sin röst hörd, och anpassade verktyg gör det enkelt att till en låg kostnad skapa en egen <a-wiki c="Webbplats">webbplats</a-wiki>. Detta innebär att vem som helst kan publicera nästan vad som helst och göra det fritt tillgängligt för alla att ta del av. Som en följd innebär detta att internet är fyllt av såväl sanningar som osanningar, och allt där emellan.
+      För den som vill skapa och publicera eget innehåll innebär internet stora möjligheter. Även om det kan våra svårt att nå ut i bruset så erbjuder <a-wiki c="sociala_medier">sociala medier</a-wiki> riktade kanaler för att göra sin röst hörd, och anpassade verktyg gör det enkelt att till en låg kostnad skapa en egen <a-wiki c="Webbplats">webbplats</a-wiki>. Detta innebär att vem som helst kan publicera nästan vad som helst och göra det fritt tillgängligt för alla att ta del av.
+    </p>
+
+    <p>
+      Digitalt material innebär också stora möjligheter att manipulera innehåll. Som en följd innebär detta att internet är fyllt av såväl sanningar som osanningar, och allt där emellan.
     </p>
 
     <p>
@@ -23,7 +27,7 @@
 					SAMMANFATTNING
 				</div>
 
-				Internet innehåller en enorm mängd data och erbjuder stora möjligheter att skapa eget innehåll. Som en följd är internet fyllt av såväl sanningar som osanningar, och allt där emellan.
+				Internet innehåller en enorm mängd data och erbjuder stora möjligheter att skapa eget innehåll, och manipulera befintligt material. Som en följd är internet fyllt av såväl sanningar som osanningar, och allt där emellan.
 
 			</div>
 

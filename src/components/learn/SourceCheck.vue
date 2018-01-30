@@ -77,6 +77,10 @@ table, th, td {
     border: 1px solid black;
 }
 
+table:hover{
+  border-color: #f60;
+}
+
 table{
   border-width: 2px;
 }
@@ -89,6 +93,7 @@ td:first-child {
 td{
   padding: 10px;
   text-align: left;
+  background: #fafafa;
 }
 
 .yes{

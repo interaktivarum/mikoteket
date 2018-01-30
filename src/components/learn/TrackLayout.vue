@@ -9,6 +9,18 @@
 
       <div class="columnLeft">
         <chapters :route-track="routeTrack" :chapters="track.data().chapters" :idActive="idChapter"></chapters>
+
+        <br />
+
+        <div v-if="$route.query.sponsor">
+
+          <h4>Sponsrat av:</h4>
+          <a :href="track.data().sponsor.url" :title="track.data().sponsor.name" target="_blank" class="nohover">
+            <img :src="track.data().sponsor.image" class="sponsor"/>
+          </a>
+          
+        </div>
+
       </div>
 
       <div class="columnCenter">
@@ -19,11 +31,11 @@
       </div>
 
       <div class="columnRight">
-        <p class="small">
+        <!--p class="small">
           <strong>Vill du surfa privat?</strong>
           <br />
           Öppna ett privat/inkognitofönster i din webbläsare.
-        </p>
+        </p-->
       </div>
 
       <slot></slot>
@@ -81,6 +93,10 @@ export default {
 
 .margin {
   margin-bottom: 20px;
+}
+
+.sponsor{
+  max-width: 200px;
 }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="center">
   <blockquote class="twitter-tweet" data-lang="sv">
     <a :href="href">Inbäddad tweet</a>
   </blockquote>
@@ -19,3 +19,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+</style>

@@ -1,6 +1,15 @@
 <template>
   <div>
 
+    <slide-component>
+			<ul>
+				<li>Internet: världens största datornätverk</li>
+				<li>Fantastiska möjligheter - men överflöd av information</li>
+				<li>Behov av filter och algoritmer för att navigera</li>
+				<li>Mål: sök smart och värdera informationen</li>
+			</ul>
+    </slide-component>
+
     <p>
 			<a href="https://sv.wikipedia.org/wiki/Internet" title="Wikipedia: Internet" target="_blank">Internet</a> är världens största nätverk av sammankopplade datorer som tillsammans innehåller en otrolig mängd data. Det innebär fantastiska möjligheter att hitta information om i stort sett vad som helst.
 		</p>
@@ -71,13 +80,15 @@ import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
 import SearchComponent from '@/components/learn/SearchComponent.vue'
 import SoiGraph from '@/components/SoiGraph.vue'
+import SlideComponent from '@/components/learn/SlideComponent.vue'
 
 export default {
   components: {
     InfoFields,
     MediaContainer,
     SearchComponent,
-    SoiGraph
+    SoiGraph,
+    SlideComponent
   },
   data () {
     return {

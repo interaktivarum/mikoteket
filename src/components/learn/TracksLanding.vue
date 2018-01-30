@@ -41,27 +41,28 @@
         </p>
 
         <p>
-          Allt material är fritt att använda i utbildning och kompetensutveckling.
+          Materialet är fritt att använda i icke-kommersiell utbildning och intern kompetensutveckling.
         </p>
 
         <h3>Spår</h3>
 
         <div v-for="(route, key) in routes">
-          <a-route :href="'/digitalkompetens/'+key">{{route.data().header}}</a-route>
+          <a-route :href="'/digitalkompetens/'+key" class="button">{{route.data().header}}</a-route>
+          <br />
         </div>
 
         <p>
-          Saknar ni ett spår? <a-route href="workshop">Sponsra ett nytt spår</a-route> och låt arbetsmaterialet komma fler till nytta.
+          Saknar ni ett spår? <a-route href="om">Sponsra ett nytt spår</a-route> och låt arbetsmaterialet komma fler till nytta.
         </p>
 
       </div>
 
       <div class="columnRight">
-        <p class="small">
+        <!--p class="small">
           <strong>Vill du surfa privat?</strong>
           <br />
           Öppna ett privat/inkognitofönster i din webbläsare.
-        </p>
+        </p-->
       </div>
 
       <slot></slot>

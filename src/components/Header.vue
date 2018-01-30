@@ -26,6 +26,10 @@
         Workshops & föreläsningar
       </div>
 
+      <div class="menuItem" @click="goto('/om')">
+        Om Mikoteket
+      </div>
+
     </header>
 
   </div>
