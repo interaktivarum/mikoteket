@@ -60,6 +60,9 @@ export default {
     			if(this.type == "image"){
     				flag = '&tbm=isch';
     			}
+          if(this.type == "imagefree"){
+    				flag = '&tbm=isch&tbs=sur:fmc';
+    			}
     			else if(this.type == "video"){
     				flag = '&tbm=vid';
     			}

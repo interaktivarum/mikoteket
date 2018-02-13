@@ -1,21 +1,34 @@
 <template>
   <div>
 
+    <slide-component>
+      <ul>
+        <li>Vem som helst kan vara publicist</li>
+        <li>Olika format och kanaler</li>
+      </ul>
+    </slide-component>
+
     <p>
       Idag erbjuds mängder av möjligheter att skapa innehåll för webben, vilket innebär att vem som helst kan bli publicist och i teorin nå ut till flera miljoner svenska internetanvändare. Beroende på vilken information man vill sprida så lämpar sig olika format och kanaler olika bra.
     </p>
 
     <h3>Sociala medier</h3>
 
+    <slide-component>
+      <ul>
+        <li>80% svenskar använder sociala medier</li>
+        <li>Privatpersoner, kändisar, företag, ... </li>
+        <li>Publicera texter, bilder, videor, länkar, debattinlägg, ..</li>
+        <li>God ton blandat med näthat</li>
+        <li>Influencers</li>
+      </ul>
+    </slide-component>
+
     <p>
-      Rapporten Svenskarna och internet 2017 visar att <a href="http://www.soi2017.se/kommunikation-och-sociala-plattformar/anvandning-av-sociala-plattformar/" title="SOI: Användning av sociala plattformar" target="_blank">drygt 80% av Sveriges internetanvändare någon gång använder sociala plattformar</a>, bland vilka Facebook är den mest populära. Dessa plattformar erbjuder såväl privatpersoner som företag stora möjligheter att skriva textinlägg, ladda upp bilder och videor, dela länkar och annat innehåll, med potential att nå en stor mängd användare.
+      Rapporten Svenskarna och internet 2017 visar att <a href="http://www.soi2017.se/kommunikation-och-sociala-plattformar/anvandning-av-sociala-plattformar/" title="SOI: Användning av sociala plattformar" target="_blank">drygt 80% av Sveriges internetanvändare någon gång använder sociala plattformar</a>, bland vilka Facebook är den mest populära. Dessa plattformar erbjuder såväl privatpersoner och kändisar som företag och myndigheter stora möjligheter att skriva textinlägg, ladda upp bilder och videor, dela länkar och annat innehåll, med potential att kommunicera och nå en stor mängd användare.
     </p>
 
     <soi-graph graph="600"></soi-graph>
-
-    <!--embed-facebook href="https%3A%2F%2Fwww.facebook.com%2Fexpressen%2Fposts%2F10155433024715345"></embed-facebook>
-    <embed-twitter href="https://twitter.com/CBildt/status/943519472798916608"></embed-twitter>
-    <embed-instagram href="https://www.instagram.com/p/BWj8RT6HfOU/"></embed-instagram-->
 
     <p>
       Bland svenska Facebookanvändare anger nästan varannan att de publicerar eget innehåll i form av text eller bild, samt aktivt delar andras inlägg vidare. Användaren har även möjlighet att delta i, samt skapa egna, diskussionsgrupper och särskilda sidor kring olika ämnen och åsikter.
@@ -23,6 +36,10 @@
 
     <p>
       Tonen på sociala medier är ofta god men problem med hot, trakasserier, kränkningar och annat <a-wiki c="Näthat">näthat</a-wiki> är väl utbrett. Enligt BRÅs rapport <a href="https://www.bra.se/brott-och-statistik/statistiska-undersokningar/skolundersokningen-om-brott.html" title="BRÅ: Skolundersökningen om brott" target="_blank">Skolundersökningen om brott 2015</a> uppger en tredjedel av tjejerna och en femtedel av killarna att de blivit utsatta för att någon har skrivit kränkande saker om dem på internet under de senaste tolv månaderna.
+    </p>
+
+    <p>
+      Varje år genomför <a href="http://medieakademien.se/" title="Medieakademien" target="_blank">Medieakademien</a> undersökningen <a href="http://medieakademien.se/2017/09/de-ar-maktigast-pa-sociala-medier-i-sverige-maktbarometern-2017/" title="Maktbarometern 2017" target="_blank">Maktbarometern</a>, vilken listar de svenska sociala medie-konton med störst nationell räckvidd och engagemang. Personerna bakom populära privata konton, så kallade <a href="https://www.framtid.se/yrke/influencer" title="Influencer" target="_blank">influencers</a>, når ut till en stor mängd trogna, och ofta unga, följare och anses ha stor makt på internet.
     </p>
 
     <info-fields class="infoFields">
@@ -34,7 +51,7 @@
   			</div>
 
         <p>
-          Varje år genomför <a href="http://medieakademien.se/" title="Medieakademien" target="_blank">Medieakademien</a> undersökningen <a href="http://medieakademien.se/2017/09/de-ar-maktigast-pa-sociala-medier-i-sverige-maktbarometern-2017/" title="Maktbarometern 2017" target="_blank">Maktbarometern</a>, vilken listar de svenska sociala medie-konton med störst nationell räckvidd och engagemang. Följ länkarna nedan för att besöka några av dessa konton.
+           Följ länkarna nedan för att besöka några av Sveriges mäktigaste sociala medie-konton, enligt Maktbarometern 2017.
         </p>
 
         <strong>Facebook:</strong>
@@ -56,13 +73,6 @@
         <a href="https://twitter.com/zaralarsson" title="Zara Larsson" target="_blank">Zara Larsson</a>,
         <a href="https://twitter.com/pewdiepie" title="PewDiePie" target="_blank">PewDiePie</a>
 
-        <br/>
-
-        <strong>Youtube:</strong>
-        <a href="https://www.youtube.com/user/PewDiePie" title="PewDiePie" target="_blank">PewDiePie</a>,
-        <a href="https://www.youtube.com/channel/UCy8nxID41QLex23-iFiRtIQ" title="Jocke & Jonna" target="_blank">Jocke & Jonna</a>,
-        <a href="https://www.youtube.com/channel/UCKBW7WWWKIrewD13oRkaDag" title="Therese Lindgren" target="_blank">Therese Lindgren</a>
-
         <div class="hBox">
           DISKUTERA
         </div>
@@ -74,13 +84,36 @@
           <li>
             Hur skiljer sig följarengegemanget åt mellan de olika plattformarna?
           </li>
+          <li>
+            Anser du att informationen överlag är trovärdig?
+          </li>
         </ul>
 
   		</div>
 
+      <div class="summary">
+        <div class="hBox">
+          SAMMANFATTNING
+        </div>
+
+        <p>
+          Drygt 80% av svenska internetanvändare använder sociala medier, och nästan varannan publicerar eget eller delar andras innehåll. Sociala plattformar innebär bra kommunikationsmöjligheter, men den överlag goda tonen är blandad med näthat.
+        </p>
+
+      </div>
+
   	</info-fields>
 
     <h3>Diskussionsforum</h3>
+
+    <slide-component>
+      <ul>
+        <li>Hög och låg nivå</li>
+        <li>Yttrandefrihet kontra rasism & sexism</li>
+        <li>Ryktesspridning och spekulationer</li>
+        <li>Reddit, Flashback > SVT, DN</li>
+      </ul>
+    </slide-component>
 
     <p>
       På internet finns mängder av <a-wiki c="Internetforum">diskussionsforum</a-wiki> som låter dig vara mer anonym än vad sociala medier ofta tillåter. Medan vissa forum håller hög standard, är andra betydligt mer frispråkiga. Rasistiska och sexistiska inlägg är vanligt förekommande och forumen agerar betydande motorer i spridning av rykten, spekulationer och personliga uthängningar.
@@ -173,11 +206,22 @@
             Anser du att informationen överlag är trovärdig?
           </li>
           <li>
-            Vad riskerar följderna bli, av att dessa forum ofta har fler besök än exempelvis public service och etablerade mediehus?
+            Vad riskerar följderna bli av att dessa forum ofta har fler besök än public service och etablerade mediehus?
           </li>
         </ul>
 
   		</div>
+
+      <div class="summary">
+        <div class="hBox">
+          SAMMANFATTNING
+        </div>
+
+        <p>
+          På internets diskussionsforum kan du i många fall vara anonym. Rasistiska och sexistiska inlägg är vanligt förekommande och forumen spelar en betydande roll för spridning av rykten, spekulationer och personliga uthängningar.
+        </p>
+
+      </div>
 
       <div class="more">
 
@@ -185,15 +229,20 @@
   				FÖRDJUPNING
   			</div>
 
-  			Internetstiftelsen i Sveriges guide:
-  			<!--a href="https://www.google.com/search/howsearchworks/crawling-indexing/" title="How Search organizes information" target="_blank">How Search organizes information</a-->
-  			<a href="https://www.iis.se/fakta/yttrandefrihet-pa-natet/" target="_blank">Yttrandefrihet på nätet</a>
+  			Flashback beskriver sig själva som "Sveriges största forum för yttrande- och åsiktsfrihet samt självständigt tänkande". Internetstiftelsen i Sverige guidar på ämnet <a href="https://www.iis.se/fakta/yttrandefrihet-pa-natet/" target="_blank">Yttrandefrihet på nätet</a>.
 
   		</div>
 
   	</info-fields>
 
     <h3>Bloggar och vloggar</h3>
+
+    <slide-component>
+      <ul>
+        <li>Stort personligt utrymme</li>
+        <li>Populärt att konsumera</li>
+      </ul>
+    </slide-component>
 
     <p>
       En blogg kan liknas vid en onlinedagbok i vilken man, som bloggare, publicerar personliga texter och bilder. En blogg som främst består av filmmaterial kallas ofta för vlogg, förkortning för videoblogg.
@@ -204,20 +253,11 @@
     </p>
 
     <p>
-       <a href="http://www.soi2017.se/titta-lyssna-och-lasa/lasa-och-skriva-bloggar/" title="SOI: Läsa och skriva bloggar" target="_blank">Svenskarna och internet</a> visar att mindre än 10% av svenska internetanvändare skriver egen blogg, men gärna läser andras bloggar. Bland unga internetanvändare är det mycket populärt att ta del av videomaterial, särskilt i underhållningssyfte eller instruktionsfilmer.
+       <a href="http://www.soi2017.se/titta-lyssna-och-lasa/lasa-och-skriva-bloggar/" title="SOI: Läsa och skriva bloggar" target="_blank">Svenskarna och internet</a> visar att mindre än 10% av svenska internetanvändare skriver egen blogg, men gärna läser andras bloggar. Bland unga internetanvändare är det mycket populärt att ta del av videomaterial, särskilt i underhållningssyfte eller instruktionsfilmer. Likt sociala medier är bloggar och vloggar därför populära plattformar för influencers.
     </p>
 
     <soi-graph graph="655"></soi-graph>
     <soi-graph graph="634"></soi-graph>
-
-    <!--div class="flexContainer">
-      <div class="flexItemGrow">
-        <soi-graph graph="655"></soi-graph>
-      </div>
-      <div class="flexItemGrow">
-        <soi-graph graph="634"></soi-graph>
-      </div>
-    </div-->
 
     <info-fields class="infoFields">
 
@@ -228,20 +268,20 @@
         </div>
 
         <p>
-          Följ länkarna nedan för att besöka några populära svenska bloggar.
+          Följ länkarna nedan för att besöka några populära svenska bloggar och vloggar.
         </p>
 
-        <ul>
-          <li>
-            <a href="http://www.isabellalowengrip.se/" title="Isabella Löwengrip" target="_blank">Isabella Löwengrip</a>
-          </li>
-          <li>
-            <a href="http://mittlivpalandet.se/" title="Mitt liv på landet" target="_blank">Mitt liv på landet</a>
-          </li>
-          <li>
-            <a href="http://ladydahmer.nu" title="Lady Dahmer" target="_blank">Lady Dahmer</a>
-          </li>
-        </ul>
+        <strong>Bloggar:</strong>
+        <a href="http://www.isabellalowengrip.se/" title="Isabella Löwengrip" target="_blank">Isabella Löwengrip</a>,
+        <a href="http://mittlivpalandet.se/" title="Mitt liv på landet" target="_blank">Mitt liv på landet</a>,
+        <a href="http://ladydahmer.nu" title="Lady Dahmer" target="_blank">Lady Dahmer</a>
+
+        <br/>
+
+        <strong>Vloggar / Youtube:</strong>
+        <a href="https://www.youtube.com/user/PewDiePie" title="PewDiePie" target="_blank">PewDiePie</a>,
+        <a href="https://www.youtube.com/channel/UCy8nxID41QLex23-iFiRtIQ" title="Jocke & Jonna" target="_blank">Jocke & Jonna</a>,
+        <a href="https://www.youtube.com/channel/UCKBW7WWWKIrewD13oRkaDag" title="Therese Lindgren" target="_blank">Therese Lindgren</a>
 
         <div class="hBox">
           DISKUTERA
@@ -249,7 +289,7 @@
 
         <ul>
           <li>
-            Vilken typ av innehåll presenteras i bloggarna?
+            Vilken typ av innehåll presenteras i bloggarna/vloggarna?
           </li>
           <li>
             Anser du att informationen överlag är trovärdig?
@@ -258,12 +298,31 @@
 
       </div>
 
+      <div class="summary">
+        <div class="hBox">
+          SAMMANFATTNING
+        </div>
+
+        <p>
+          Bloggar och vloggar erbjuder ett stort personligt utrymme och är välbesökta av framförallt yngre internetanvändare. Likt sociala medier är bloggar och vloggar populära plattformar för influencers.
+        </p>
+
+      </div>
+
     </info-fields>
 
     <h3>Wordpress och egna webbplatser</h3>
 
+    <slide-component>
+      <ul>
+        <li>Egen blogg, förening, nyheter & satir, m.m.</li>
+        <li>Kraftfulla verktyg, mindre programmering</li>
+        <li>Unik och bra design: seriöst intryck</li>
+      </ul>
+    </slide-component>
+
     <p>
-      För avancerade användare finns möjligheten att skapa egna webbplatser och personliga hemsidor, exempelvis för sin egen blogg, en förening eller för att publicera vinklade eller särskilt utvalda artiklar på en egen nyhetssida med politisk agenda. Detta innebär även att det är enkelt att skapa <a href="https://www.metro.se/artikel/viralgranskarens-varningslista-xr" title="Viralgranskarens varningslista" target="_blank">sidor som publicerar satiriska eller falska nyheter</a> som får stor spridning och uppfattas som riktiga.
+      För lite mer avancerade användare finns möjligheten att skapa egna webbplatser och personliga hemsidor, exempelvis för sin egen blogg, en förening eller för att publicera vinklade eller särskilt utvalda artiklar på en egen nyhetssida. Detta innebär även att det är enkelt att skapa <a href="https://www.metro.se/artikel/viralgranskarens-varningslista-xr" title="Viralgranskarens varningslista" target="_blank">sidor som publicerar satiriska eller falska nyheter</a> som får stor spridning och uppfattas som riktiga.
     </p>
 
     <p>
@@ -283,21 +342,27 @@
         </div>
 
         <p>
-          Följ länkarna nedan för att besöka olika nyhetssidor, som ej är kopplade till någon större organisation eller mediehus.
+          Följ länkarna nedan för att besöka olika nyhets- och opinionssidor samt -bloggar.
         </p>
 
         <ul>
           <li>
-            <a href="http://nyheteridag.se/" title="Nyheter idag" target="_blank">Nyheter idag</a>
-          </li>
-          <li>
-            <a href="http://aktuelltfokus.se/" title="Aktuellt fokus" target="_blank">Aktuellt Fokus</a>
+            <a href="http://www.politism.se/" title="Politism" target="_blank">Politism</a>
           </li>
           <li>
             <a href="http://friatider.se/" title="Fria Tider" target="_blank">Fria Tider</a>
           </li>
           <li>
+            <a href="http://supermiljobloggen.se/" title="Supermiljöbloggen" target="_blank">Supermiljöbloggen</a>
+          </li>
+          <li>
             <a href="http://vaken.se/" title="Vaken.se" target="_blank">Vaken.se</a>
+          </li>
+          <li>
+            <a href="http://aktuelltfokus.se/" title="Aktuellt fokus" target="_blank">Aktuellt Fokus</a>
+          </li>
+          <li>
+            <a href="https://www.petterssonsblogg.se/" title="Petterssons blogg" target="_blank">Pettersons blogg</a>
           </li>
         </ul>
 
@@ -308,6 +373,9 @@
         <ul>
           <li>
             Vilken typ av information publiceras på respektive nyhetssida?
+          </li>
+          <li>
+            Erbjuds flera perspektiv eller är urvalet vinklat?
           </li>
           <li>
             Anser du att informationen på respektive nyhetssida överlag är trovärdig?
@@ -336,10 +404,11 @@
           <li>
             <a href="http://nyheternasverige.se/" title="Nyheterna Sverige" target="_blank">Nyheterna Sverige</a>
           </li>
-          <li>
-            <a href="https://www.petterssonsblogg.se/" title="Petterssons blogg" target="_blank">Pettersons blogg</a>
-          </li>
         </ul>
+
+        <div class="hBox">
+          DISKUTERA
+        </div>
 
         <ul>
           <li>
@@ -355,6 +424,17 @@
 
       </div>
 
+      <div class="summary">
+        <div class="hBox">
+          SAMMANFATTNING
+        </div>
+
+        <p>
+          Kraftfulla verktyg förenklar arbetet i att skapa en egen väldesignad webbplats som ger ett seriöst intryck, exempelvis för att publicera nyheter och opinionstexter eller satiriskt innehåll.
+        </p>
+
+      </div>
+
     </info-fields>
 
   </div>
@@ -367,6 +447,7 @@ import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
 import SearchComponent from '@/components/learn/SearchComponent.vue'
 import SoiGraph from '@/components/SoiGraph.vue'
+import SlideComponent from '@/components/learn/SlideComponent.vue'
 
 export default {
   components: {
@@ -374,7 +455,8 @@ export default {
     InfoFields,
     MediaContainer,
     SearchComponent,
-    SoiGraph
+    SoiGraph,
+    SlideComponent
   },
   data () {
     return {

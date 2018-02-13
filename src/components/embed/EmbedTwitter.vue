@@ -13,9 +13,19 @@ export default {
     href: {}
   },
   created () {
-    let scr = document.createElement('script')
+    var id = "twitterScriptEmbed"
+    var injected = document.getElementById(id)
+      if(injected == undefined){
+      let scr = document.createElement('script')
+      scr.setAttribute('src', 'https://platform.twitter.com/widgets.js')
+      scr.setAttribute('id', id)
+      document.head.appendChild(scr)
+    }
+  },
+  mounted () {
+    /*let scr = document.createElement('script')
     scr.setAttribute('src', 'https://platform.twitter.com/widgets.js')
-    document.head.appendChild(scr)
+    this.$el.appendChild(scr)*/
   }
 }
 </script>

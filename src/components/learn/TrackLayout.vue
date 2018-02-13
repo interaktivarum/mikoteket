@@ -18,7 +18,7 @@
           <a :href="track.data().sponsor.url" :title="track.data().sponsor.name" target="_blank" class="nohover">
             <img :src="track.data().sponsor.image" class="sponsor"/>
           </a>
-          
+
         </div>
 
       </div>
@@ -27,6 +27,15 @@
 
         <chapter :chapter="track.data().chapters[idChapter]"></chapter>
         <!--component :is="track.data().chapters[idChapter]"></component-->
+
+        <div class="chapterButtons">
+          <div>
+            <a-route :href="'/digitalkompetens/'+routeTrack+'/'+(idChapter)" class="button" v-if="idChapter>0">Föregående</a-route>
+          </div>
+          <div class="alignRight">
+            <a-route :href="'/digitalkompetens/'+routeTrack+'/'+(idChapter+2)" class="button" v-if="idChapter<track.data().chapters.length-1">Nästa</a-route>
+          </div>
+        </div>
 
       </div>
 
@@ -51,6 +60,7 @@
 import Chapters from './Chapters.vue'
 import Chapter from './Chapter.vue'
 import CoverImage from '../CoverImage.vue'
+import ARoute from '@/components/ARoute.vue'
 //  import data from '@/assets/tracks.json'
 
 export default {
@@ -58,7 +68,8 @@ export default {
   components: {
     Chapters,
     Chapter,
-    CoverImage
+    CoverImage,
+    ARoute
   },
   data () {
     return {
@@ -97,6 +108,18 @@ export default {
 
 .sponsor{
   max-width: 200px;
+}
+
+.chapterButtons{
+  display: flex;
+}
+
+.chapterButtons > div{
+  flex: 1 0 auto;
+}
+
+.chapterButtons > div{
+  flex: 1 0 auto;
 }
 
 </style>

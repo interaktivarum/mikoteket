@@ -109,68 +109,43 @@ a[disabled] {
 
 #app .mainContent{
   flex: 1 0 auto;
+  padding: 0px 50px 0px 50px;
 }
 
 #app .footer{
   margin-top: 100px;
 }
 
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* horizontal centering */
-  width: 100%;
-}
-
-.containerInner{
-  display: flex;
-
-  max-width: 100%;
-  width: 100%;
-}
-
-.columnLeft, .columnRight {
-  /*flex: 0 1 20%;*/
-  flex: 1 1 20%;
-  padding: 0px 50px 0px 50px;
-  width: 20%;
-}
-
-.columnCenter {
-  /*flex: 1 0 60%;*/
-  flex: 0 1 750px;
-  text-align: left;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: flex-start;
-  padding: 0px 20px 0px 20px;
-}
-
-.columnRight{
-  text-align: right;
-}
-
 .middle{
   align-self: center;
+}
+
+.alignRight{
+  text-align: right;
 }
 
 h1{
 	color: #000;
 	font-size: 32pt;
-	font-weight: 700;
+  font-weight: 300;
 	margin: 1em 0 1em 0;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #ff6600;
+  line-height: 1em;
 }
 
 h2{
 	color: #555;
 	font-size: 24pt;
 	font-weight: 300;
+  line-height: 1em;
 	margin: 30px 0 0.75em 0;
 }
 
 h3{
 	font-size: 14pt;
 	font-weight: 500;
+  line-height: 1em;
 	margin: 30px 0 0.5em 0;
 	color: #444;
 	text-transform: uppercase;
@@ -196,6 +171,20 @@ hr{
 
 .semibold{
   font-weight: 400;
+}
+
+.scrollX{
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+  #app .mainContent{
+    flex: 1 0 auto;
+    padding: 0px 20px 0px 20px;
+  }
+
 }
 
 </style>

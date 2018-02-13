@@ -1,6 +1,26 @@
 <template>
   <div>
 
+    <slide-component>
+      <ul>
+        <li>Stora möjligheter att skapa & sprida eget innehåll</li>
+      </ul>
+    </slide-component>
+
+    <p>
+      Något som utmärker information på internet är de stora möjligheterna att kopiera och sprida digitalt innehåll. Detta är särskilt intressant för sociala medier, i vilken informationen hittar <i>dig</i> utan att du aktivt eller medvetetet söker upp den.
+    </p>
+
+    <h3>Automatisk spridning genom algoritmer</h3>
+
+    <slide-component>
+      <ul>
+        <li>Algoritmer styr ett inläggs räckvidd</li>
+        <li>Olika typer av engagemang ökar ett inläggs popularitet</li>
+        <li>Populära inlägg får större spridning</li>
+      </ul>
+    </slide-component>
+
     <p>
       När en användare publicerar innehåll i exempelvis sociala medier så är det respektive plattforms <a-wiki c="algoritm">algoritmer</a-wiki> som avgör vem som kommer att se inlägget. Det kan ofta vara svårt att göra sin röst hörd i informationsbruset. Nya inlägg visas främst för den närmsta kretsen medan populära inlägg har potential att nå en betydligt större publik.
     </p>
@@ -28,7 +48,7 @@
     </ul>
 
     <p>
-      Alla dessa interaktioner gör att ett inlägg bedöms som mer populärt och spridningen till andra användare ökar. Utöver att låta användare aktivt interagera med inlägg så har plattformarna även möjlighet att bedöma popularitet utifrån passiva handlingar, e.g. hur länge en användare tittar på ett inlägg innan hen scrollar vidare i flödet.
+      Samtliga interaktioner gör att ett inlägg bedöms som mer populärt och spridningen till andra användare ökar. Utöver att låta användare aktivt interagera med inlägg så har plattformarna även möjlighet att bedöma popularitet utifrån passiva handlingar, e.g. hur länge en användare tittar på ett inlägg innan hen scrollar vidare i flödet.
     </p>
 
     <info-fields class="infoFields">
@@ -47,6 +67,15 @@
 
     <h3>Personligt anpassat innehåll</h3>
 
+    <slide-component>
+      <ul>
+        <li>Algoritmer analyser ditt surfbeteende</li>
+        <li>Bedömer och visar innehåll intressant för just dig</li>
+        <li>Ekokammare & filterbubblor</li>
+        <li>Var kritisk till urvalet</li>
+      </ul>
+    </slide-component>
+
     <p>
       När du surfar på sociala medier så ser du endast en minimal bråkdel av allt material som publiceras, beräknat till omkring en halv miljon Snapchatbilder, nästan lika många Twitterinlägg, och nära 50.000 Instagrambilder, <a href="https://www.domo.com/learn/data-never-sleeps-5" title="Data Never Sleeps 2.0
 " target="_blank">varje minut</a>. Även av det material som dina vänner publicerar, kommer majoriteten aldrig att visas för dig.
@@ -54,7 +83,7 @@
 
     <media-container class="mediaContainer">
       <div>
-        <div class="content">
+        <div class="image">
           <a href="https://www.domo.com/learn/data-never-sleeps-5" title="Data Never Sleeps 2.0
 " target="_blank" class="nohover">
             <img src="https://web-assets.domo.com/blog/wp-content/uploads/2017/07/17_domo_data-never-sleeps-5-01.png"
@@ -97,8 +126,6 @@
       </div>
     </media-container>
 
-
-
     <p>
       I en miljö där allt material är särskilt utvalt för dig är det värt att fundera:
 
@@ -107,7 +134,7 @@
           Varför presenteras <i>just den här informationen</i> för mig?
         </li>
         <li>
-          Finns det andra perspektiv som <i>inte</i> presenteras för mig?
+          Vad får jag <i>inte</i> se, och vad får andra personer se?
         </li>
       </ul>
 
@@ -126,6 +153,9 @@
         </li>
         <li>
           Hur påverkas jag av innehållet?
+        </li>
+        <li>
+          Hur påverkas andra personer av <i>sitt</i> personliga flöde?
         </li>
       </ul>
 
@@ -162,16 +192,23 @@
           TESTA SJÄLV: ANALYSERA DITT FLÖDE
         </div>
 
+        <p>
+          Besök de sidor eller sociala plattformar där du tar del av nyheter. Bilda dig en överblick av de nyheter som presenteras, genom att läsa rubriker och eventuella ingresser.
+        </p>
+
         <div class="hBox">
           DISKUTERA
         </div>
 
         <ul>
           <li>
-
+            Vilken typ av nyheter dyker upp i ditt flöde?
           </li>
           <li>
-
+            Tar du del av nyheter från flera källor? Är dessa oberoende eller presenterar de liknande perspektiv?
+          </li>
+          <li>
+            Tar du ofta aktivt del av ett flera perspektiv kring en nyhet?
           </li>
         </ul>
 
@@ -180,8 +217,12 @@
       <div class="excercise">
 
         <div class="hBox">
-          TESTA SJÄLV: VARIERA DITT FLÖDE
+          TESTA SJÄLV: SYNLIGGÖR ALGORITMERNA
         </div>
+
+        <p>
+          Besök en social plattform som du är med i. Välj ut ett par inlägg som du tycker är extra intressanta.
+        </p>
 
         <div class="hBox">
           DISKUTERA
@@ -189,18 +230,38 @@
 
         <ul>
           <li>
-
+            Diskutera utifrån frågeställningarna i kapiteltexten ovan.
           </li>
           <li>
-
+            Hur har algoritmerna arbetat för att välja ut informationen åt mig?
           </li>
         </ul>
 
       </div>
 
+      <div class="summary">
+
+  			<div class="hBox">
+  				SAMMANFATTNING
+  			</div>
+
+        <p>
+          Utifrån hur du använder sociala medier skapar sig respektive plattforms algoritmer en förståelse för vem du är och vad du gillar. Denna kunskap används för att presentera utvalda inlägg som bedöms som intressanta för just dig. Dina vänner har egna personliga flöden med annat innehåll än vad du ser.
+        </p>
+
+  		</div>
+
     </info-fields>
 
     <h3>Virala inlägg</h3>
+
+    <slide-component>
+      <ul>
+        <li>Oproportionerligt stor spridning</li>
+        <li>Spelar på mottagarens känslor</li>
+        <li>Delas oreflekterat vidare</li>
+      </ul>
+    </slide-component>
 
     <p>
       Ibland får inlägg eller nyheter så pass stor spridning i sociala medier och andra forum att de dyker upp i var och varannan persons nyhetsflöde. Sådana inlägg, som framförallt sprids i sociala nätverk och som ofta får oproportionerligt stor spridning i förhållande till sitt nyhetsvärde, kallas för virala. Det kan handla om enskilda inlägg som skapar stort engagemang, såväl som nyhetshändelser som genererar en stor mängd inlägg från olika håll.
@@ -236,20 +297,40 @@
           TESTA SJÄLV: VIRALA NYHETER
         </div>
 
+        <p>
+          Besök <a href="https://www.metro.se/om/%C3%A5rslista" title="Viralgranskaren: Årslistor" target="_blank">Viralgranskarens årslistor</a> för att läsa mer om de senaste årens granskningar och trender. Klicka vidare på valfritt årtal för att lista årets samtliga granskningar.
+        </p>
+
         <div class="hBox">
           DISKUTERA
         </div>
 
         <ul>
           <li>
-
+            Känner du igen någon eller några av de virala nyheterna?
           </li>
           <li>
-
+            Har du själv klickat, spridit och/eller trott på något av de falska påståenden som har spridits?
+          </li>
+          <li>
+            Hur agerar du när en viral nyhet som du själv har spridit visar sig vara falsk?
           </li>
         </ul>
 
       </div>
+
+      <div class="summary">
+
+  			<div class="hBox">
+  				SAMMANFATTNING
+  			</div>
+
+        <p>
+          Virala inlägg och nyheter är sådana som får oproportionerligt stor spridning i sociala medier. Dessa spelar ofta på läsarens känslor som delar inlägget vidare utan att kritiskt reflektera över innehållet.
+        </p>
+
+  		</div>
+
 
       <div class="more">
 
@@ -274,13 +355,15 @@ import AWiki from '@/components/AWiki.vue'
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
 import SoiGraph from '@/components/SoiGraph.vue'
+import SlideComponent from '@/components/learn/SlideComponent.vue'
 
 export default {
   components: {
     AWiki,
     InfoFields,
     MediaContainer,
-    SoiGraph
+    SoiGraph,
+    SlideComponent
   },
   data () {
     return {

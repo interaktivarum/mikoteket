@@ -1,26 +1,23 @@
 <template>
   <div>
 
-    <header>
+    <header id="topnav" class="topnav">
 
-      <div class="mikoteket menuItem" @click="goto('/')">MIKOTEKET</div>
+      <div class="menuItem menuDrop responsiveShow" @click="toggleMenu()">
+        &#9776; MIKOTEKET
+      </div>
 
-      <!--ul>
-        <li>
-          <a href="">Digital kompetens</a>
-        </li>
+      <div class="mikoteket menuItem responsiveHide" @click="goto('/')">
+        MIKOTEKET
+      </div>
 
-        <li>
-          <a href="">MIK-verktyg</a>
-        </li>
-      </ul-->
+      <div class="menuItem responsiveShow" @click="goto('/')">
+        <span>Startsida</span>
+      </div>
+
       <div class="menuItem" @click="goto('/digitalkompetens')">
         <span>Digital kompetens</span>
       </div>
-
-      <!--div class="menuItem">
-        MIK-verktyg
-      </div-->
 
       <div class="menuItem" @click="goto('/workshop')">
         Workshops & föreläsningar
@@ -47,6 +44,15 @@ export default {
     },
     goto: function(path) {
       this.$router.push(path)
+      this.toggleMenu();
+    },
+    toggleMenu: function(){
+      var x = document.getElementById("topnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
     }
   }
 }
@@ -76,10 +82,8 @@ export default {
   }
 
   .mikoteket{
-    display: inline-block;
     background: #ff6600;
     color: white !important;
-    font-weight: bolder;
   }
 
   .mikoteket:hover{
@@ -96,9 +100,6 @@ export default {
 
     cursor: pointer;
 
-    /*-webkit-transition: all 0.1s;
-    transition: all 0.1s;*/
-
     text-transform: uppercase;
 
     font-weight: bolder;
@@ -109,5 +110,45 @@ export default {
     background: #ff6600;
     color: white;
   }
+
+  .topnav .responsiveShow {
+    display: none;
+  }
+
+  /* Responsive */
+
+  @media screen and (max-width: 600px) {
+
+    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+    header{
+      height: auto;
+    }
+
+    .topnav .menuItem{
+      font-size: large;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .topnav .menuItem {
+      display: none;
+    }
+
+    .topnav .menuDrop {
+      display: flex;
+    }
+
+    .topnav{
+      flex-direction: column;
+    }
+
+    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+    .topnav.responsive .menuItem:not(.responsiveHide) {
+      display: flex;
+    }
+
+}
 
 </style>

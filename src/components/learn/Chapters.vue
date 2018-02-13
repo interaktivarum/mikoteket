@@ -34,8 +34,7 @@ export default {
 <style scoped>
 
 ul, ol{
-	margin: 0px;
-  padding: 0px;
+	
 }
 
 </style>

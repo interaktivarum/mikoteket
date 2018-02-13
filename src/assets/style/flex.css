@@ -10,3 +10,37 @@
 .flexContainer .flexItemShrink{
   flex: 0 1 1;
 }
+
+/* MAIN LAYOUT */
+
+.container{
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  width: 100%;
+}
+
+.containerInner{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 100%;
+}
+
+.columnLeft, .columnRight {
+  /*flex: 0 1 20%;*/
+  flex: 1 0 200px;
+  /*width: 20%;*/
+}
+
+.columnCenter {
+  /*flex: 1 0 60%;*/
+  flex: 0 1 600px;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.columnRight{
+  text-align: right;
+}

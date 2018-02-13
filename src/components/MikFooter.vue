@@ -3,7 +3,11 @@
 
     <footer>
 
-      <div></div>
+      <div>
+        Vad är Mikoteket?
+        <br />
+        <a href="/om">Om Mikoteket</a>
+      </div>
 
       <div>
           Koncept, design & utveckling:
@@ -17,8 +21,6 @@
           <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>
       </div>
 
-      <div></div>
-
     </footer>
 
   </div>
@@ -26,7 +28,12 @@
 
 <script>
 
+import ARoute from '@/components/ARoute.vue'
+
 export default {
+  components: {
+    ARoute
+  },
   props: {
     quote: {}
   },
@@ -48,7 +55,7 @@ export default {
     border-bottom: 2px solid #ff6600;
     /*min-height: 40px;*/
     filter: grayscale(1) brightness(1);
-    
+    flex-wrap: wrap;
 
     justify-content: center; /* horizontal centering */
     align-items: center; /* vertical centering */
@@ -64,6 +71,8 @@ export default {
 
   footer > div{
     flex: 1 0 auto;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
   }
 
   a{

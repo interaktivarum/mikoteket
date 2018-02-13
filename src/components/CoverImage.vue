@@ -10,14 +10,12 @@
 
         <div class="columnCenter">
 
-          <span class="header">{{header}}</span>
+          <h1 class="inline-block">{{header}}</h1>
 
         </div>
 
         <div class="columnRight">
         </div>
-
-        <slot></slot>
 
       </div>
 
@@ -37,7 +35,7 @@ export default {
   props: {
     header: {},
     background: {},
-    collapsed: {default: false},
+    //collapsed: {default: false},
     route: {},
     routeName: {}
   }
@@ -53,15 +51,8 @@ export default {
 
   width: 100%;
 
-  padding: 30px 0px 30px 0px;
   margin: 0px;
 
-  /*color: rgba(255,255,255,0.9);*/
-
-}
-
-.coverImage.margin{
-  margin-bottom: 50px;
 }
 
 .gradient{
@@ -69,37 +60,8 @@ export default {
   background-attachment: fixed !important;
 }
 
-.header{
-  font-size: 32pt;
-  padding-bottom: 5px;
-  border-bottom: 5px solid #ff6600;
-  /*color: rgba(255,255,255,0.9);*/
-}
-
-.coverImage.collapsed{
-  margin-bottom: 0px;
-}
-
-.coverImage.collapsed{
-  font-size: 14pt;
-  font-weight: 300;
-  padding: 20px 0px 20px 0px;
-}
-
-.coverImage >>> a{
-  /*background: rgba(255,255,255,0.75);
-  color: #ff6600 !important;*/
-  color: rgba(255,255,255,0.9) !important;
-
-  font-weight: 300;
-
-  -webkit-transition: all 0.1s; /* Safari */
-  transition: all 0.1s;
-}
-
-.coverImage >>> a:hover{
-  background: rgba(255,255,255,0.9);
-  color: #ff6600 !important;
+.inline-block{
+  display: inline-block;
 }
 
 </style>

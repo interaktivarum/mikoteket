@@ -1,6 +1,15 @@
 <template>
   <div>
 
+    <slide-component>
+      <ul>
+        <li>Internet: mängder av subjektiv och objektiv information</li>
+        <li>Stora möjligheter att publicera och sprida eget material</li>
+        <li>Digitalt material är enkelt att manipulera</li>
+        <li>Mål: värdera källor och information online</li>
+      </ul>
+    </slide-component>
+
     <p>
       <a-wiki c="Internet">Internet</a-wiki> innehåller en enorm mängd data, och det går att hitta information och åsikter kring det mesta. Saklig och objektiv fakta är ofta enkelt att hitta med hjälp av en <a-wiki c="Söktjänst">sökmotor</a-wiki>, medan ämnen kring vilka det finns spridda åsikter kräver att du som användare ställer dig kritisk till den information du tar del av.
     </p>
@@ -41,12 +50,14 @@
 import AWiki from '@/components/AWiki.vue'
 import InfoFields from '@/components/learn/InfoFields.vue'
 import SoiGraph from '@/components/SoiGraph.vue'
+import SlideComponent from '@/components/learn/SlideComponent.vue'
 
 export default {
   components: {
     AWiki,
     InfoFields,
-    SoiGraph
+    SoiGraph,
+    SlideComponent
   },
   data () {
     return {

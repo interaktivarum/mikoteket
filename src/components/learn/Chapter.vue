@@ -3,7 +3,7 @@
 
     <h2>{{chapter.data().header}}</h2>
 
-    <component :is="chapter"></component>
+    <component :is="chapter" class="component"></component>
 
   </div>
 </template>
@@ -26,5 +26,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>

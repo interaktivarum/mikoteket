@@ -56,6 +56,12 @@ export default {
 .button{
 }
 
+@media screen and (max-width: 600px) {
+  .button{
+    display: none;
+  }
+}
+
 .background{
   /*background: rgba(0,0,0,0.5);*/
   position: fixed;
@@ -107,6 +113,10 @@ export default {
 
 .content:hover li:not(:hover){
   color: lightgray;
+}
+
+.component > .slide-component{
+  display: none;
 }
 
 </style>

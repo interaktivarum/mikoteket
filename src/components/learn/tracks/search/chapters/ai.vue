@@ -144,13 +144,13 @@
   	<media-container class="mediaContainer">
   		<div>
         <div class="content">
-          <div style="max-width:100%"><div style="position:relative;height:0;padding-bottom:50.25%"><iframe src="https://embed.ted.com/talks/lang/sv/andreas_ekstrom_the_moral_bias_behind_your_search_results" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+          <iframe src="https://embed.ted.com/talks/lang/sv/andreas_ekstrom_the_moral_bias_behind_your_search_results" width="560" height="315" frameborder="0" scrolling="no" allowfullscreen></iframe>
         </div>
   			<div class="caption">
-  				TED Talk av Andreas Ekström, The moral bias behind your search results.
+  				TED Talk av Andreas Ekström: Värderingarna bakom dina sökresultat
   			</div>
         <div class="source">
-          Källa: Andreas Ekström, <a href="https://www.ted.com/talks/andreas_ekstrom_the_moral_bias_behind_your_search_results?utm_campaign=tedspread--a&utm_medium=referral&utm_source=tedcomshare" title="TED Talk" target="_blank">TED</a>
+          Källa: Andreas Ekström, <a href="https://www.ted.com/talks/andreas_ekstrom_the_moral_bias_behind_your_search_results?language=sv" title="TED Talk" target="_blank">TED</a>
         </div>
   		</div>
   	</media-container>

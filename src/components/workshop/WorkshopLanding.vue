@@ -61,6 +61,10 @@
           </li>
         </ul>
 
+        <p>
+           Innehållet anpassas efter målgruppen, e.g. pedagoger och personal vid skola och bibliotek, studenter, företag eller allmänheten.
+        </p>
+
         <h3>Tid & upplägg</h3>
         <p>
           Räkna med en halvdag för en workshop som täcker ett spår. Upplägget utgår ifrån ert behov och egna önskemål. Det går exempelvis bra att låta fortbilda utvald personal på er arbetsplats, som senare, med hjälp av det fria arbetsmaterialet, utbildar sina kollegor.
@@ -121,7 +125,7 @@
 
         <media-container class="mediaContainer">
       		<div>
-            <div class="content">
+            <div class="image">
         		    <img src="static/graphics/workshops/mikoteket-ws.jpg" />
             </div>
         		<div class="caption">
