@@ -142,13 +142,22 @@
 
         <h3>Kostnad</h3>
 
-        <p>
-          <span class="semibold">Endast föreläsning, ~1h</span>: 8.000:-
-          <br />
-          <span class="semibold">Halvdag</span>: 15.000:-
-          <br />
-          <span class="semibold">Heldag</span>: 20.000:-
-        </p>
+        <ul>
+          <li>
+            <span class="semibold">Föreläsning/miniworkshop, ~1h</span>: 8.000:-
+            <ul>
+              <li>
+                <span class="semibold">via videostream</span>: enligt ök.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="semibold">Halvdag</span>: 15.000:-
+          </li>
+          <li>
+            <span class="semibold">Heldag</span>: 20.000:-
+          </li>
+        </ul>
 
         <p>
           Kostnader för resa, logi och traktamente tillkommer vid behov. Alla priser är exkl. moms.

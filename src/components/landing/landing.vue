@@ -78,6 +78,10 @@
           <a-route href="/workshop" class="button">Läs mer om workshops och föreläsningar</a-route>
         </p>
 
+        <!--h3>Mikoteket på Facebook</h3>
+
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmikoteket%2F&tabs=timeline&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1595080274133613" height="300" style="border:none;overflow:scroll" scrolling="no" frameborder="0" allowTransparency="true"></iframe-->
+
       </div>
 
       <div class="columnRight">

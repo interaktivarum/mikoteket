@@ -51,7 +51,7 @@
     <media-container class="mediaContainer">
       <div>
         <div class="content">
-          <iframe width="600" height="150" src="https://sverigesradio.se/embed/publication/6762207" frameborder="0"></iframe>
+          <iframe width="100%" height="150" src="https://sverigesradio.se/embed/publication/6762207" frameborder="0"></iframe>
         </div>
         <div class="caption">
           Nina Asarnoj resonerar och filosoferar kring skällsordet batikhäxa, och ordets betydelse i nätforum och politiska debatter.
@@ -107,29 +107,16 @@
         <strong>Supermaten</strong>
         <ul>
           <li>
-            <a href="https://www.mabra.com/lista-har-ar-den-nya-supermaten/" title="MåBra: Ät dig frisk och stark med nya supermaten!" target="_blank">MåBra: Ät dig frisk och stark med nya supermaten!</a>
+            <a href="https://www.mabra.com/lista-har-ar-den-nya-supermaten/" title="MåBra: Ät dig frisk och stark med nya supermaten!" target="_blank">MåBra (2012): Ät dig frisk och stark med nya supermaten!</a>
           </li>
           <li>
-            <a href="https://www.dn.se/mat-dryck/har-ar-maten-som-ger-dig-ett-friskare-liv/" title="DN: Här är maten som ger dig ett friskare liv" target="_blank">DN (2008): Här är maten som ger dig ett friskare liv</a>
-          </li>
-          <li>
-            <a href="https://www.dn.se/mat-dryck/sanningen-om-supermaten-sa-nyttig-ar-den/" title="DN: Sanningen om supermaten – så nyttig är den" target="_blank">DN (2017): Sanningen om supermaten – så nyttig är den</a>
+            <a href="https://www.svt.se/nyheter/inrikes/teff-fonio-och-maca-spas-bli-nya-supermaten" title="SVT: Teff, fonio och maca spås bli nya 'supermaten'" target="_blank">SVT: Teff, fonio och maca spås bli nya 'supermaten'</a>
           </li>
           <li>
             <a href="http://svenskamaltider.se/2016/12/13/revansch-for-svensk-supermat/" title="Svenska Måltider: Revansch för svensk supermat" target="_blank">Svenska Måltider: Revansch för svensk supermat</a>
           </li>
-        </ul>
-
-        <strong>Migration och ekonomi</strong>
-        <ul>
           <li>
-            <a href="https://nyheteridag.se/invandringen-fordubblar-statens-pensionskostnader/" title="Nyheter Idag: Invandringen fördubblar statens pensionskostnader" target="_blank">Nyheter Idag: Invandringen fördubblar statens pensionskostnader</a>
-          </li>
-          <li>
-            <a href="http://sverigesradio.se/sida/artikel.aspx?programid=83&artikel=6389739" title="SR: Flyktinginvandringen bidrar till starkt ökad tillväxt i svensk ekonomi" target="_blank">SR: Flyktinginvandringen bidrar till starkt ökad tillväxt i svensk ekonomi</a>
-          </li>
-          <li>
-            <a href="https://www.migrationsinfo.se/ekonomi/" title="Migrationsinfo: Ekonomi" target="_blank">Migrationsinfo: Ekonomi</a>
+            <a href="https://www.mabra.com/mabra-granskar-supermat-nyttigt-eller-onodigt/" title="MåBra: MåBra granskar: Supermat – nyttigt eller onödigt?" target="_blank">MåBra (2017): MåBra granskar: Supermat – nyttigt eller onödigt?</a>
           </li>
         </ul>
 

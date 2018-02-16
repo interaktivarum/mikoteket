@@ -21,7 +21,7 @@
     </slide-component>
 
     <p>
-      Med verktyg som <a href="https://images.google.com/" title="Google Images" target="_blank">Google bildsök</a> är det enkelt att hitta alla möjliga bilder kring valfritt ämne. Även om det inte alltid är tillåtet, är bilderna möjliga att kopiera eller ladda hem för att använda i eget syfte. Exempelvis för att ge extra tyngd åt en fabricerad berättelse, i syfte att väcka känslor hos läsaren.
+      I bildbanker och med verktyg som <a href="https://images.google.com/" title="Google Images" target="_blank">Google bildsök</a> är det enkelt att hitta alla möjliga bilder kring valfritt ämne. Även om det inte alltid är tillåtet, är bilderna möjliga att kopiera eller ladda hem för att använda i eget syfte. Exempelvis för att ge extra tyngd åt en vinklad eller fabricerad berättelse, i syfte att väcka känslor hos läsaren.
     </p>
 
     <p>
@@ -51,7 +51,7 @@
     </media-container>
 
     <p>
-      Även i samband med <a href="https://www.svt.se/nyheter/inrikes/13220816" title="SVT: Terrordådet i Stockholm" target="_blank">terrordådet på Drottninggatan</a>, Stockholm 7 april 2017 fick <a href="https://www.svt.se/kultur/medier/falska-nyheter-i-omlopp-efter-terrordad" title="SVT: Falska nyheter i omlopp efter terrordåd" target="_blank">flera falska nyheter</a> och rykten stor spridning. Bland annat spreds ett falskt citat från en präst som påstods ha sagt: <i>vi måste kunna förlåta sådana här hemska handlingar</i>. Påståendet spreds av bland annat Sverigedemokraternas partisekreterare Richard Jomshof, som senare tog bort sitt inlägg.
+      I samband med <a href="https://www.svt.se/nyheter/inrikes/13220816" title="SVT: Terrordådet i Stockholm" target="_blank">terrordådet på Drottninggatan</a>, Stockholm 7 april 2017 fick <a href="https://www.svt.se/kultur/medier/falska-nyheter-i-omlopp-efter-terrordad" title="SVT: Falska nyheter i omlopp efter terrordåd" target="_blank">flera falska nyheter</a> och rykten stor spridning. Bland annat spreds ett falskt citat från en präst som påstods ha sagt: <i>vi måste kunna förlåta sådana här hemska handlingar</i>. Påståendet spreds av bland annat Sverigedemokraternas partisekreterare Richard Jomshof, som senare tog bort sitt inlägg.
     </p>
 
     <media-container class="mediaContainer">
@@ -67,6 +67,25 @@
         </div>
       </div>
     </media-container>
+
+    <p>
+      Även större aktörer kan använda andras bild- och videomaterial för att stärka det egna narrativet, exempelvis då man saknar egna bilder. I ljudklippet nedan redogör Sveriges Radio för hur Moderaterna i en <a href="https://www.facebook.com/moderaternagoteborg/videos/1002160776604546/" title="Facebook: Moderaterna Göteborg" target="_blank">kritiserad valfilm</a> från 2018 <a href="http://sverigesradio.se/sida/artikel.aspx?programid=1646&artikel=6884919" title="P3 Nyheter: Moderaterna illustrerar bilbrand i Göteborg med bild från Vancouver" target="_blank">illustrerar en bilbrand i Göteborg med bilder från Vancouver</a>. Partiet anger att videoklippet hittades i en bildbank och att man <a href="http://sverigesradio.se/sida/artikel.aspx?programid=104&artikel=6885761" title="P3 Nyheter: Polisen: Brinnande bilar är inte det stora problemet" target="_blank">upplever att problemet med brinnande bilar växer</a>, en bild som stadens polis och räddningstjänst inte delar.
+    </p>
+
+    <media-container class="mediaContainer">
+      <div>
+        <div class="content">
+          <iframe width="100%" height="150" src="https://sverigesradio.se/embed/publication/6884919" frameborder="0"></iframe>
+        </div>
+        <div class="caption">
+          P3 Nyheter redogör för hur Moderaterna illustrerar bilbrand i Göteborg med videoklipp från Vancouver.
+        </div>
+        <div class="source">
+          Källa: <a href="https://sverigesradio.se/sida/artikel.aspx?programid=478&artikel=6762207" title="P3 Nyheter: Moderaterna illustrerar bilbrand i Göteborg med bild från Vancouver" target="_blank">P3 Nyheter, Sveriges Radio</a>
+        </div>
+      </div>
+    </media-container>
+
 
     <info-fields class="infoFields">
 
@@ -91,7 +110,7 @@
         <p>
           <img src="https://images.mmcloud.se/api/v1/images/622b0271-d370-4d51-8697-48371ac2e25c/600.jpg" title="Karin Forslund" />
           <br/>
-          Källa: Felicia Andersson, <a href="http://www.helahalsingland.se" title="Hela Hälsningland: Spred rasistisk lögn om Söderhamnskvinna: Visste inte att det inte var sant" target="_blank">Hela Hälsningland</a>
+          Källa: Felicia Andersson, <a href="http://www.helahalsingland.se/gavleborg/soderhamn/spred-rasistisk-logn-om-soderhamnskvinna-visste-inte-att-det-inte-var-sant" title="Hela Hälsningland: Spred rasistisk lögn om Söderhamnskvinna: Visste inte att det inte var sant" target="_blank">Hela Hälsningland</a>
         </p>
 
         <search-component placeholder="Klistra in bildadress" button-text="Sök med bild" search="image" engines='["Google","Bing"]'></search-component>
@@ -265,6 +284,22 @@
         </div>
       </div>
     </media-container>
+
+    <media-container class="mediaContainer">
+      <div>
+        <div class="content">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpanikfakta%2Fposts%2F353186248441056&width=500" width="500" height="626" style="border:none;overflow:scroll" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+        <div class="caption">
+          Meme i syfte att främställa journalisten och samhällsdebattören Katerina Janouch (se föregående tweet) som onyanserad och som ansvarig för att sprida bilden av ett Sverige i förfall.
+        </div>
+        <div class="source">
+          Källa: <a href="https://www.facebook.com/panikfakta/photos/gm.1908457736149648/353149605111387" title="Panikfakta (Facebook)" target="_blank">Panikfakta (Facebook)</a>
+        </div>
+      </div>
+    </media-container>
+
+
 
     <p>
       Att använda en meme eller bild med falskt citat är ett effektivt sätt att framställa eller förstärka en bild av inkompetens hos en person, ett parti eller en politik. Även om det är enkelt att känna igen en meme på designen, är möjligheterna särskilt stora att nå grupper som tar till sig snabba budskap, utan djupare politisk analys.

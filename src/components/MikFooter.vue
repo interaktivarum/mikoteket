@@ -9,16 +9,22 @@
         <a href="/om">Om Mikoteket</a>
       </div>
 
-      <div>
+      <!--div>
           Koncept, design & utveckling:
           <br/>
           <a href="http://www.interaktivarum.se" title="Interaktiva rum" target="_blank">Interaktiva rum</a>
+      </div-->
+
+      <div>
+        Kontakt:
+        <br />
+        <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>
       </div>
 
       <div>
-          Kontakt:
-          <br/>
-          <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>
+        <a href="https://www.facebook.com/mikoteket" title="Facebook: Mikoteket" target="_blank">Mikoteket på Facebook</a>
+        <br />
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmikoteket%2F&width=96&layout=button&action=like&size=small&show_faces=false&share=true&height=65&appId=1595080274133613" width="96" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
 
     </footer>
