@@ -8,14 +8,71 @@
     <div class="containerInner">
 
       <div class="columnLeft">
-        <h3>Kontakt och bokning</h3>
-        <p>
-          Martin Törnros
-          <br/>
-          <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>
-          <br/>
-          0702-800054
-        </p>
+
+        <div class="hideOnPhone">
+
+          <h3>Kommande evenemang</h3>
+
+          <p>
+            <span class="semibold">Onlineföreläsning</span>
+            <br />
+            2018-03-07
+            <br />
+            Värmdö bibliotek
+          </p>
+
+          <p>
+            <span class="semibold">Onlineföreläsning x2</span>
+            <br />
+            2018-03-20
+            <br />
+            <a-route href="/live/adw18">Info & anmälan</a-route>
+          </p>
+
+          <p>
+            <span class="semibold">Onlineföreläsning x2</span>
+            <br />
+            2018-03-23
+            <br />
+            <a-route href="/live/adw18">Info & anmälan</a-route>
+          </p>
+
+          <p>
+            <span class="semibold">Workshop för bibliotekspersonal</span>
+            <br />
+            2018-03-28
+            <br />
+            Regionbibliotek Östergötland
+          </p>
+
+          <p>
+            <span class="semibold">Workshop för allmänheten</span>
+            <br />
+            2018-03-28
+            <br />
+            Regionbibliotek Östergötland
+          </p>
+
+
+          <!--p>
+            <a href="http://regionbibliotekostergotland.se/events/mikdag-2018/" title="MIK-dag 2018" target="_blank">MIK-dag 2018</a>
+            <br />
+            2018-02-27
+            <br />
+            Regionbibliotek Östergötland
+          </p-->
+
+          <h3>Kontakt och bokning</h3>
+          <p>
+            Martin Törnros
+            <br/>
+            <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>
+            <br/>
+            0702-800054
+          </p>
+
+        </div>
+
       </div>
 
       <div class="columnCenter">
@@ -27,6 +84,8 @@
         <p>
           För att effektivt komma igång med Mikoteket rekommenderas att boka en workshop. Tillsammans går vi igenom plattformen och gräver djupare i ett eller flera av spåren med mängder av handledda praktiska övningar och diskussioner i grupp.
         </p>
+
+        <quote quote="Det gav mycket att få en grundlig genomgång av de olika momenten och tid för gemensamma samtal och reflektioner. Många av ambassadörerna använde sedan något av de tydliga exemplen i materialet för att introducera sina kollegor för fördjupningsområdet Sökkritik." by="Marika Alneng, samordnare för MIK & Demokrati, Stockholm stadsbibliotek" description="Utvärdering efter workshop i sökteknik och sökkritik, med MIK-ambassadörer från stadsbibliotekets enheter"></quote>
 
         <h3>Innehåll</h3>
         <ul>
@@ -129,7 +188,7 @@
         		    <img src="static/graphics/workshops/mikoteket-ws.jpg" />
             </div>
         		<div class="caption">
-        			<strong>Workshop med Stockholms Stadsbibliotek.</strong> "Ambassadörer" från regionens enheter utbildades i sökteknik och sökkritik med Mikoteket som verktyg. Dessa använde sedan det fria arbetsmaterialet för att utbilda sina kollegor på respektive enhet.
+        			<strong>Workshop med Stockholm Stadsbibliotek.</strong> "Ambassadörer" från regionens enheter utbildades i sökteknik och sökkritik med Mikoteket som verktyg. Dessa använde sedan det fria arbetsmaterialet för att utbilda sina kollegor på respektive enhet.
         		</div>
       		</div>
       	</media-container>
@@ -147,7 +206,7 @@
             <span class="semibold">Föreläsning/miniworkshop, ~1h</span>: 8.000:-
             <ul>
               <li>
-                <span class="semibold">via videostream</span>: enligt ök.
+                <span class="semibold">online via videolänk</span>: enligt ök.
               </li>
             </ul>
           </li>
@@ -238,6 +297,7 @@ import AWiki from '@/components/AWiki.vue'
 import CoverImage from '../CoverImage.vue'
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
+import Quote from '@/components/quote.vue'
 
 export default {
   components: {
@@ -245,7 +305,8 @@ export default {
     AWiki,
     CoverImage,
     InfoFields,
-    MediaContainer
+    MediaContainer,
+    Quote
   },
   data () {
     return {

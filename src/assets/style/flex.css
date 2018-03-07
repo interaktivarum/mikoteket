@@ -30,6 +30,7 @@
   /*flex: 0 1 20%;*/
   flex: 1 0 200px;
   /*width: 20%;*/
+  margin-bottom: 50px;
 }
 
 .columnCenter {
@@ -43,4 +44,12 @@
 
 .columnRight{
   text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+
+  .columnLeft, .columnRight {
+    margin-bottom: 10px;
+  }
+
 }

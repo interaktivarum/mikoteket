@@ -29,7 +29,6 @@ export default {
 .quote {
 	font-size: 20pt;
 	font-style: italic;
-	text-align: center;
 	font-family: serif;
 	line-height: 1em;
   color: #555;
@@ -46,7 +45,7 @@ export default {
 	font-size: 12pt;
 	font-style: normal;
 	text-align: right;
-	line-height: 1em;
+	line-height: 1.2em;
   color: #000;
   margin-top: 10px;
 }

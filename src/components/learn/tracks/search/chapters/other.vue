@@ -122,13 +122,13 @@
 		<media-container class="mediaContainer">
 			<div>
         <div class="content">
-  				<iframe width="560" height="315" src="https://www.youtube.com/embed/hPXS7rC1PWo" frameborder="0" allowfullscreen></iframe>
+  				<iframe width="560" height="315" src="https://www.youtube.com/embed/FQn6aFQwBQU" frameborder="0" allowfullscreen></iframe>
         </div>
 				<div class="caption">
-					Amazon introducerar sin smarta högtalare Echo Dot.
+					Amazon introducerar sin smarta högtalare Echo.
 				</div>
         <div class="source">
-  				Källa: <a href="https://www.youtube.com/watch?v=hPXS7rC1PWo" title="Youtube: Introducing the all-new Echo Dot" target="_blank">Amazon (Youtube)</a>
+  				Källa: <a href="https://www.youtube.com/watch?v=FQn6aFQwBQU" title="Youtube: Amazon Echo - Now Available" target="_blank">Amazon (Youtube)</a>
         </div>
 			</div>
 		</media-container>

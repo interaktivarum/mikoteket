@@ -16,7 +16,7 @@
 			Vi kommer hädanefter att skilja på följande begrepp:
 			<ul>
 				<li><span class="semi-bold">Objektiva sökningar</span>: Sökning efter objektiv fakta, e.g. <i>Vilket är Frankrikes statsskick?</i></li>
-				<li><span class="semi-bold">Subjektiva sökningar</span>: Sökning efter subjektiva sanningar, e.g. <i>Vilket statsskick är bäst?</i></li>
+				<li><span class="semi-bold">Subjektiva sökningar</span>: Sökning efter subjektiva åsikter eller påstådda sanningar, e.g. <i>Vilket statsskick är bäst?</i></li>
 			</ul>
 		</p>
 
@@ -62,7 +62,7 @@
 					SAMMANFATTNING
 				</div>
 
-				Använd nyckelord för att specificera dina sökningar. Det är enklare att hitta bra resultat för objektiva fakta än för subjektiva sanningar.
+				Använd nyckelord för att specificera dina sökningar. Det är enklare att hitta bra resultat för objektiva fakta än för subjektiva åsikter och påstådda sanningar.
 
 			</div>
 
@@ -83,7 +83,7 @@
 		</p>
 
 		<p>
-			För att öka chanserna att erhålla nyanserade resultat så är en tumregel att undvika värdeladdade ord, såsom <i>fel</i> eller <i>ett hot</i>, i dina söktermer.
+			För att öka chanserna att erhålla nyanserade resultat så är en tumregel att undvika värdeladdade ord, såsom <i>fel</i>, <i>fejk</i> eller <i>ett hot</i>, i dina söktermer.
 		</p>
 
 		<info-fields class="infoFields">
@@ -94,12 +94,11 @@
 				</div>
 
 				<p>
-					Använd sökfälten nedan för att söka med och utan värdeladdade ord.
+					Använd sökfälten nedan för att söka utan och med värdeladdade ord.
 				</p>
 
-				<search-component query="rätt till abort"></search-component>
-				<search-component query="är abort fel?"></search-component>
-				<search-component query="abortlagen"></search-component>
+        <search-component query="klimatförändringar"></search-component>
+        <search-component query="är klimatförändringarna fejk?"></search-component>
 
 				<div class="hBox">
 					DISKUTERA

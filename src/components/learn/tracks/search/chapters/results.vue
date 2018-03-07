@@ -222,7 +222,11 @@
     </slide-component>
 
 		<p>
-			Det är möjligt att, med Googles teknik, skapa egna <a href="https://cse.google.com" title="Google CSE" target="_blank">anpassade sökmotorer</a> att använda på sin egen webbsida. Webbutvecklaren erbjuds möjligheten att styra en mängd parametrar för såväl sökning som presentation av sökresultaten. Det är på så sätt möjligt att påverka sökresultaten, även utan att användaren är medveten om det.
+			Det är möjligt att, med Googles teknik, skapa egna <a href="https://cse.google.com" title="Google CSE" target="_blank">anpassade sökmotorer</a> att använda på sin egen webbsida. Det vanligaste användningsområdet är att dra nytta av Googles indexering och kraft för att erbjuda besökaren sökning inom den egna webbplatsen, se exempel på <a href="http://www.londontown.se/" title="Londontown" target="_blank">Londontown</a> med en sökning på <i>museum</i>.
+    <p>
+
+    <p>
+      Utöver sökning på den egna webbplatsen erbjuds webbutvecklaren möjligheten att styra en mängd parametrar för såväl sökning som presentation av sökresultaten. Det är på så sätt möjligt att påverka sökresultaten, även utan att användaren är medveten om det.
 		</p>
 
 		<p>

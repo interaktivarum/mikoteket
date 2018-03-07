@@ -8,6 +8,65 @@
     <div class="containerInner">
 
       <div class="columnLeft">
+
+        <div class="hideOnPhone">
+
+          <h3>Kommande evenemang</h3>
+
+          <p>
+            <span class="semibold">Onlineföreläsning</span>
+            <br />
+            2018-03-07
+            <br />
+            Värmdö bibliotek
+          </p>
+
+          <p>
+            <span class="semibold">Onlineföreläsning x2</span>
+            <br />
+            2018-03-20
+            <br />
+            <a-route href="/live/adw18">Info & anmälan</a-route>
+          </p>
+
+          <p>
+            <span class="semibold">Onlineföreläsning x2</span>
+            <br />
+            2018-03-23
+            <br />
+            <a-route href="/live/adw18">Info & anmälan</a-route>
+          </p>
+
+          <p>
+            <span class="semibold">Workshop för bibliotekspersonal</span>
+            <br />
+            2018-03-28
+            <br />
+            Regionbibliotek Östergötland
+          </p>
+
+          <p>
+            <span class="semibold">Workshop för allmänheten</span>
+            <br />
+            2018-03-28
+            <br />
+            Regionbibliotek Östergötland
+          </p>
+
+          <!--p>
+            <a href="http://regionbibliotekostergotland.se/events/mikdag-2018/" title="MIK-dag 2018" target="_blank">MIK-dag 2018</a>
+            <br />
+            2018-02-27
+            <br />
+            Regionbibliotek Östergötland
+          </p-->
+
+          <p>
+            <a-route href="/workshop" class="button">Boka workshop</a-route>
+          </p>
+
+        </div>
+
       </div>
 
       <div class="columnCenter">
@@ -51,8 +110,8 @@
     					Använd sökfälten nedan för att genomföra en bra samt en dålig sökning på webben.
     				</p>
 
-            <search-component query="abortlagen"></search-component>
-    				<search-component query="är abort fel?"></search-component>
+            <search-component query="klimatförändringar"></search-component>
+    				<search-component query="är klimatförändringarna fejk?"></search-component>
 
     				<div class="hBox">
     					DISKUTERA
@@ -67,6 +126,20 @@
     			</div>
 
     		</info-fields>
+
+        <!--media-container class="mediaContainer">
+      		<div>
+            <div class="content">
+        		    <iframe width="500" height="440" frameborder="0" src="http://ncase.me/loopy/v1.1/?embed=1&data=[[[3,423,356,0,%22Intolerans%22,0],[4,595,224,0,%22Vinklade%2520fr%25C3%25A5gor%22,5],[5,768,363,0,%22Vinklade%2520svar%22,5],[6,603,494,0,%22F%25C3%25B6rdomar%22,5]],[[3,4,53,1,0],[4,5,62,1,0],[5,6,44,1,0],[6,3,60,1,0]],[[594,372,%22Vinklade%2520s%25C3%25B6kningar%250Aoch%2520intolerans.%22]],6%5D"></iframe>
+            </div>
+        		<div class="caption">
+        			Precis som när du ställer ledande frågor i verkligheten resulterar vinklade sökningar i vinklade svar, vilket kan förstärka fördomar och leda till ökad intolerans. Tryck på pilarna i valfri cirkel för att öka eller minska dess styrka.
+        		</div>
+            <div class="source">
+              Källa: <a href="http://ncase.me/loopy/v1.1/?data=[[[3,423,356,0,%22Intolerans%22,0],[4,595,224,0,%22Vinklade%2520fr%25C3%25A5gor%22,5],[5,768,363,0,%22Vinklade%2520svar%22,5],[6,603,494,0,%22F%25C3%25B6rdomar%22,5]],[[3,4,53,1,0],[4,5,62,1,0],[5,6,44,1,0],[6,3,60,1,0]],[[594,372,%22Vinklade%2520s%25C3%25B6kningar%250Aoch%2520intolerans.%22]],6%5D" title="Loopy" target="_blank">Loopy</a>
+        		</div>
+      		</div>
+      	</media-container-->
 
         <h3>Workshops & föreläsningar</h3>
 
@@ -104,6 +177,7 @@ import AWiki from '@/components/AWiki.vue'
 import InfoFields from '@/components/learn/InfoFields.vue'
 import SearchComponent from '@/components/learn/SearchComponent.vue'
 import Quote from '@/components/quote.vue'
+import MediaContainer from '@/components/learn/MediaContainer.vue'
 
 export default {
   components: {
@@ -112,7 +186,8 @@ export default {
     AWiki,
     InfoFields,
     SearchComponent,
-    Quote
+    Quote,
+    MediaContainer
   },
   data () {
     return {

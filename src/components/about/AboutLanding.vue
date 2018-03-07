@@ -78,6 +78,12 @@
               <span class="semibold">Informationsvisualisering</span>: make statistik fun again!
             </li>
             <li>
+              <span class="semibold">Datadriven journalistik</span>: storytelling och att skapa engagemang.
+            </li>
+            <li>
+              <span class="semibold">Tillgänglighet på webben</span>: design och demokrati.
+            </li>
+            <li>
               <span class="semibold">Matematik och fysik</span> i datorspel och Instagramfilter.
             </li>
           </ul>

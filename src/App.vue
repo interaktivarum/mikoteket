@@ -185,6 +185,14 @@ hr{
     padding: 0px 20px 0px 20px;
   }
 
+  .hideOnPhone{
+    display: none;
+  }
+
+  h1{
+  	margin: 0;
+  }
+
 }
 
 </style>
