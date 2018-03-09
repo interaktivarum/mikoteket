@@ -13,13 +13,13 @@
 
           <h3>Kommande evenemang</h3>
 
-          <p>
+          <!--p>
             <span class="semibold">Onlineföreläsning</span>
             <br />
             2018-03-07
             <br />
             Värmdö bibliotek
-          </p>
+          </p-->
 
           <p>
             <span class="semibold">Onlineföreläsning x2</span>
@@ -38,19 +38,15 @@
           </p>
 
           <p>
-            <span class="semibold">Workshop för bibliotekspersonal</span>
+            <span class="semibold">Regionbibliotek Östergötland</span>
             <br />
             2018-03-28
-            <br />
-            Regionbibliotek Östergötland
           </p>
 
           <p>
-            <span class="semibold">Workshop för allmänheten</span>
+            <span class="semibold">Lärvux Stockholm</span>
             <br />
-            2018-03-28
-            <br />
-            Regionbibliotek Östergötland
+            2018-04-18
           </p>
 
 
@@ -90,31 +86,47 @@
         <h3>Innehåll</h3>
         <ul>
           <li>
-            Introduktion till MIK.
+            <span class="semibold">Föreläsning och workshop</span>:
+            <ul>
+              <li>
+                Introduktion till MIK.
+              </li>
+              <li>
+                Föreläsning utifrån Mikotekets spår inom digital kompetens.
+              </li>
+              <li>
+                Handledda praktiska övningar och diskussioner i grupp.
+              </li>
+              <li>
+                Introduktion till, och prova på praktiska verktyg.
+              </li>
+            </ul>
           </li>
           <li>
-            Föreläsning utifrån Mikotekets spår inom digital kompetens.
+            <span class="semibold">Arbetsmaterial</span>: tillgång till färdigt upplägg och presentationsmaterial för vidare utbildning av exempelvis kollegor eller elever.
           </li>
           <li>
-            Handledda praktiska övningar och diskussioner i grupp.
+            <span class="semibold">Självskattningstest</span> av MIK-kunskaper:
+            <ul>
+              <li>
+                Onlineformulär inför workshop.
+              </li>
+              <li>
+                Onlineformulär som uppföljning efter workshop.
+              </li>
+              <li>
+                Tillgång till jämförande data för att utvärdera dagen.
+              </li>
+            </ul>
           </li>
           <li>
-            Introduktion till, och prova på praktiska verktyg.
-          </li>
-          <li>
-            Tillgång till färdigt upplägg och presentationsmaterial för vidare utbildning av, exempelvis, kollegor eller elever.
-          </li>
-          <li>
-            Slack: gruppverktyg för diskussioner.
+            <span class="semibold">Slack</span>: gruppverktyg för diskussioner.
             <ul>
               <li>
                 Introduktion till, och kom-igång med Slack.
               </li>
               <li>
                 Tillgång till <a href="https://mikoteket.slack.com" title="Slack: Mikoteket" target="_blank">Mikotekets gemensamma diskussionsgrupp på Slack</a>.
-              </li>
-              <li>
-                Personlig Mikoteketsupport i 30 dagar.
               </li>
             </ul>
           </li>

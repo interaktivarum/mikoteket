@@ -14,11 +14,9 @@ export default {
   props: {
     url: {}
   },
-  created: function () {
-    var formData = new FormData();
-    //formData.append('foo', 'bar');
-    console.log(this)
-    this.$http.post(this.url, formData)
+  mounted: function () {
+    //var formData = new FormData();
+    //this.$http.get(this.url)
   }
 }
 </script>

@@ -6,6 +6,10 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+//VueResource, http requests
+import VueResource from 'vue-resource';
+Vue.use(VueResource);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

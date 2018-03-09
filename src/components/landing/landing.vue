@@ -13,13 +13,13 @@
 
           <h3>Kommande evenemang</h3>
 
-          <p>
+          <!--p>
             <span class="semibold">Onlineföreläsning</span>
             <br />
             2018-03-07
             <br />
             Värmdö bibliotek
-          </p>
+          </p-->
 
           <p>
             <span class="semibold">Onlineföreläsning x2</span>
@@ -38,19 +38,15 @@
           </p>
 
           <p>
-            <span class="semibold">Workshop för bibliotekspersonal</span>
+            <span class="semibold">Regionbibliotek Östergötland</span>
             <br />
             2018-03-28
-            <br />
-            Regionbibliotek Östergötland
           </p>
 
           <p>
-            <span class="semibold">Workshop för allmänheten</span>
+            <span class="semibold">Lärvux Stockholm</span>
             <br />
-            2018-03-28
-            <br />
-            Regionbibliotek Östergötland
+            2018-04-18
           </p>
 
           <!--p>
