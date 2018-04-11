@@ -23,6 +23,10 @@
         Workshops & föreläsningar
       </div>
 
+      <div class="menuItem" @click="goto('/press')">
+        Press & media
+      </div>
+
       <div class="menuItem" @click="goto('/om')">
         Om Mikoteket
       </div>

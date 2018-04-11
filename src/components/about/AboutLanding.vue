@@ -54,7 +54,7 @@
           Mikoteket utvecklas och drivs av Martin Törnros, <a href="http://interaktivarum.se/" title="Interaktiva rum" target="_blank">Interaktiva rum</a>: designer, <a href="https://liu.se/utbildning/program/6cmen" title="Linköpings universitet: Medieteknik" target="_blank">medietekniker</a> och <a href="https://ccmc.gsfc.nasa.gov/staff/martin.php" title="CCMC: Martin Tornros" target="_blank">raketforskare</a> med stor nyfikenhet och förståelse för den teknik och design som vi använder dagligen.
         </p>
         <p>
-          Mikoteket utvecklades ursprungligen hösten 2017 i samverkan med <a href="https://biblioteket.stockholm.se" title="Stockholm Stadsbibliotek" target="_blank">Stockholms Stadsbibliotek</a>, som fortbildningsplattform inom MIK för anställd bibliotekspersonal i regionen. Såväl plattformen som arbetsmaterialet utvecklas sedan dess vidare för att komma fler till nytta.
+          Mikoteket utvecklades ursprungligen hösten 2017 i samverkan med <a href="https://biblioteket.stockholm.se" title="Stockholm Stadsbibliotek" target="_blank">Stockholm Stadsbibliotek</a>, som fortbildningsplattform inom MIK för anställd bibliotekspersonal i regionen. Såväl plattformen som arbetsmaterialet utvecklas sedan dess vidare för att komma fler till nytta.
         </p>
 
         <h3>Sponsra nya spår</h3>

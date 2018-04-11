@@ -21,7 +21,7 @@
             Värmdö bibliotek
           </p-->
 
-          <p>
+          <!--p>
             <span class="semibold">Onlineföreläsning x2</span>
             <br />
             2018-03-20
@@ -35,18 +35,32 @@
             2018-03-23
             <br />
             <a-route href="/live/adw18">Info & anmälan</a-route>
-          </p>
+          </p-->
 
-          <p>
+          <!--p>
             <span class="semibold">Regionbibliotek Östergötland</span>
             <br />
             2018-03-28
-          </p>
+            <br />
+            <a href="https://www.visitostergotland.se/sv/evenemangskalender/264915/Kallkritiskt-caf/" target="_blank">Info & anmälan</a>
+          </p-->
 
           <p>
             <span class="semibold">Lärvux Stockholm</span>
             <br />
             2018-04-18
+          </p>
+
+          <p>
+            <span class="semibold">Regionbibliotek Uppsala</span>
+            <br />
+            2018-06-14
+          </p>
+
+          <p>
+            <span class="semibold">Karlstad kommun</span>
+            <br />
+            2018-09-21
           </p>
 
 
