@@ -34,19 +34,25 @@
         </p>
 
         <p>
-          För att effektivt komma igång rekommenderas att boka en workshop, i vilken vi går igenom plattformen och gräver djupare i ett eller flera av spåren med mängder av handledda praktiska övningar och diskussioner i grupp.
-        </p>
-
-        <p>
-          <a-route href="workshop" class="button">Läs mer om workshops och föreläsningar</a-route>
-        </p>
-
-        <p>
           För inbäddat material, e.g. bilder, videor, grafer, sociala inlägg, m.m., gäller respektive materials eller källas egna användningsrättigheter.
         </p>
 
         <p>
+          Använder ni Mikoteket i er egen undervisning eller verksamhet? Kul, hör gärna av er och berätta om ert arbete!
+        </p>
+
+        <p>
           För frågor om användning och rättigheter, vänligen kontakta mig.
+        </p>
+
+        <h3>Workshops och föreläsningar</h3>
+
+        <p>
+          För att effektivt komma igång med Mikotekets arbetsmaterial rekommenderas att boka en workshop. Tillsammans går vi igenom plattformen och gräver djupare i ett eller flera av spåren med mängder av handledda praktiska övningar och diskussioner i grupp.
+        </p>
+
+        <p>
+          <a-route href="workshop" class="button">Läs mer om workshops och föreläsningar</a-route>
         </p>
 
         <h3>Vem driver Mikoteket?</h3>

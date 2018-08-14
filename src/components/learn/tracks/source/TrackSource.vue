@@ -29,6 +29,7 @@ export default {
         TrackSourceWebpage
         //TrackSourceTools
       ],
+      notions: [0,1,2,4,5,6,10,11],
       sponsor: {
         name: "Stockholms Stadsbibliotek",
         url: "https://biblioteket.stockholm.se/",

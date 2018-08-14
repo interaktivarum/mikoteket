@@ -1,9 +1,13 @@
 <template>
   <div>
 
+
+
     <h2>{{chapter.data().header}}</h2>
 
     <component :is="chapter" class="component"></component>
+
+
 
   </div>
 </template>

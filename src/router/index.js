@@ -6,6 +6,7 @@ import Tracks from '@/components/learn/Tracks'
 import Workshop from '@/components/workshop/WorkshopLanding'
 import About from '@/components/about/AboutLanding'
 import Press from '@/components/press/PressLanding'
+import Survey from '@/components/survey/SurveyLanding'
 import Live from '@/components/live/LiveADW18'
 import Sandbox from '@/components/sandbox/Sandbox'
 
@@ -42,6 +43,12 @@ export default new Router({
       path: '/press',
       props: true,
       component: Press
+    },
+    {
+      name: 'survey',
+      path: '/kunskap',
+      props: true,
+      component: Survey
     },
     {
       name: 'alldigitalweek',

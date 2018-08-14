@@ -81,7 +81,7 @@
     </media-container>
 
     <p>
-      I Facebookinlägget ovan antyder riksdagsledamot Lars Beckman att SVTs rapportering av Ingvar Kamprads död har en snäv vinkling. Även om <a href="https://www.svt.se/nyheter/inrikes/ingvar-kamprads-tva-ikea-skandaler" title="SVT: Nazism och skatteplanering – Kamprads två skandaler" target="_blank">SVT-artikelns</a> smakfullhet kan ifrågasättas så nära inpå Kamprads bortgång, så representerar artikeln endast ett litet och icke-representativt urval av vad <a href="https://www.svt.se/search?q=ingvar+kamprad" title="SVT: Ingvar Kamprad" target="_blank">SVT publicerade kring denna nyhet</a>. Med verktyget <a href="http://www.crowdtangle.com/" title="Crowdtangle" target="_blank">Crowdtangle</a> framgår att SVTs artikeln har fått stor spridning, inte minst i högerpopulistiska Facebookkanaler starkt kritiska till public service.
+      I Facebookinlägget ovan antyder riksdagsledamot Lars Beckman att SVTs rapportering av Ingvar Kamprads död har en snäv vinkling. Även om <a href="https://www.svt.se/nyheter/inrikes/ingvar-kamprads-tva-ikea-skandaler" title="SVT: Nazism och skatteplanering – Kamprads två skandaler" target="_blank">SVT-artikelns</a> smakfullhet kan ifrågasättas så nära inpå Kamprads bortgång, så representerar artikeln endast ett litet och icke-representativt urval av vad SVT publicerade kring denna nyhet. Med verktyget <a href="http://www.crowdtangle.com/" title="Crowdtangle" target="_blank">Crowdtangle</a> framgår att SVTs artikeln har fått stor spridning, inte minst i högerpopulistiska Facebookkanaler starkt kritiska till public service.
     </p>
 
     <p>
@@ -238,18 +238,18 @@
         </div>
 
         <p>
-          Använd sökfälten nedan för att göra bildsökningar av Stefan Löfven och Jimmie Åkesson från respektive riksdagspartis egna webbplatser, nättidningar som går emot respektive partis politik samt från public service.
+          Använd sökfälten nedan för att göra bildsökningar av Stefan Löfven och Jimmie Åkesson från respektive riksdagspartis egna webbplatser samt från nättidningar som går emot respektive partis politik.
         </p>
 
         <search-component query="site:socialdemokraterna.se stefan löfven" type="image" button-text="Sök bilder"></search-component>
         <search-component query="site:nyheteridag.se stefan löfven" type="image" button-text="Sök bilder"></search-component>
-        <search-component query="site:svt.se stefan löfven" type="image" button-text="Sök bilder"></search-component>
+        <!--search-component query="site:svt.se stefan löfven" type="image" button-text="Sök bilder"></search-component-->
 
         <br />
 
-        <search-component query="site:sverigedemokraterna.se jimmie åkesson" type="image" button-text="Sök bilder"></search-component>
+        <search-component query="site:sd.se jimmie åkesson" type="image" button-text="Sök bilder"></search-component>
         <search-component query="site:expo.se jimmie åkesson" type="image" button-text="Sök bilder"></search-component>
-        <search-component query="site:svt.se jimmie åkesson" type="image" button-text="Sök bilder"></search-component>
+        <!--search-component query="site:svt.se jimmie åkesson" type="image" button-text="Sök bilder"></search-component-->
 
         <div class="hBox">
           DISKUTERA

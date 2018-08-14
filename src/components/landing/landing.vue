@@ -9,9 +9,9 @@
 
       <div class="columnLeft">
 
-        <div class="hideOnPhone">
+        <div class="hideOnPhone small">
 
-          <h3>Kommande evenemang</h3>
+          <h4>Kommande evenemang</h4>
 
           <!--p>
             <span class="semibold">Onlineföreläsning</span>
@@ -45,16 +45,36 @@
             <a href="https://www.visitostergotland.se/sv/evenemangskalender/264915/Kallkritiskt-caf/" target="_blank">Info & anmälan</a>
           </p-->
 
-          <p>
+          <!--p>
             <span class="semibold">Lärvux Stockholm</span>
             <br />
             2018-04-18
-          </p>
+          </p-->
 
-          <p>
+          <!--p>
             <span class="semibold">Regionbibliotek Uppsala</span>
             <br />
             2018-06-14
+          </p-->
+
+          <!--p>
+            <span class="semibold">Länsstyrelsen, Almedalen</span>
+            <br />
+            2018-07-04
+            <br />
+            Seminarium: Källkritik för individen
+          </p-->
+
+          <p>
+            <span class="semibold">Kulturförvaltningen, Katrineholm</span>
+            <br />
+            2018-09-12
+          </p>
+
+          <p>
+            <span class="semibold">Region Västmanland, Västerås</span>
+            <br />
+            2018-09-19
           </p>
 
           <p>
@@ -62,6 +82,47 @@
             <br />
             2018-09-21
           </p>
+
+          <p>
+            <a href="https://meg.se/programs/deepfake/" target="_blank">Deepfake - kan vi lita på den rörliga bilden?</a>
+            <br />
+            <span class="semibold">Meg/Bokmässan, Göteborg</span>
+            <br />
+            2018-09-28
+          </p>
+
+          <p>
+            <span class="semibold">Skolbiblioteken, Ekerö kommun</span>
+            <br />
+            2018-10-10
+          </p>
+
+          <p>
+            <a href="http://www.hb.se/Om-hogskolan/Aktuellt/Evenemang/MIK-Digitalisering-och-Demokrati/" target="_blank">MIK, Digitalisering och Demokrati</a>
+            <br />
+            <span class="semibold">Filmpedagogerna / Högskolan i Borås</span>
+            <br />
+            2018-10-11
+          </p>
+
+          <p>
+            <span class="semibold">Regionbiblioteket i Kalmar län</span>
+            <br />
+            2018-10-16
+          </p>
+
+          <p>
+            <span class="semibold">Biblioteken i Malmö</span>
+            <br />
+            2018-11-27
+          </p>
+
+          <p>
+            <span class="semibold">Regionbibliotek Sörmland</span>
+            <br />
+            2018-11-28
+          </p>
+
 
           <!--p>
             <a href="http://regionbibliotekostergotland.se/events/mikdag-2018/" title="MIK-dag 2018" target="_blank">MIK-dag 2018</a>

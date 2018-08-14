@@ -241,7 +241,7 @@
 
     <ul>
       <li>
-        Snabbhet: kort text och snabba budskap.
+        Snabbhet: kort text och snabba, förenklade budskap.
       </li>
       <li>
         Enkelhet: Ingen djupare politisk analys behövs eller förväntas.
@@ -260,13 +260,13 @@
     <media-container class="mediaContainer">
       <div>
         <div class="content">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPolitiskt.Inkorrekt%2Fposts%2F10155278094301245&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPolitiskt.Inkorrekt%2Fposts%2F10155436434016245&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         </div>
         <div class="caption">
-          Meme i syfte att framställa Stefan Löfven som en inkompetent politiker och statsminister som blundar för viktiga frågor.
+          Meme i syfte att framställa Stefan Löfven och regeringen som naiva och inkompetenta politiker.
         </div>
         <div class="source">
-          Källa: <a href="https://www.facebook.com/Politiskt.Inkorrekt/photos/a.10151537820706245.1073741827.226223296244/10155278093581245" title="Politiskt inkorrekt: Stefan Löfven meme" target="_blank">Politiskt inkorrekt (Facebook)</a>
+          Källa: <a href="https://www.facebook.com/Politiskt.Inkorrekt/photos/a.10151537820706245.1073741827.226223296244/10155436433211245/?type=3&theater" title="Politiskt inkorrekt: meme" target="_blank">Politiskt inkorrekt (Facebook)</a>
         </div>
       </div>
     </media-container>
@@ -285,21 +285,23 @@
       </div>
     </media-container>
 
+    <p>
+      Inför riksdagsvalet 2018 presenterar den vänsterorienterade tidskriften <a href="https://www.etc.se/inrikes/svenskt-naringsliv-satsar-miljoner-pa-ny-trollfabrik" title="Svenskt näringsliv satsar miljoner på ny trollfabrik" target="_blank">ETC:s genomgång</a> att arbetsgivarorganisationen <a href="https://www.svensktnaringsliv.se/" title="Svenskt Näringsliv" target="_blank">Svenskt Näringsliv</a> investerar miljontals kronor i, vad man väljer att kalla, en storskalig trollfabrik, vilken bland annat producerar och sprider politiska memes genom Facebookgrupper som <a href="https://www.facebook.com/skattefakta/" title="Facebook: Skattefakta" target="_blank">Skattefakta</a>, <a href="https://www.facebook.com/jobbfakta/" title="Facebook: Jobbfakta" target="_blank">Jobbfakta</a>, <a href="https://www.facebook.com/valfardsfakta/" title="Facebook: Välfärdsfakta" target="_blank">Välfärdsfakta</a> och <a href="https://www.facebook.com/rodgronrora/" title="Facebook: Rödgrönröra" target="_blank">Rödgrön röra</a>. Ofta med tydligt propagandainnehåll i syfte att håna den rödgröna regeringen och med otydlig avsändare.
+    </p>
+
     <media-container class="mediaContainer">
       <div>
         <div class="content">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpanikfakta%2Fposts%2F353186248441056&width=500" width="500" height="626" style="border:none;overflow:scroll" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fskattefakta%2Fvideos%2F1758269744223066%2F&width=500&show_text=false&appId=334058079962688&height=625" width="500" height="625" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
         </div>
         <div class="caption">
-          Meme i syfte att främställa journalisten och samhällsdebattören Katerina Janouch (se föregående tweet) som onyanserad och som ansvarig för att sprida bilden av ett Sverige i förfall.
+          Videomeme kritiskt riktad mot Skatteverket och regeringens skattenivåer. Videon, som har fler än 85.000 visningar, ger en kraftigt förenklad och vinklad bild av såväl skatte- som välfärdssystemet.
         </div>
         <div class="source">
-          Källa: <a href="https://www.facebook.com/panikfakta/photos/gm.1908457736149648/353149605111387" title="Panikfakta (Facebook)" target="_blank">Panikfakta (Facebook)</a>
+          Källa: <a href="https://www.facebook.com/skattefakta/videos/1758269744223066/" title="Skattefakta: videomeme" target="_blank">Skattefakta (Facebook)</a>
         </div>
       </div>
     </media-container>
-
-
 
     <p>
       Att använda en meme eller bild med falskt citat är ett effektivt sätt att framställa eller förstärka en bild av inkompetens hos en person, ett parti eller en politik. Även om det är enkelt att känna igen en meme på designen, är möjligheterna särskilt stora att nå grupper som tar till sig snabba budskap, utan djupare politisk analys.

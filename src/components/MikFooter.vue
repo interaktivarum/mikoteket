@@ -31,12 +31,12 @@
 
       </div>
 
-      <br />
+      <hr />
 
       <div>
-        <a href="https://www.metro.se/artikel/han-har-gjort-det-enklare-att-f%C3%B6rst%C3%A5-k%C3%A4llkritik-p%C3%A5-n%C3%A4tet-prisas-f%C3%B6r-sina-insatser" title="Metro: Han har gjort det enklare att förstå källkritik på nätet – prisas för sina insatser" target="_blank" class="nohover">
-          <img src="/static/graphics/metro/gyllene_forstoringsglaset_2018_glass.png" width="100px" class="hue"/>
-        </a>
+        <!--a href="https://www.metro.se/artikel/han-har-gjort-det-enklare-att-f%C3%B6rst%C3%A5-k%C3%A4llkritik-p%C3%A5-n%C3%A4tet-prisas-f%C3%B6r-sina-insatser" title="Metro: Han har gjort det enklare att förstå källkritik på nätet – prisas för sina insatser" target="_blank" class="nohover">
+          <img src="/static/graphics/metro/gyllene_forstoringsglaset_2018_glass.png" width="40px" class="hue"/>
+        </a-->
         <p>
           <a href="https://www.metro.se/artikel/han-har-gjort-det-enklare-att-f%C3%B6rst%C3%A5-k%C3%A4llkritik-p%C3%A5-n%C3%A4tet-prisas-f%C3%B6r-sina-insatser" title="Metro: Han har gjort det enklare att förstå källkritik på nätet – prisas för sina insatser" target="_blank">
             Vinnare av Metro/IIS/Viralgranskarens källkritikpris

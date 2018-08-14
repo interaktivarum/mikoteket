@@ -1,11 +1,15 @@
 <template>
   <div id="app">
 
+    <!--div id="fb-root"></div-->
+
     <header-component class="header"></header-component>
 
     <router-view class="mainContent"/>
 
     <mik-footer class="footer"></mik-footer>
+
+    <!--div href="https://www.mikoteket.se" class="fb-quote"></div-->
 
   </div>
 </template>
@@ -20,7 +24,16 @@ export default {
   components: {
     HeaderComponent,
     MikFooter
-  }
+  }/*,
+  created: function(){
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }*/
 }
 </script>
 
@@ -37,6 +50,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 @import '/assets/style/form.css';
 @import '/assets/style/flex.css';
+@import '/assets/style/text.css';
 
 html{
     background-color: #ffffff;
@@ -163,14 +177,6 @@ hr{
 	height: 0px;
 	border: 0px;
 	border-top: 1px solid rgba(100,100,100,0.25);
-}
-
-.small{
-	font-size: smaller;
-}
-
-.semibold{
-  font-weight: 400;
 }
 
 .scrollX{

@@ -9,9 +9,9 @@
 
       <div class="columnLeft">
 
-        <div class="hideOnPhone">
+        <div class="hideOnPhone small">
 
-          <h3>Kommande evenemang</h3>
+          <h4>Kommande evenemang</h4>
 
           <!--p>
             <span class="semibold">Onlineföreläsning</span>
@@ -45,22 +45,82 @@
             <a href="https://www.visitostergotland.se/sv/evenemangskalender/264915/Kallkritiskt-caf/" target="_blank">Info & anmälan</a>
           </p-->
 
-          <p>
+          <!--p>
             <span class="semibold">Lärvux Stockholm</span>
             <br />
             2018-04-18
-          </p>
+          </p-->
 
-          <p>
+          <!--p>
             <span class="semibold">Regionbibliotek Uppsala</span>
             <br />
             2018-06-14
+          </p-->
+
+          <!--p>
+            <span class="semibold">Länsstyrelsen, Almedalen</span>
+            <br />
+            2018-07-04
+            <br />
+            Seminarium: Källkritik för individen
+          </p-->
+
+          <p>
+            <span class="semibold">Kulturförvaltningen, Katrineholm</span>
+            <br />
+            2018-09-12
+          </p>
+
+          <p>
+            <span class="semibold">Region Västmanland, Västerås</span>
+            <br />
+            2018-09-19
           </p>
 
           <p>
             <span class="semibold">Karlstad kommun</span>
             <br />
             2018-09-21
+          </p>
+
+          <p>
+            <a href="https://meg.se/programs/deepfake/" target="_blank">Deepfake - kan vi lita på den rörliga bilden?</a>
+            <br />
+            <span class="semibold">Meg/Bokmässan, Göteborg</span>
+            <br />
+            2018-09-28
+          </p>
+
+          <p>
+            <span class="semibold">Skolbiblioteken, Ekerö kommun</span>
+            <br />
+            2018-10-10
+          </p>
+
+          <p>
+            <a href="http://www.hb.se/Om-hogskolan/Aktuellt/Evenemang/MIK-Digitalisering-och-Demokrati/" target="_blank">MIK, Digitalisering och Demokrati</a>
+            <br />
+            <span class="semibold">Filmpedagogerna / Högskolan i Borås</span>
+            <br />
+            2018-10-11
+          </p>
+
+          <p>
+            <span class="semibold">Regionbiblioteket i Kalmar län</span>
+            <br />
+            2018-10-16
+          </p>
+
+          <p>
+            <span class="semibold">Biblioteken i Malmö</span>
+            <br />
+            2018-11-27
+          </p>
+
+          <p>
+            <span class="semibold">Regionbibliotek Sörmland</span>
+            <br />
+            2018-11-28
           </p>
 
 
@@ -72,14 +132,17 @@
             Regionbibliotek Östergötland
           </p-->
 
-          <h3>Kontakt och bokning</h3>
-          <p>
+          <h4>Kontakt och bokning</h4>
+
             Martin Törnros
             <br/>
             <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>
             <br/>
             0702-800054
-          </p>
+
+
+          <h4>Praktisk information</h4>
+          <a href="/static/pdf/mikoteket-workshop-info.pdf" target="_blank">Mikoteket: information inför workshop</a>
 
         </div>
 
@@ -153,6 +216,10 @@
         <h3>Tid & upplägg</h3>
         <p>
           Räkna med en halvdag för en workshop som täcker ett spår. Upplägget utgår ifrån ert behov och egna önskemål. Det går exempelvis bra att låta fortbilda utvald personal på er arbetsplats, som senare, med hjälp av det fria arbetsmaterialet, utbildar sina kollegor.
+        </p>
+
+        <p>
+          Mikotekets workshops är anpassade för upp till 30 deltagare.
         </p>
 
         <info-fields class="infoFields">

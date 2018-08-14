@@ -25,6 +25,7 @@ export default {
         TrackSearchAI,
         TrackSearchOther
       ],
+      notions: [1,4,5,6,11],
       sponsor: {
         name: "Stockholms Stadsbibliotek",
         url: "https://biblioteket.stockholm.se/",

@@ -1,0 +1,19 @@
+.gray{
+	color: gray;
+}
+
+.orange{
+	color: #f60;
+}
+
+.small{
+	font-size: smaller;
+}
+
+.semibold{
+  font-weight: 400;
+}
+
+.light{
+  font-weight: 200;
+}

@@ -25,6 +25,10 @@
 
       <div class="columnCenter">
 
+        <mik-notions :notions="track.data().notions"></mik-notions>
+        <br />
+        <hr />
+
         <chapter :chapter="track.data().chapters[idChapter]"></chapter>
         <!--component :is="track.data().chapters[idChapter]"></component-->
 
@@ -61,6 +65,10 @@ import Chapters from './Chapters.vue'
 import Chapter from './Chapter.vue'
 import CoverImage from '../CoverImage.vue'
 import ARoute from '@/components/ARoute.vue'
+import MikNotions from '@/components/mik/MikNotions.vue'
+
+//json
+import notions from '@/assets/notions.json'
 //  import data from '@/assets/tracks.json'
 
 export default {
@@ -69,10 +77,12 @@ export default {
     Chapters,
     Chapter,
     CoverImage,
-    ARoute
+    ARoute,
+    MikNotions
   },
   data () {
     return {
+      notions: notions
       //  'tracks': data,
       //  'track': data.data.chapters[this.id]
       //  'track': this.chaptersList
