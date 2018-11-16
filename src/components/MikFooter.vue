@@ -5,47 +5,47 @@
 
       <div id="footer-flex">
 
-      <div>
-        Vad är Mikoteket?
-        <br />
-        <a href="/om">Om Mikoteket</a>
-      </div>
+        <div>
+        </div>
 
-      <!--div>
-          Koncept, design & utveckling:
-          <br/>
-          <a href="http://www.interaktivarum.se" title="Interaktiva rum" target="_blank">Interaktiva rum</a>
-      </div-->
+        <div>
+          Vad är Mikoteket?
+          <br />
+          <router-link :to="{name: 'About'}">Om Mikoteket</router-link>
+          <br />
+          <router-link :to="{name: 'Press'}">Press & Media</router-link>
+        </div>
 
-      <div>
-        Kontakt:
-        <br />
-        <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>
-      </div>
+        <div>
+          Kontakt:
+          <br />
+          <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>
+          <br /><br />
+          <a href="https://www.facebook.com/mikoteket" title="Facebook: Mikoteket" target="_blank">Mikoteket på Facebook</a>
+          <br />
+          <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fmikoteket&width=240&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=1595080274133613" width="240" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
 
-      <div>
-        <a href="https://www.facebook.com/mikoteket" title="Facebook: Mikoteket" target="_blank">Mikoteket på Facebook</a>
-        <br />
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmikoteket%2F&width=96&layout=button&action=like&size=small&show_faces=false&share=true&height=65&appId=1595080274133613" width="96" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-      </div>
+        <div>
+          Anpassa webbplatsen
+          <br />
+          <router-link :to="{name: 'Accessibility'}">Inställningar för tillgänglighet</router-link>
+        </div>
+
+        <div>
+        </div>
 
       </div>
 
       <hr />
 
-      <div>
-        <!--a href="https://www.metro.se/artikel/han-har-gjort-det-enklare-att-f%C3%B6rst%C3%A5-k%C3%A4llkritik-p%C3%A5-n%C3%A4tet-prisas-f%C3%B6r-sina-insatser" title="Metro: Han har gjort det enklare att förstå källkritik på nätet – prisas för sina insatser" target="_blank" class="nohover">
-          <img src="/static/graphics/metro/gyllene_forstoringsglaset_2018_glass.png" width="40px" class="hue"/>
-        </a-->
+      <div class="award">
         <p>
           <a href="https://www.metro.se/artikel/han-har-gjort-det-enklare-att-f%C3%B6rst%C3%A5-k%C3%A4llkritik-p%C3%A5-n%C3%A4tet-prisas-f%C3%B6r-sina-insatser" title="Metro: Han har gjort det enklare att förstå källkritik på nätet – prisas för sina insatser" target="_blank">
             Vinnare av Metro/IIS/Viralgranskarens källkritikpris
             <br />
             Gyllene Förstoringsglaset 2018.
           </a>
-        </p>
-        <p>
-
         </p>
       </div>
 
@@ -74,21 +74,20 @@ export default {
 
   footer{
     background: #ff6600;
-    color: lightgray;
+    color: black;
     font-weight: 400;
     margin: 0px;
     padding: 40px;
     border-top: 2px solid #ff6600;
     border-bottom: 2px solid #ff6600;
     filter: grayscale(1) brightness(1);
-    text-align: center;
   }
 
   #footer-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* horizontal centering */
-    align-items: center; /* vertical centering */
+    align-items: flex-start; /* vertical centering */
     align-content: center;
     width: 100%;
   }
@@ -100,8 +99,24 @@ export default {
   }
 
   #footer-flex > div{
-    flex: 1 0 auto;
-    margin: 10px 0px 10px 0px;
+    flex: 1;
+    margin: 0px;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    #footer-flex {
+      flex-direction: column;
+    }
+
+    #footer-flex > div{
+      margin-bottom: 20px;
+    }
+
+  }
+
+  .award{
+    text-align: center;
   }
 
   a{
@@ -148,10 +163,5 @@ export default {
       filter: hue-rotate(360deg);
     }
   }
-
-
-
-
-
 
 </style>

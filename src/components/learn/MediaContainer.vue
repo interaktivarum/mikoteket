@@ -26,7 +26,7 @@ export default {
 	align-items: center;
 	justify-content: center;
 	color: #333;
-	font-size: smaller;
+	font-size: 0.9em;
 	margin: 30px 0px 30px 0px;
   width: 100%;
   max-width: 100%;

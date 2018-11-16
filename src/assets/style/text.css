@@ -14,6 +14,14 @@
   font-weight: 400;
 }
 
+.normalweight{
+	font-weight: 300;
+}
+
 .light{
   font-weight: 200;
 }
+
+/*.dyslexia{
+	font-family: "OpenDyslexic3";
+}*/

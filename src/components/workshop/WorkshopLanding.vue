@@ -9,128 +9,11 @@
 
       <div class="columnLeft">
 
-        <div class="hideOnPhone small">
+        <div class="hideOnPhone">
 
           <h4>Kommande evenemang</h4>
 
-          <!--p>
-            <span class="semibold">Onlineföreläsning</span>
-            <br />
-            2018-03-07
-            <br />
-            Värmdö bibliotek
-          </p-->
-
-          <!--p>
-            <span class="semibold">Onlineföreläsning x2</span>
-            <br />
-            2018-03-20
-            <br />
-            <a-route href="/live/adw18">Info & anmälan</a-route>
-          </p>
-
-          <p>
-            <span class="semibold">Onlineföreläsning x2</span>
-            <br />
-            2018-03-23
-            <br />
-            <a-route href="/live/adw18">Info & anmälan</a-route>
-          </p-->
-
-          <!--p>
-            <span class="semibold">Regionbibliotek Östergötland</span>
-            <br />
-            2018-03-28
-            <br />
-            <a href="https://www.visitostergotland.se/sv/evenemangskalender/264915/Kallkritiskt-caf/" target="_blank">Info & anmälan</a>
-          </p-->
-
-          <!--p>
-            <span class="semibold">Lärvux Stockholm</span>
-            <br />
-            2018-04-18
-          </p-->
-
-          <!--p>
-            <span class="semibold">Regionbibliotek Uppsala</span>
-            <br />
-            2018-06-14
-          </p-->
-
-          <!--p>
-            <span class="semibold">Länsstyrelsen, Almedalen</span>
-            <br />
-            2018-07-04
-            <br />
-            Seminarium: Källkritik för individen
-          </p-->
-
-          <p>
-            <span class="semibold">Kulturförvaltningen, Katrineholm</span>
-            <br />
-            2018-09-12
-          </p>
-
-          <p>
-            <span class="semibold">Region Västmanland, Västerås</span>
-            <br />
-            2018-09-19
-          </p>
-
-          <p>
-            <span class="semibold">Karlstad kommun</span>
-            <br />
-            2018-09-21
-          </p>
-
-          <p>
-            <a href="https://meg.se/programs/deepfake/" target="_blank">Deepfake - kan vi lita på den rörliga bilden?</a>
-            <br />
-            <span class="semibold">Meg/Bokmässan, Göteborg</span>
-            <br />
-            2018-09-28
-          </p>
-
-          <p>
-            <span class="semibold">Skolbiblioteken, Ekerö kommun</span>
-            <br />
-            2018-10-10
-          </p>
-
-          <p>
-            <a href="http://www.hb.se/Om-hogskolan/Aktuellt/Evenemang/MIK-Digitalisering-och-Demokrati/" target="_blank">MIK, Digitalisering och Demokrati</a>
-            <br />
-            <span class="semibold">Filmpedagogerna / Högskolan i Borås</span>
-            <br />
-            2018-10-11
-          </p>
-
-          <p>
-            <span class="semibold">Regionbiblioteket i Kalmar län</span>
-            <br />
-            2018-10-16
-          </p>
-
-          <p>
-            <span class="semibold">Biblioteken i Malmö</span>
-            <br />
-            2018-11-27
-          </p>
-
-          <p>
-            <span class="semibold">Regionbibliotek Sörmland</span>
-            <br />
-            2018-11-28
-          </p>
-
-
-          <!--p>
-            <a href="http://regionbibliotekostergotland.se/events/mikdag-2018/" title="MIK-dag 2018" target="_blank">MIK-dag 2018</a>
-            <br />
-            2018-02-27
-            <br />
-            Regionbibliotek Östergötland
-          </p-->
+          <workshops></workshops>
 
           <h4>Kontakt och bokning</h4>
 
@@ -182,7 +65,7 @@
           <li>
             <span class="semibold">Arbetsmaterial</span>: tillgång till färdigt upplägg och presentationsmaterial för vidare utbildning av exempelvis kollegor eller elever.
           </li>
-          <li>
+          <!--li>
             <span class="semibold">Självskattningstest</span> av MIK-kunskaper:
             <ul>
               <li>
@@ -206,7 +89,7 @@
                 Tillgång till <a href="https://mikoteket.slack.com" title="Slack: Mikoteket" target="_blank">Mikotekets gemensamma diskussionsgrupp på Slack</a>.
               </li>
             </ul>
-          </li>
+          </li-->
         </ul>
 
         <p>
@@ -240,9 +123,9 @@
               <li>
                 Handledda praktiska övningar och diskussioner i grupp.
               </li>
-              <li>
+              <!--li>
                 Introduktion till, och kom igång med Slack.
-              </li>
+              </li-->
             </ul>
 
             <div class="hBox">
@@ -344,7 +227,8 @@
         </p>
 
         <p>
-          Saknar ni ett spår? <a-route href="om">Sponsra ett nytt spår</a-route> och låt arbetsmaterialet komma fler till nytta.
+          Saknar ni ett spår?
+          <router-link to="om">Sponsra ett nytt spår</router-link> och låt arbetsmaterialet komma fler till nytta.
         </p>
 
         <!--h3>Miljöhänsyn och regionala turnéer</h3>
@@ -391,6 +275,7 @@ import CoverImage from '../CoverImage.vue'
 import InfoFields from '@/components/learn/InfoFields.vue'
 import MediaContainer from '@/components/learn/MediaContainer.vue'
 import Quote from '@/components/quote.vue'
+import Workshops from '@/components/workshop/Workshops.vue'
 
 export default {
   components: {
@@ -399,7 +284,8 @@ export default {
     CoverImage,
     InfoFields,
     MediaContainer,
-    Quote
+    Quote,
+    Workshops
   },
   data () {
     return {

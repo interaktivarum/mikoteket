@@ -7,29 +7,29 @@
         &#9776; MIKOTEKET
       </div>
 
-      <div class="mikoteket menuItem responsiveHide" @click="goto('/')">
+      <router-link class="mikoteket menuItem responsiveHide" to="/">
         MIKOTEKET
-      </div>
+      </router-link>
 
-      <div class="menuItem responsiveShow" @click="goto('/')">
+      <router-link class="menuItem responsiveShow" :to="{name: 'Home'}">
         <span>Startsida</span>
-      </div>
+      </router-link>
 
-      <div class="menuItem" @click="goto('/digitalkompetens')">
+      <router-link class="menuItem" :to="{name: 'Learn'}">
         <span>Digital kompetens</span>
-      </div>
+      </router-link>
 
-      <div class="menuItem" @click="goto('/workshop')">
+      <router-link class="menuItem" :to="{name: 'Workshop'}">
         Workshops & föreläsningar
-      </div>
+      </router-link>
 
-      <div class="menuItem" @click="goto('/press')">
+      <!--router-link class="menuItem" to="/press">
         Press & media
-      </div>
+      </router-link-->
 
-      <div class="menuItem" @click="goto('/om')">
+      <!--router-link class="menuItem" to="/om">
         Om Mikoteket
-      </div>
+      </router-link-->
 
     </header>
 
@@ -37,6 +37,8 @@
 </template>
 
 <script>
+
+import { store } from '@/store';
 
 export default {
   props: {
@@ -57,6 +59,9 @@ export default {
       } else {
           x.className = "topnav";
       }
+    },
+    toggleAccessibility: function (name) {
+      store.commit('toggleAccessibility',name);
     }
   }
 }
@@ -100,7 +105,6 @@ export default {
     align-items: center;
     align-content: center;
     padding: 0px 20px 0px 20px;
-    color: #ff6600;
 
     cursor: pointer;
 

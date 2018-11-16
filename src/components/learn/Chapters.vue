@@ -4,7 +4,9 @@
     <h3>Kapitel</h3>
     <ol>
       <li v-for="(chapter, index) in chapters">
-        <a :href="'/digitalkompetens/'+routeTrack+'/'+(index+1)" :class="{active: index == idActive}">{{chapter.data().header}}</a>
+        <router-link :to="'/digitalkompetens/'+routeTrack+'/'+(index+1)" :class="{active: index == idActive}">
+          {{chapter.data().header}}
+        </router-link>
       </li>
     </ol>
 
@@ -33,8 +35,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-ul, ol{
-	
+li{
+  margin-bottom: 5px;
 }
 
 </style>

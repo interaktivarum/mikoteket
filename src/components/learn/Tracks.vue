@@ -19,6 +19,7 @@ import TrackLanding from './TracksLanding.vue'
 import TrackLayout from './TrackLayout.vue'
 import TrackSearch from './tracks/search/TrackSearch.vue'
 import TrackSource from './tracks/source/TrackSource.vue'
+import TrackAccessibility from './tracks/accessibility/TrackAccessibility.vue'
 
 export default {
   name: 'Tracks',
@@ -26,13 +27,15 @@ export default {
     TrackLanding,
     TrackLayout,
     TrackSearch,
-    TrackSource
+    TrackSource,
+    TrackAccessibility
   },
   data () {
     return {
       routes: {
         'sok': TrackSearch,
-        'kallkritik': TrackSource
+        'kallkritik': TrackSource,
+        'tillganglighet': TrackAccessibility
       }
     }
   }

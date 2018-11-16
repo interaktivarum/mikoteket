@@ -25,7 +25,7 @@
         </p>
 
         <p>
-          <a-route href="/digitalkompetens" class="button">Läs mer och ta del av arbetsmaterialet</a-route>
+          <router-link to="/digitalkompetens" class="button">Läs mer och ta del av arbetsmaterialet</router-link>
         </p>
 
         <h3>Hur kan jag använda Mikoteket?</h3>
@@ -52,7 +52,7 @@
         </p>
 
         <p>
-          <a-route href="workshop" class="button">Läs mer om workshops och föreläsningar</a-route>
+          <router-link to="workshop" class="button">Läs mer om workshops och föreläsningar</router-link>
         </p>
 
         <h3>Vem driver Mikoteket?</h3>

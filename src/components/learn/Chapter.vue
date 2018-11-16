@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="Chapter">
 
 
 
@@ -30,4 +30,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+  #Chapter{
+    width: 100%;
+    max-width: 100%;
+  }
+
 </style>

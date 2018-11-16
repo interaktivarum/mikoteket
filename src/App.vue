@@ -9,6 +9,10 @@
 
     <mik-footer class="footer"></mik-footer>
 
+    <background-contrast :active="accessibility.contrast"></background-contrast>
+    <cursor-highlight :active="accessibility.ruler"></cursor-highlight>
+    <dyslexia :active="accessibility.dyslexia"></dyslexia>
+
     <!--div href="https://www.mikoteket.se" class="fb-quote"></div-->
 
   </div>
@@ -16,24 +20,67 @@
 
 <script>
 
+import { store } from './store';
+
 import HeaderComponent from '@/components/Header.vue'
 import MikFooter from '@/components/MikFooter.vue'
+
+//Lessons
+import Landing from '@/components/learn/lessons/data/Landing.vue'
+import DigitalSourceCriticism from '@/components/learn/lessons/data/DigitalSourceCriticism.vue'
+import Algorithms from '@/components/learn/lessons/data/Algorithms.vue'
+import SearchEngines from '@/components/learn/lessons/data/SearchEngines.vue'
+import SocialMedia from '@/components/learn/lessons/data/SocialMedia.vue'
+import Viral from '@/components/learn/lessons/data/Viral.vue'
+import EchoChambers from '@/components/learn/lessons/data/EchoChambers.vue'
+
+//Excercises
+import ExcercicesLanding from '@/components/learn/excercises/data/Landing.vue'
+import SearchIntro from '@/components/learn/excercises/data/SearchIntro.vue'
+import SearchKeywords from '@/components/learn/excercises/data/SearchKeywords.vue'
+import SearchLeading from '@/components/learn/excercises/data/SearchLeading.vue'
+
+//Accessibility
+import BackgroundContrast from '@/components/accessibility/BackgroundContrast.vue'
+import CursorHighlight from '@/components/accessibility/CursorHighlight.vue'
+import Dyslexia from '@/components/accessibility/Dyslexia.vue'
 
 export default {
   name: 'app',
   components: {
     HeaderComponent,
-    MikFooter
-  }/*,
-  created: function(){
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.6";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  }*/
+    MikFooter,
+    BackgroundContrast,
+    CursorHighlight,
+    Dyslexia
+  },
+  computed: {
+    accessibility: function () {
+      return store.state.accessibility
+    }
+  },
+  data () {
+    return {
+      lessons: [
+        DigitalSourceCriticism,
+        Algorithms,
+        SearchEngines,
+        SocialMedia,
+        Viral,
+        EchoChambers
+      ],
+      excercises: [
+        ExcercicesLanding,
+        SearchIntro,
+        SearchKeywords,
+        SearchLeading
+      ]
+    }
+  },
+  mounted: function () {
+    store.commit('setLessons',this.lessons);
+    store.commit('setExcercises',this.excercises);
+  }
 }
 </script>
 
@@ -48,157 +95,11 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import '/assets/style/style.css';
 @import '/assets/style/form.css';
 @import '/assets/style/flex.css';
 @import '/assets/style/text.css';
+@import '/assets/style/animations.css';
 
-html{
-    background-color: #ffffff;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 13pt;
-    line-height: 1.3em;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-
-}
-
-body{
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-}
-
-a{
-	text-decoration: none;
-	color: #ff6600;
-	font-weight: 400;
-	cursor: pointer;
-  padding: 3px 3px 3px 3px;
-  margin-right: -6px;
-  position: relative;
-  left: -3px;
-}
-
-a.nodecoration:hover{
-	text-decoration: none;
-}
-
-a:hover:not(.nohover), a.active{
-  background: #ff6600;
-  color: white;
-  border-radius: 0px;
-}
-
-a img:hover {
-  background: none !important;
-}
-
-a.button, .button a{
-  border: 2px solid #ff6600;
-  display: inline-block;
-  margin: 2px;
-  background: #ff6600;
-  color: white;
-}
-
-a.button:hover, .button a:hover{
-  background: white;
-  color: #ff6600;
-}
-
-a[disabled] {
-	text-decoration: none;
-	color: gray;
-	pointer-events: none;
-	cursor: not-allowed !important;
-}
-
-#app{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-#app .mainContent{
-  flex: 1 0 auto;
-  padding: 0px 50px 0px 50px;
-}
-
-#app .footer{
-  margin-top: 100px;
-}
-
-.middle{
-  align-self: center;
-}
-
-.alignRight{
-  text-align: right;
-}
-
-h1{
-	color: #000;
-	font-size: 32pt;
-  font-weight: 300;
-	margin: 1em 0 1em 0;
-  padding-bottom: 5px;
-  border-bottom: 5px solid #ff6600;
-  line-height: 1em;
-}
-
-h2{
-	color: #555;
-	font-size: 24pt;
-	font-weight: 300;
-  line-height: 1em;
-	margin: 30px 0 0.75em 0;
-}
-
-h3{
-	font-size: 14pt;
-	font-weight: 500;
-  line-height: 1em;
-	margin: 30px 0 0.5em 0;
-	color: #444;
-	text-transform: uppercase;
-}
-
-h4{
-	font-size: 12pt;
-	font-weight: 400;
-	margin: 1em 0 0.25em 0;
-  color: #888;
-  text-transform: uppercase;
-}
-
-hr{
-	height: 0px;
-	border: 0px;
-	border-top: 1px solid rgba(100,100,100,0.25);
-}
-
-.scrollX{
-  max-width: 100%;
-  overflow-x: auto;
-}
-
-@media screen and (max-width: 600px) {
-
-  #app .mainContent{
-    flex: 1 0 auto;
-    padding: 0px 20px 0px 20px;
-  }
-
-  .hideOnPhone{
-    display: none;
-  }
-
-  h1{
-  	margin: 0;
-  }
-
-}
 
 </style>

@@ -8,7 +8,7 @@
     <div class="containerInner">
 
       <div class="columnLeft">
-        <chapters :route-track="routeTrack" :chapters="track.data().chapters" :idActive="idChapter"></chapters>
+        <chapters :route-track="routeTrack" :chapters="track.data().chapters" :idActive="idChapter" class="stickyTop"></chapters>
 
         <br />
 
@@ -34,10 +34,10 @@
 
         <div class="chapterButtons">
           <div>
-            <a-route :href="'/digitalkompetens/'+routeTrack+'/'+(idChapter)" class="button" v-if="idChapter>0">Föregående</a-route>
+            <router-link :to="'/digitalkompetens/'+routeTrack+'/'+(idChapter)" class="button" v-if="idChapter>0">Föregående</router-link>
           </div>
           <div class="alignRight">
-            <a-route :href="'/digitalkompetens/'+routeTrack+'/'+(idChapter+2)" class="button" v-if="idChapter<track.data().chapters.length-1">Nästa</a-route>
+            <router-link :to="'/digitalkompetens/'+routeTrack+'/'+(idChapter+2)" class="button" v-if="idChapter<track.data().chapters.length-1">Nästa</router-link>
           </div>
         </div>
 

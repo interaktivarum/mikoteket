@@ -9,8 +9,10 @@
 
       <div class="columnLeft">
         <h3>Spår</h3>
-        <div v-for="(route, key) in routes">
-          <a-route :href="'/digitalkompetens/'+key">{{route.data().header}}</a-route>
+        <div v-for="(route, key) in routes" v-if="!route.disabled">
+          <router-link :to="'/digitalkompetens/'+key">
+            {{route.data().header}}
+          </router-link>
         </div>
       </div>
 
@@ -46,13 +48,14 @@
 
         <h3>Spår</h3>
 
-        <div v-for="(route, key) in routes">
-          <a-route :href="'/digitalkompetens/'+key" class="button">{{route.data().header}}</a-route>
-          <br />
+        <div v-for="(route, key) in routes" v-if="!route.disabled">
+          <router-link :to="'/digitalkompetens/'+key" class="button">
+            {{route.data().header}}
+          </router-link>
         </div>
 
         <p>
-          Saknar ni ett spår? <a-route href="om">Sponsra ett nytt spår</a-route> och låt arbetsmaterialet komma fler till nytta.
+          Saknar ni ett spår? <router-link to="om">Sponsra ett nytt spår</router-link> och låt arbetsmaterialet komma fler till nytta.
         </p>
 
       </div>

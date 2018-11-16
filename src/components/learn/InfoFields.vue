@@ -12,7 +12,16 @@
 .infoFields{
 	margin: 30px 0px 30px 0px;
 	text-align: left;
-	font-size: 12pt;
+	font-size: 1em;
+  color: rgb(30,30,30);
+}
+
+.infoFields a {
+  color: #ff6600;
+}
+
+.infoFields a:hover {
+  color: white;
 }
 
 .infoFields > div {

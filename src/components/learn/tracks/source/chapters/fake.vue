@@ -108,7 +108,7 @@
         </p>
 
         <p>
-          <img src="https://images.mmcloud.se/api/v1/images/622b0271-d370-4d51-8697-48371ac2e25c/600.jpg" title="Karin Forslund" />
+          <img src="https://bildix.mmcloud.se/bildix/api/images/8OuP6rZ24vOLLP3mGOZCfRQjKFIAAAA=.jpg" title="Karin Forslund" />
           <br/>
           Källa: Felicia Andersson, <a href="http://www.helahalsingland.se/gavleborg/soderhamn/spred-rasistisk-logn-om-soderhamnskvinna-visste-inte-att-det-inte-var-sant" title="Hela Hälsningland: Spred rasistisk lögn om Söderhamnskvinna: Visste inte att det inte var sant" target="_blank">Hela Hälsningland</a>
         </p>
