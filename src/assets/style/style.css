@@ -6,10 +6,10 @@ html{
     height: 100%;
     margin: 0px;
     padding: 0px;
-
 }
 
 body{
+  height: 100%;
   margin: 0px;
   padding: 0px;
   transition: all 0.5s;
@@ -60,19 +60,19 @@ a[disabled] {
 	cursor: not-allowed !important;
 }
 
-#app{
+#App{
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-#app .mainContent{
-  flex: 1 0 auto;
-  padding: 0px 50px 0px 50px;
+.mainContent{
+  flex: 0 1 100%;
+  padding: 0px 50px 100px 50px;
 }
 
-#app .footer{
-  margin-top: 100px;
+.footer{
 }
 
 .middle{

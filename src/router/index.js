@@ -10,6 +10,7 @@ import About from '@/components/about/AboutLanding'
 import Press from '@/components/press/PressLanding'
 import Guide from '@/components/guide/Guide'
 import Accessibility from '@/components/accessibility/Accessibility'
+import UpdateLog from '@/components/updates/UpdateLog'
 import Survey from '@/components/survey/SurveyLanding'
 import Live from '@/components/live/LiveADW18'
 import Sandbox from '@/components/sandbox/Sandbox'
@@ -74,6 +75,12 @@ export default new Router({
       path: '/tillganglighet',
       props: true,
       component: Accessibility
+    },
+    {
+      name: 'Updates',
+      path: '/uppdateringar',
+      props: true,
+      component: UpdateLog
     },
     {
       name: 'survey',

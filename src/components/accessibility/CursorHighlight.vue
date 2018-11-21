@@ -52,8 +52,8 @@ export default {
   },
   methods: {
     updateHeight: function (e){
-      this.$refs.above.style.height = e.clientY - 20 + "px";
-      this.$refs.below.style.height = window.innerHeight - e.clientY - 20 + "px";
+      this.$refs.above.style.height = e.clientY - 30 + "px";
+      this.$refs.below.style.height = window.innerHeight - e.clientY - 30 + "px";
     },
     updateHeightFromCursor: function (){
       this.$refs.above.style.height = 20 + "px";

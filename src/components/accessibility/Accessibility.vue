@@ -25,13 +25,13 @@
             Aktivera mörk bakgrund
           </label>
 
-          <h3>Läslinjal</h3>
+          <h3>Nedtoning</h3>
           <p>
-            Läslinjalen mörkar ner skärmen men behåller en ljus strimma som följer musen. Detta kan bidra till ökad fokusering vid läsning av text.
+            Mörka ner skärmen och behåll en ljus strimma som följer musen. Verktyget kan hjälpa att fokusera vid läsning av längre textavsnitt.
           </p>
           <label class="semibold">
             <input type="checkbox" v-model="accessibility.ruler" />
-            Aktivera läslinjal
+            Aktivera nedtoning
           </label>
 
           <h3>Typsnitt för dyslexi</h3>

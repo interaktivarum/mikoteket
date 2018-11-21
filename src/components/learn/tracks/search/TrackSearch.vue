@@ -28,8 +28,7 @@ export default {
       notions: [1,4,5,6,11],
       sponsor: {
         name: "Stockholms Stadsbibliotek",
-        url: "https://biblioteket.stockholm.se/",
-        image: "http://resources.mynewsdesk.com/image/upload/t_open_graph_image/fyy161rnegf4jrboahyh.jpg"
+        url: "https://biblioteket.stockholm.se/"
       }
     }
   }

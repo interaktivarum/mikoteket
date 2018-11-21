@@ -8,7 +8,21 @@
     <div class="containerInner">
 
       <div class="columnLeft">
-        <chapters :route-track="routeTrack" :chapters="track.data().chapters" :idActive="idChapter" class="stickyTop"></chapters>
+
+        <div class="stickyTop">
+
+          <h3>{{track.data().header}}</h3>
+
+          <chapters :route-track="routeTrack" :chapters="track.data().chapters" :idActive="idChapter" class=""></chapters>
+
+          <br />
+
+          <span class="gray">Utvecklat i samverkan med</span>
+          <br />
+          <a :href="track.data().sponsor.url" :title="track.data().sponsor.name" target="_blank">
+            {{track.data().sponsor.name}}
+          </a>
+        </div>
 
         <br />
 
@@ -20,6 +34,8 @@
           </a>
 
         </div>
+
+
 
       </div>
 

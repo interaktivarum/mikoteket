@@ -14,6 +14,8 @@
           <router-link :to="{name: 'About'}">Om Mikoteket</router-link>
           <br />
           <router-link :to="{name: 'Press'}">Press & Media</router-link>
+          <br />
+          <router-link :to="{name: 'Updates'}">Uppdateringar</router-link>
         </div>
 
         <div>
@@ -29,7 +31,7 @@
         <div>
           Anpassa webbplatsen
           <br />
-          <router-link :to="{name: 'Accessibility'}">Inställningar för tillgänglighet</router-link>
+          <router-link :to="{name: 'Accessibility'}" tabindex="2">Inställningar för tillgänglighet</router-link>
         </div>
 
         <div>

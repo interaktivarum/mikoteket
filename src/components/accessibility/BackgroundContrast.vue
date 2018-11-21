@@ -20,12 +20,14 @@ export default {
   },
   watch: {
     active: function (newValue) {
-      if(newValue){
-        document.body.classList.add('bg-contrast');
+      /*if(newValue){
+        //document.body.classList.add('bg-contrast');
+        document.getElementsByClassName("mainContent")[0].classList.add('bg-contrast');
       }
       else{
-        document.body.classList.remove('bg-contrast');
-      }
+        //document.body.classList.remove('bg-contrast');
+        document.getElementsByClassName("mainContent")[0].classList.remove('bg-contrast');
+      }*/
     }
   },
   methods: {

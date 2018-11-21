@@ -1,7 +1,6 @@
 <template>
   <div>
 
-    <h3>Kapitel</h3>
     <ol>
       <li v-for="(chapter, index) in chapters">
         <router-link :to="'/digitalkompetens/'+routeTrack+'/'+(index+1)" :class="{active: index == idActive}">

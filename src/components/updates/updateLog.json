@@ -1,0 +1,17 @@
+{
+  "log": [
+    {
+      "date": "2018-11-21",
+      "items": [
+        {"description": "Den här uppdateringsloggen är skapad!"}
+      ]
+    },
+    {
+      "date": "2018-11-15",
+      "items": [
+        {"description": "Inbyggda tillgänglighetsverktyg, länk i webbplatsens sidfot."},
+        {"description": "Vissa element har flyttats från webbplatsens sidhuvud till sidfot"}
+      ]
+    }
+  ]
+}

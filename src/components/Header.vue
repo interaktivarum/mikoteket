@@ -7,7 +7,7 @@
         &#9776; MIKOTEKET
       </div>
 
-      <router-link class="mikoteket menuItem responsiveHide" to="/">
+      <router-link class="mikoteket menuItem responsiveHide" to="/" tabindex="1">
         MIKOTEKET
       </router-link>
 

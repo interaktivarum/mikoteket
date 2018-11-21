@@ -14,7 +14,7 @@
     <div class="excercise">
 
       <div class="hBox">
-        Dålig design
+        Testa dålig design
       </div>
 
       <p>
@@ -64,7 +64,23 @@
     Många av våra vardagliga föremål har en väl genomarbetad design som vi ofta tar för given och inte funderar särskilt mycket kring. För att synliggöra designen i vardagsföremål skapar konstnären Katerina Kamprani i projektet <a href="https://www.theuncomfortable.com" target="_blank">The Uncomfortable</a> objekt i vilka den obekväma designen motverkar, snarare än stödjer, den funktionalitet användaren förväntar sig eller är van vid.
   </p>
 
+  <p>
+    Bra design ska vara tillgänglig för alla. Även om våra vardagliga föremål ofta har en genomtänkt design kan de i många fall vara svåra eller rentav farliga att använda för personer med olika funktionsnedsättningar. I videon nedan presenteras en designer i Singapore som, efter att ha noterat sår och ärr på många blinda personers händer och armar till följd av matlagning med köksverktyg utformade för seende personer, började omdesigna många av våra vanliga föremål i köket.
+  </p>
 
+  <media-container class="mediaContainer">
+    <div>
+      <div class="content">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/cnainsider/videos/463816680781163/" width="500" height="422" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+      </div>
+      <div class="caption">
+        Många köksverktyg är svåra eller farliga att använda för blinda personer. I denna video presenteras omarbetad och mer tillgänglig design för flera föremål i köket.
+      </div>
+      <div class="source">
+        Källa: <a href="https://www.facebook.com/cnainsider/videos/463816680781163/" title="Cooking Without Sight | Made In Singapore | CNA Insider (Facebook)" target="_blank">CNA Insider (Facebook)</a>
+      </div>
+    </div>
+  </media-container>
 
   <info-fields class="infoFields">
 
@@ -139,11 +155,11 @@
   <h3>Webbriktlinjer och tillgänglighet</h3>
 
   <p>
-    När man designar och utvecklar webbplatser finns det internationellt framtagna <a href="https://www.w3.org/standards/" target="_blank">riktlinjer och standarder</a> att följa. På <a href="https://webbriktlinjer.se/" target="_blank">Webbriktlinjer.se</a> anges de officiella riktlinjerna för hur svensk offentlig sektor bör arbeta med webbplatser. I avdelningen <a href="https://webbriktlinjer.se/webbforalla/" target="_blank">Webb för alla</a> presenteras särskilt information om webbutveckling ur ett tillgänglighetsperspektiv.<!--, framtagna av <a href="https://www.digg.se/" target="_blank">Myndigheten för digital förvaltning</a> och <a href="https://pts.se/" target="_blank">Post- och telestyrelsen</a>.-->
+    När man designar och utvecklar webbplatser finns det internationellt framtagna <a href="https://www.w3.org/standards/" target="_blank">riktlinjer och standarder</a> att följa. På <a href="https://webbriktlinjer.se/" target="_blank">Webbriktlinjer.se</a> anges de officiella riktlinjerna för hur svensk offentlig sektor bör arbeta med webbplatser, samt <a href="https://webbriktlinjer.se/lagkrav/webbdirektivet/" target="_blank">EU:s webbdirektiv</a> som är lag från 2019. I avdelningen <a href="https://webbriktlinjer.se/webbforalla/" target="_blank">Webb för alla</a> presenteras särskilt information om webbutveckling ur ett tillgänglighetsperspektiv.
   </p>
 
   <p>
-    En grundprincip är att användarens kognitiva belastning ska minimeras. Information ska vara enkel att hitta och användaren ska känna att hen är i kontroll.
+    Även om riktlinjerna är framtagna för verktyg och tjänster på webben är de i många fall applicerbara även på andra digitala verktyg, såsom mobilappar, spel, etc. En grundprincip är att användarens kognitiva belastning ska minimeras. Information ska vara enkel att hitta och användaren ska känna att hen är i kontroll.
   </p>
 
   <p>
@@ -236,7 +252,7 @@
   </p>
 
   <p>
-    Väl strukturerad information enligt standarder är en förutsättning för många tillgänglighetsverktyg att fungera. Utvecklare av webbplatser kan även bygga in färdigt stöd för tillgänglighetsanpassning, som inte kräver att användaren själv installerar nödvändiga verktyg. Detta är särskilt viktigt vid användning av exempelvis publika datorer eller i system där användaren inte själv har behörighet eller möjlighet att installera nya program.
+    Väl strukturerad information enligt standarder är en förutsättning för många tillgänglighetsverktyg att fungera. Utvecklare av webbplatser kan även bygga in färdigt stöd för tillgänglighetsanpassning, till exempel genom tjänsten <a href="https://www.funka.com/vi-erbjuder/talande-webb/" target="_blank">Talande Webb</a>, som inte kräver att användaren själv installerar nödvändiga verktyg. Detta är särskilt viktigt vid användning av exempelvis publika datorer eller i system där användaren inte själv har behörighet eller möjlighet att installera nya program.
   </p>
 
   <p>
@@ -286,11 +302,11 @@
     <div class="excercise">
 
       <div class="hBox">
-        Förändra webbplatsens design
+        Försämra webbplatsens design
       </div>
 
       <p>
-        Använd knappen nedan för att förändra delar av designen på denna webbplats. Designen förändras varje gång du klickar på knappen.
+        Använd knappen nedan för att försämra delar av designen på denna webbplats. Designen förändras varje gång du klickar på knappen, och kan innebära att du tappar bort dig på sidan.
       </p>
 
       <button @click="uglify()">Ändra design</button>
@@ -306,6 +322,9 @@
         </li>
         <li>
           Hur påverkar respektive designförändring sidans läsbarhet och tillgänglighet?
+        </li>
+        <li>
+          Hur upplever du som användare dålig design, som ej är anpassad efter dina behov?
         </li>
       </ul>
 
@@ -386,13 +405,16 @@
 
       <ul>
         <li>
-          Sammanställning och exemplifiering av de viktigaste webbriktlinjerna: <a href="https://webbriktlinjer.se/wcag/" target="_blank">WCAG – standard för tillgänglighet</a>
+          Sammanställning och exemplifiering av de viktigaste webbriktlinjerna <a href="https://webbriktlinjer.se/wcag/" target="_blank">WCAG – standard för tillgänglighet</a>, samt sammanfattning av <a href="https://webbriktlinjer.se/lagkrav/webbdirektivet/" target="_blank">EU:s webbdirektiv</a>.
         </li>
         <li>
           Svensk översättning av <a href="http://www.certec.lth.se/fileadmin/certec/publikationer/De_7_Principerna_foer_Universell_Design.pdf" target="_blank">Principerna för Universell Design</a>.
         </li>
         <li>
           <a-wiki c="Jakob_Nielsen_(datalog)#Nielsens_tio_heuristiska_principer[1]">Nielsens tio heuristiska principer</a-wiki> för gränssnittsdesign.
+        </li>
+        <li>
+          Ta del av <a href="https://www.funka.com/design-for-alla/tips-och-rad/" target="_blank">tips och råd på Funkas webbplats</a>.
         </li>
       </ul>
 
@@ -403,17 +425,15 @@
   <h3>Design för alla</h3>
 
   <p>
-    Idag har en övervägande majoritet av Sveriges befolkning <a href="https://2018.svenskarnaochinternet.se/allmant-om-internetutvecklingen/" target="_blank">tillgång till internet i hemmet</a>, vilket har öppnat upp för en mängd spännande innovationer. Dock är det, enligt <a href="https://2018.svenskarnaochinternet.se/" target="_blank">Svenskarna och internet 2018</a>, idag <a href="https://2018.svenskarnaochinternet.se/digitalt-utanforskap/" target="_blank">en halv miljon svenskar som aldrig använder internet</a>, personer som särskilt återfinns bland den äldre befolkningen. De två främsta skälen anges vara inget intresse/inte användbart samt krånglig teknik/kan inte, vilket belyser vikten av att designa tillgänglig teknik med användaren i fokus.
-  </p>
-
-  <soi-graph graph="779"></soi-graph>
-
-  <p>
     Begreppen <a-wiki c="Design_för_alla">Design för Alla</a-wiki> och <a-wiki c="Universell_utformning">Universell design</a-wiki> innebär att produkter och tjänster ska utformas för att kunna tillgodoses av så många som möjligt utan behov av speciella anpassningar. En grunddesign som är tillgänglig för personer med särskilda behov innebär ofta fördelar för alla personer, oavsett funktionsförmåga, ålder eller tidigare erfarenhet.
   </p>
 
   <p>
-    Enligt Webbriktlinjer har cirka en av fem personer en funktionsnedsättning, och ännu fler har det periodvis i livet. Man brukar skilja på <span class="semibold">permanenta</span> (blindhet, dövhet, etc.), <span class="semibold">temporära</span> (starr, öroninfektion) och <span class="semibold">situationsberoende</span> (bländning, bullriga miljöer) nedsättningar. Genom att designa för ytterligheterna, exempelvis för personer med permanenta nedsättningar, så skapar man ofta även en tillgänglig design för många fler.
+    Enligt Webbriktlinjer har cirka en av fem personer en funktionsnedsättning, och ännu fler har det periodvis i livet. Man brukar skilja på <span class="semibold">permanenta</span> (blindhet, dövhet, etc.), <span class="semibold">temporära</span> (starr, öroninfektion) och <span class="semibold">situationsberoende</span> (bländning, bullriga miljöer) nedsättningar. Genom att designa för ytterligheterna, exempelvis för personer med permanenta nedsättningar, så skapar man ofta även en tillgänglig design för många fler - även för personer utan nedsättning.
+  </p>
+
+  <p>
+    I projektet <a href="https://www.funka.com/projekt/myter-om-tillganglighet/" target="_blank">Myter om tillgänglighet</a> tar sig <a href="https://www.funka.com/" target="_blank">Funka</a> an myten att tillgängliga webbplatser behöver vara svart-vita och tråkiga, och presenterar flera exempel på <a href="https://www.funka.com/projekt/myter-om-tillganglighet/kan-tillgangliga-webbplatser-vara-fargglada/" target="_blank">webbplatser som är såväl tillgängliga som estetiskt tilltalande</a>.
   </p>
 
   <p>

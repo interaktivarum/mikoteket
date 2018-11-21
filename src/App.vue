@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
+  <div id="App">
 
     <!--div id="fb-root"></div-->
 
     <header-component class="header"></header-component>
 
-    <router-view class="mainContent"/>
+    <router-view class="mainContent" :class="{'bg-contrast': accessibility.contrast}"/>
 
     <mik-footer class="footer"></mik-footer>
 
@@ -86,10 +86,6 @@ export default {
 
 <style scoped>
 
-  .header{
-    margin-bottom: 30px;
-  }
-
 </style>
 
 <style>
@@ -101,5 +97,11 @@ export default {
 @import '/assets/style/text.css';
 @import '/assets/style/animations.css';
 
+#app{
+  background: red;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
 
 </style>

@@ -17,13 +17,14 @@ export default {
       chapters: [
         TrackAccessibilityIntro,
         Design,
-        Understanding,
         Utilities,
-        Discrimination,
+        Understanding,
       ],
       notions: [1,4,5,6,7],
       sponsor: {
-      },
+        name: "Länsbibliotek Sörmland",
+        url: "https://landstingetsormland.se/lansbiblioteket"
+      }
     }
   },
   disabled: true
