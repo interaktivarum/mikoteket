@@ -2,7 +2,7 @@
   <div>
 
     <p>
-      En nödvändighet för att kunna skapa ett tillgängligt samhälle, med tillgängliga digitala och analoga verktyg och tjänster, är att ha förståelse för olika personers olika förutsättningar. Även när vi vet vad som är bäst för <i>oss själva</i>, är det ofta väldigt svårt att förstå andra personers upplevelse och intryck. För personer <i>utan</i> funktionsnedsättning är det exempelvis väldigt svårt att förstå hur olika funktionsvariationer påverkar olika individer.
+      En nödvändighet för att kunna skapa ett tillgängligt samhälle, med tillgängliga digitala och analoga verktyg och tjänster, är att ha förståelse för olika personers olika förutsättningar. Även när vi vet vad som är bäst för <i>oss själva</i>, är det desto svårare att förstå <i>andra personers</i> upplevelse och intryck. För personer <i>utan</i> funktionsnedsättning är det exempelvis väldigt svårt att förstå hur olika funktionsvariationer påverkar olika individer.
     </p>
 
     <p>
@@ -12,7 +12,7 @@
     <h3>Simuleringar</h3>
 
     <p>
-      Med digitala verktyg är det möjligt att <a-wiki c="Simulering">simulera</a-wiki> förekommande symptom av olika funktionsnedsättningar. De tre bilderna nedan är <a href="http://www.rgblind.se/assets/images/Ishihara_9.png" target="_blank">samma digitala bild</a>, men medan den vänstra bilden visas som vanligt har bilderna i mitten och till höger applicerade filter som simulerar protanopi och deuteranopi, två vanligt förekommande typer av <a-wiki c="Defekt_färgseende">färgblindhet</a-wiki>. Simuleringsverktyget <a href="http://www.rgblind.se" target="_blank">RGBlind</a> (utvecklat av Interaktiva rum som driver Mikoteket) är skapat i syfte att hjälpa organisationer, designers och webbutvecklare att få inblick i hur färgblinda användare kan uppleva deras hemsidor, förstå problematiken med att designa och utveckla för färgblinda användare, samt att bidra till utvecklingen av strukturerade webbsidor med hög läsbarhet för fler.
+      Med digitala verktyg är det möjligt att <a-wiki c="Simulering">simulera</a-wiki> förekommande symptom av olika funktionsnedsättningar. De tre Ishihara-bilderna nedan är <a href="http://www.rgblind.se/assets/images/Ishihara_9.png" target="_blank">samma digitala bild</a>, men medan den vänstra bilden visas som vanligt har bilderna i mitten och till höger applicerade filter som simulerar protanopi och deuteranopi, två vanligt förekommande typer av <a-wiki c="Defekt_färgseende">färgblindhet</a-wiki>. Medan en person med fullgott färgseende ser talet 74 ser personer med protanopi oftast inget mönster alls, och personer med deuteranopi urskiljer ibland talet 21.
     </p>
 
     <div class="ishihara">
@@ -28,7 +28,42 @@
     </div>
 
     <p>
+      I graferna nedan urskiljer personer med fullgott färgseende enkelt staplarna och dess färger, såväl i den övre som i den undre grafen. Genom att simulera protanopi framgår det dock tydligt att den övre grafens färgval kan innebära stora svårigheter för personer med olika typer av färgblindhet, och att färgvalen i den undre grafen är att föredra. Utan simuleringsverktyg kan detta vara oerhört svårt för en person med fullgott färgseende att förstå, då färgskalorna kan tyckas snarlika.
+    </p>
+
+    <div :class="{'protanopia': color == 'protanopia'}">
+
+      <div class="center">
+        Simulera färgseende:
+        <button @click="color = 'normal'" :class="{green: color == 'normal'}">Normalt färgseende</button>
+        <button @click="color = 'protanopia'" :class="{green: color == 'protanopia'}">Protanopi</button>
+      </div>
+
+      <br />
+
+      <iframe width="100%" height="320" frameborder="0" scrolling="no" src="//plot.ly/~interaktivarum/3.embed" class="border"></iframe>
+      <iframe width="100%" height="320" frameborder="0" scrolling="no" src="//plot.ly/~interaktivarum/1.embed" class="border"></iframe>
+
+      <br />
+
+      <div class="center">
+        Simulera färgseende:
+        <button @click="color = 'normal'" :class="{green: color == 'normal'}">Normalt färgseende</button>
+        <button @click="color = 'protanopia'" :class="{green: color == 'protanopia'}">Protanopi</button>
+      </div>
+
+    </div>
+
+    <p>
+      I exemplena ovan används simuleringsverktyget <a href="http://www.rgblind.se" target="_blank">RGBlind</a> (utvecklat av Interaktiva rum som driver Mikoteket) som är skapat i syfte att hjälpa organisationer, designers och webbutvecklare att få inblick i hur färgblinda användare kan uppleva deras hemsidor, förstå problematiken med att designa och utveckla för färgblinda användare, samt att bidra till utvecklingen av strukturerade webbsidor med hög läsbarhet för fler.
+    </p>
+
+    <p>
       Svenskutvecklade <a href="https://www.funkify.org/" target="_blank">Funkify</a> är ett webbläsartillägg som simulerar symptom av bland annat nedsatt syn, motoriska nedsättningar, koncentrationssvårigheter och dyslexi, och låter användaren få en förståelse för hur dessa påverkar upplevelsen av att surfa på webben. På Webbriktlinjer listas <a href="https://webbriktlinjer.se/simulera" target="_blank">fler användbara simuleringsverktyg</a>.
+    </p>
+
+    <p>
+      Det är även möjligt att göra enkla analoga simuleringar av olika funktionsnedsättningar. En par tejpbitar på ett par oslipade
     </p>
 
     <info-fields class="infoFields">
@@ -36,14 +71,56 @@
       <div class="excercise">
 
         <div class="hBox">
-          Simulera olika funktionsnedsättningar
+          Simulera funktionsnedsättningar: analogt
+        </div>
+
+        <p>
+          Med följande enkla medel, testa att uppleva vardagen med olika funktionsnedsättningar:
+        </p>
+
+          <ul>
+            <li>
+              <span class="semibold">Nedsatt syn</span>: fäst ett par halvgenomskinliga tejpbitar på ett par oslipade glasögon. Ju dimmigare tejp, desto grövre synfel. Använd svart färg för att simulera exempelvis tunnelseende.
+            </li>
+            <li>
+              <span class="semibold">Nedsatt hörsel</span>: Använd ett par bekväma hörselkåpor.
+            </li>
+            <li>
+              <span class="semibold">Nedsatt känsel</span>: Använd <a href="https://www.google.se/search?q=touchvantar&tbm=shop" target="_blank">touchvantar</a> när du använder din telefon eller annan touchenhet.
+            </li>
+            <li>
+              <span class="semibold">Muskelryckningar</span>: Medan du använder musen och tangentbordet, låt en vän rycka i din överarm.
+            </li>
+
+          </ul>
+
+        <div class="hBox">
+          DISKUTERA
+        </div>
+
+        <ul>
+          <li>
+            Hur påverkar funktionsnedsättningen möjligheten att utföra olika uppgifter eller delta i olika sociala situationer?
+          </li>
+          <li>
+            Utifrån olika situationer och för respektive funktionsnedsättning, vilka övriga sinnen och intryck blir desto viktigare?
+          </li>
+          <li>
+            Hur kan liknande övningar designas för att simulera andra funktionsnedsättningar?
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="excercise">
+
+        <div class="hBox">
+          Simulera funktionsnedsättningar: digitalt
         </div>
 
         <p>
           För <a href="https://www.google.se/chrome/" target="_blank">Chrome</a>-användare: <a href="https://chrome.google.com/webstore/detail/funkify-disability-simula/ojcijjdchelkddboickefhnbdpeajdjg" target="_blank">Installera webbläsartillägget Funkify</a> och prova några av verktygets simuleringar av funktionsnedsättningar.
         </p>
-
-        <Combat></Combat>
 
         <div class="hBox">
           DISKUTERA
@@ -65,6 +142,7 @@
         </ul>
 
       </div>
+
 
     </info-fields>
 
@@ -139,15 +217,15 @@
     </p>
 
     <p>
-      Till skillnad mot <a-wiki c="Exkluderande_design">exkluderande design</a-wiki>, som innebär <i>medveten</i> utformning för att förhindra viss användning, syftar diskriminerande design här på <i>omedvetna</i> designbeslut som resulterar i försämrad eller begränsad användning för vissa grupper av användare. Det kan till exempel handla om taligenkänning som kräver att användaren artikulerar klart och tydligt och som därför <a href="https://slate.com/technology/2018/10/voice-assistants-alexa-siri-speech-disabilities-recognition.html" target="_blank">fungerar dåligt för personer med talsvårigheter</a> eller som <a href="https://www.youtube.com/watch?v=CYvFxs32zvQ" target="_blank">inte förstår accenter</a> eller kraftiga brytningar, eller äldre versioner av <a href="https://techworld.idg.se/2.2524/1.709621/recaptcha-v3-google" target="_blank">reCAPTCHA</a> som kräver att användaren bevisar att hen inte är en bot genom att identifiera svårtolkad text eller bilder - en uppgift som kan upplevas som svår oavsett funktionsförmåga.
+      Till skillnad mot <a-wiki c="Exkluderande_design">exkluderande design</a-wiki>, som innebär <i>medveten</i> utformning för att förhindra viss användning, syftar diskriminerande design här på <i>omedvetna</i> designbeslut som resulterar i försämrad eller begränsad användning för vissa grupper av användare. Det kan till exempel handla om taligenkänning som kräver att användaren artikulerar klart och tydligt och som därför <a href="https://slate.com/technology/2018/10/voice-assistants-alexa-siri-speech-disabilities-recognition.html" target="_blank">fungerar dåligt för personer med talsvårigheter</a> eller som <a href="https://www.youtube.com/watch?v=CYvFxs32zvQ" target="_blank">inte förstår accenter</a> och kraftiga brytningar, eller äldre versioner av <a href="https://techworld.idg.se/2.2524/1.709621/recaptcha-v3-google" target="_blank">reCAPTCHA</a> som kräver att användaren bevisar att hen inte är en bot genom att identifiera svårtolkad text eller bilder - en uppgift som kan upplevas som svår oavsett funktionsförmåga.
     </p>
 
     <p>
-      I föregående kapitel nämndes den interaktiva installationen Dansa med synapser som använder en <a-wiki c="Kinect">Kinectkamera</a-wiki> för att beräkna personers position i rummet. För tidiga versioner av Kinect och liknande kameror var användaren tvungen att först posera i givna ställningar samt förutsatte att användaren stod upp för att tekniken skulle fungera, vilket som följd innebar att personer i rullstol eller många rörelsehindrade personer ej kunde använda tekniken.
+      I föregående kapitel nämndes den interaktiva installationen Dansa med synapser som använder en <a-wiki c="Kinect">Kinectkamera</a-wiki> för att beräkna personers position i rummet. För tidiga versioner av Kinect och liknande kameror var användaren tvungen att först posera i givna ställningar och förutsatte att användaren stod upp för att tekniken skulle fungera. Detta innebar som följd att personer i rullstol eller många rörelsehindrade personer ej kunde använda tekniken.
     </p>
 
     <p>
-      I mycket av dagens digitala teknik finns olika typer av <a-wiki c="Sensor">sensorer</a-wiki> som mäter olika typer av data, exempelvis för att köra viss programkod eller utföra en uppgift vid särskild <a-wiki c="Stimuli">stimuli</a-wiki>. För designers och utvecklare är det viktigt att veta hur sensorerna fungerar för att säkerställa att produktens eller tjänstens funktion är tillgänglig för samtliga användare. I Twitterinlägget nedan visas en video med en tvålmatare som endast reagerar på ljusa hudtoner, med följd att en mörkhyad person behöver använda en vit pappershandduk för att få maskinen att mata ut tvål. Detta är sannolikt ett omedvetet misstag från företaget som tillverkar tvålmataren men kan vara ett tecken på bristande mångfald inom företaget, det har uppenbarligen inte resonerats kring eller tagits hänsyn till det faktum att olika personer har olika hudton. Upplevelsen för användaren är katastrofal och situationen kan upplevas som rasistisk.
+      I mycket av dagens digitala teknik finns olika typer av <a-wiki c="Sensor">sensorer</a-wiki> som mäter olika typer av data, för att exempelvis köra viss programkod eller utföra en uppgift vid särskild <a-wiki c="Stimuli">stimuli</a-wiki>. För designers och utvecklare är det viktigt att veta hur sensorerna fungerar för att säkerställa att produktens eller tjänstens funktion är tillgänglig för samtliga användare. I Twitterinlägget nedan visas en video med en tvålmatare som endast reagerar på ljusa hudtoner, med följd att en mörkhyad person behöver använda en vit pappershandduk för att få maskinen att mata ut tvål. Detta är sannolikt ett omedvetet misstag från företaget som tillverkar tvålmataren, men kan vara ett tecken på bristande mångfald inom företaget: det har uppenbarligen inte resonerats kring eller tagits hänsyn till det faktum att olika personer har olika hudton. Upplevelsen för användaren är katastrofal och situationen kan upplevas som rasistisk.
     </p>
 
     <media-container class="mediaContainer">
@@ -165,7 +243,7 @@
     </media-container>
 
     <p>
-      Exemplet ovan är sannolikt en följd av ett felaktigt inställt <a-wiki c="Tröskeleffekt">tröskelvärde</a-wiki> för tvålmatarens <a-wiki c="Infraröd_strålning">IR</a-wiki>-sensor. Problematiken är förhållandevis enkel att såväl synliggöra som för det bakomliggande företaget att åtgärda. Andra program och verktyg, som är utvecklade med <a-wiki c="Artificiell_intelligens">artificiell intelligens</a-wiki> (AI), är desto svårare för en människa att överblicka, och erhållna resultat kan vara svåra att förstå. Istället för att vara explicit programmerade (när tillräckligt mycket ljus reflekteras in i sensorn: mata ut tvål) är en AI programmerad för att ta egna intelligenta beslut utifrån given <a-wiki c="Datautvinning">träningsdata</a-wiki> och ramar. Det innebär mer flexibilitet, men förutsätter också att träningsdatan är av hög kvalitet. Det är (väldigt förenklat) lite som <a-wiki c="Hundträning">hundträning</a-wiki>: en hund har förutsättningen att lära sig mycket, men det är upp till husse och matte att utföra lämpliga övningar och att följa vissa principer, belöna önskat beteende, och ignorera eller korrigera oönskat beteende.
+      Exemplet ovan är sannolikt en följd av ett felaktigt inställt <a-wiki c="Tröskeleffekt">tröskelvärde</a-wiki> för tvålmatarens <a-wiki c="Infraröd_strålning">IR</a-wiki>-sensor. Problematiken är förhållandevis enkel att såväl synliggöra som för det bakomliggande företaget att åtgärda. Andra program och verktyg, som är utvecklade med <a-wiki c="Artificiell_intelligens">artificiell intelligens</a-wiki> (AI), är desto svårare för en människa att överblicka, och erhållna resultat kan vara svåra att förstå. Istället för att vara explicit programmerade (när tillräckligt mycket ljus reflekteras in i sensorn: mata ut tvål) är en AI programmerad för att ta egna intelligenta beslut utifrån given <a-wiki c="Datautvinning">träningsdata</a-wiki> och ramar. Det innebär mer flexibilitet, men förutsätter också att träningsdatan är av hög kvalitet. Att träna en AI är (extremt förenklat) lite som <a-wiki c="Hundträning">hundträning</a-wiki>: en hund har förutsättningen att lära sig mycket, men det är upp till husse och matte att utföra lämpliga övningar och att följa vissa principer, belöna önskat beteende, och ignorera eller korrigera oönskat beteende.
     </p>
 
     <p>
@@ -187,11 +265,11 @@
     </media-container>
 
     <p>
-      Det görs idag mycket forskning kring algoritmer och etik, och kring problematiken med att AI riskerar att spegla våra fördomar och sterotypa bilder. Det finns stora förhoppningar om att <a href="https://www.nyteknik.se/opinion/algoritmer-utan-etik-ger-ai-utan-moral-6902790" target="_blank">algoritmer skrivna med etiska principer</a> i stället kan styra utvecklingen mot mångfald och långsiktig hållbarhet.
+      Det görs idag mycket forskning kring algoritmer och etik, och kring problematiken med att AI riskerar att spegla våra fördomar och sterotypa föreställningar. Det finns stora förhoppningar om att <a href="https://www.nyteknik.se/opinion/algoritmer-utan-etik-ger-ai-utan-moral-6902790" target="_blank">algoritmer skrivna med etiska principer</a> i stället kan styra utvecklingen mot mångfald och långsiktig hållbarhet.
     </p>
 
     <p>
-      En förutsättning för tillgänglig teknik är att såväl designer som utvecklare har en grundläggande förståelse för hur den produkt eller tjänst de utformar faktiskt fungerar, och <i>hur</i> och av <i>vem</i> den kommer att användas.
+      En förutsättning för tillgänglig teknik är att såväl designers som utvecklare har en grundläggande förståelse för hur den produkt eller tjänst de utformar, samt de tekniska komponenterna som ingår, faktiskt fungerar, och <i>hur</i> och av <i>vem</i> den kommer att användas.
     </p>
 
     <p>
@@ -223,7 +301,8 @@ export default {
   },
   data () {
     return {
-      'header': 'Inblick och förståelse'
+      'header': 'Inblick och förståelse',
+      color: "normal"
     }
   },
   created: function () {

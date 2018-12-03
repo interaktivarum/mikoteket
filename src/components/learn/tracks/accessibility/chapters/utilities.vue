@@ -2,17 +2,23 @@
   <div id="Utilities">
 
     <p>
-      För många personer med särskilda behov innebär digital teknik en stor hjälp i vardagen. I detta kapitel presenteras grundläggande exempel på digitala hjälpmedel och tekniska lösningar såväl som nya spännande innovationer.
+      För många personer med särskilda behov innebär digital teknik en stor hjälp i vardagen.
+
+      Drygt <a href="https://internet.begripsam.se/#/stats/Smart%2520telefon%2520SMFOI%25202017/4365" target="_blank"> var fjärde person med funktionsnedsättning använder hjälpmedel till sin smarta telefon</a> och var femte till datorn, enligt Svenskarna med funktionsnedsättning och internet. Bland blinda personer anger 9 av 10 att de använder hjälpmedel till sin smarta telefon och nästan var femte att de är i behov av ytterligare hjälpmedel. Mer information om undersökningen och diskussion till begrepp och definitioner finns tillgängligt i projektets <a href="http://www.begripsam.se/internet/rapporter/" target="_blank">rapporter</a>.
+    </p>
+
+    <p>
+      I detta kapitel presenteras grundläggande exempel på digitala hjälpmedel och tekniska lösningar såväl som nya spännande innovationer.
     </p>
 
     <h3>Kommunikation och stöd i vardagen</h3>
 
     <p>
-       En stor och viktig del av vår vardag bygger på mellanmänsklig kommunikation, såväl i fysiska möten som i samtal och text- och bildmeddelanden via mobiltelefon och dator. En alltmer utbredd tillgång till internet och god uppkoppling har inneburit nya kommunikationslösningar för personer med olika funktionsnedsättningar, såsom videosamtal för att kommunicera med teckenspråk eller läppläsning. <a href="https://bildtelefoni.net/" target="_blank">Bildtelefoni.net</a> är en kostnadsfri tjänst som genom trepartssamtal och -video möjliggör för personer som använder svenskt teckenspråk och personer som använder svenskt tal att ringa till varandra, eller för personer som befinner sig på samma plats att få samtal distanstolkade. <a href="https://www.texttelefoni.se/" target="_blank">Texttelefoni.se</a> erbjuder på liknande sätt stöd för personer med hörselnedsättning, dövhet, dövblindhet, talsvårigheter eller som kommunicerar med text eller punktskrift att ringa samt ta emot samtal.
+       En stor och viktig del av vår vardag bygger på mellanmänsklig kommunikation, såväl i fysiska möten som i samtal och text- och bildmeddelanden via mobiltelefon och dator. En utbredd tillgång till internet och god uppkoppling har möjliggjort nya kommunikationslösningar för personer med olika funktionsnedsättningar, såsom videosamtal för att kommunicera med teckenspråk eller läppläsning. <a href="https://bildtelefoni.net/" target="_blank">Bildtelefoni.net</a> är en kostnadsfri tjänst som genom trepartssamtal och -video möjliggör för personer som använder svenskt teckenspråk och personer som använder svenskt tal att ringa till varandra, eller för personer som befinner sig på samma plats att få samtal distanstolkade. <a href="https://www.texttelefoni.se/" target="_blank">Texttelefoni.se</a> erbjuder på liknande sätt stöd för personer med hörselnedsättning, dövhet, dövblindhet, talsvårigheter eller som kommunicerar med text eller punktskrift att ringa samt ta emot samtal.
     </p>
 
     <p>
-      Särskilt utvecklade <a href="https://store.humanware.com/hus/braillenote-touch-32.html" target="_blank">paddor designade för punktskrift</a> (se även en kommande <a href="http://blitab.com/" target="_blank">padda med taktil skärm</a>) gör det möjligt för personer med nedsatt syn att kommunicera i skrift, och <a href="https://www.youtube.com/watch?v=hHTlOhDphIc" target="_blank">Tobiis kommunikationslösningar</a> designade särskilt för användare med <a href="https://www.1177.se/Stockholm/Fakta-och-rad/Sjukdomar/ALS" target="_blank">ALS</a>, <a href="https://www.1177.se/Stockholm/Fakta-och-rad/Sjukdomar/Autism/" target="_blank">autism</a>, <a href="https://www.1177.se/Stockholm/Fakta-och-rad/Sjukdomar/Cerebral-pares---CP/" target="_blank">CP</a> eller Retts syndrom, som styrs med hjälp av exempelvis touch eller ögonrörelser, erbjuder nya möjligheter att <a href="https://www.youtube.com/watch?v=uVWlNyVby0I" target="_blank">kommunicera i vardagen</a>.
+      Nästan <a href="https://internet.begripsam.se/#/stats/Dator%2520SMFOI%25202017/1100" target="_blank">två av tre blinda personer använder punktskriftsdisplayer</a> till sin dator, och surfplattor med <a href="https://store.humanware.com/hus/braillenote-touch-32.html" target="_blank">extern punktskriftdisplay</a> och <a href="http://blitab.com/" target="_blank">taktila skärmar</a> är utvecklade särskilt för denna användargrupp. För personer med <a href="https://www.1177.se/Stockholm/Fakta-och-rad/Sjukdomar/ALS" target="_blank">ALS</a>, <a href="https://www.1177.se/Stockholm/Fakta-och-rad/Sjukdomar/Autism/" target="_blank">autism</a>, <a href="https://www.1177.se/Stockholm/Fakta-och-rad/Sjukdomar/Cerebral-pares---CP/" target="_blank">CP</a> eller Retts syndrom är <a href="https://www.youtube.com/watch?v=hHTlOhDphIc" target="_blank">Tobiis kommunikationslösningar</a> designade för att styras med exempelvis touch eller ögonrörelser, och erbjuder nya möjligheter att <a href="https://www.youtube.com/watch?v=uVWlNyVby0I" target="_blank">kommunicera i vardagen</a>.
     </p>
 
     <p>
@@ -34,7 +40,7 @@
     <media-container class="mediaContainer">
       <div>
         <div class="content">
-          <iframe src="https://www.youtube.com/embed/6GRfFuWsjNU" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/6GRfFuWsjNU" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
         <div class="caption">
           Be My Eyes kopplar samman blinda och synskadade med videoströmning, för assistans i vardagen.
@@ -54,7 +60,7 @@
         </div>
 
         <p>
-          Reflektera över de digitala verktyg du använder för att kommunicera i vardagen.
+          Reflektera över de verktyg och tjänster du använder för att kommunicera i vardagen.
         </p>
 
         <div class="hBox">
@@ -63,17 +69,18 @@
 
         <ul>
           <li>
-            Vilka digitala verktyg använder du för att kommunicera med familj, vänner, företag och myndigheter?
+            Vilka verktyg och tjänster använder du för att kommunicera med familj, vänner, företag och myndigheter?
           </li>
           <li>
-            Hur använder du de digitala verktygen?
+            Hur använder du dessa verktyg och tjänster?
           </li>
           <li>
-            Hur kan de digitala verktygen hjälpa personer med olika funktionsnedsättningar att kommunicera?
+            Vilka personer kan ha svårt att använda dessa verktyg och tjänster?
           </li>
           <li>
-            Vilka personer kan ha svårt att använda de digitala verktygen?
+            Hur kan verktygen och tjänsterna hjälpa personer med olika funktionsnedsättningar att kommunicera?
           </li>
+
         </ul>
 
       </div>
@@ -85,15 +92,33 @@
         </div>
 
         <p>
-          Tillsammans med en vän, använd era mobiltelefoner och videosamtal för att guida varandra genom rummet. Den ena personen blundar och filmar med sin mobiltelefon, och den seende personen beskriver vad hen ser och ger instruktioner och enkla uppgifter att utföra.
+          Tillsammans med en vän, använd videosamtal för att guida varandra genom rummet.
         </p>
 
-        <p>
-          Exempel på tjänster för videosamtal: <a href="https://meet.jit.si/" target="_blank">Jitsi</a>, WhatsApp, Facebook Messenger, Apple FaceTime.
-        </p>
+        <ol>
+          <li>
+            Person A laddar hem appen <span class="semibold">Jitsi Meet</span> till sin mobil eller surfplatta, och går in i rummet: <random-string v-model="jitsi" class="semibold"></random-string>.
+          </li>
+          <li>
+            Person B gör detsamma <i>eller</i> går in på webbplatsen <a :href="'https://meet.jit.si/'+jitsi" target="_blank">https://meet.jit.si/{{jitsi}}</a> på sin dator.
+          </li>
+          <li>
+            Kontrollera att båda kan se och höra varandra i videosamtalet.
+          </li>
+          <li>
+            Person A blundar och filmar omgivningen med sin mobiltelefon.
+          </li>
+          <li>
+            Person B beskriver vad hen ser och ger instruktioner och enkla uppgifter för Person A att utföra.
+          </li>
+        </ol>
 
         <p>
           Obs! Undvik farliga situationer såsom trappor eller användning av verktyg.
+        </p>
+
+        <p>
+          Det går även bra att använda andra tjänster för videosamtal, såsom WhatsApp, Skype, Facebook Messenger eller Apple FaceTime.
         </p>
 
         <div class="hBox">
@@ -123,11 +148,11 @@
     </p>
 
     <p>
-      Det finns även ett stort urval av produkter och tjänster som hjälper personer med olika behov att interagera med sin dator, såsom möss som automatiskt stabiliserar skakiga handrörelser, anpassningsbara mjuk- och hårdvarutangentbord samt  kameralösningar som låter användaren styra muspekaren med blicken eller huvudrörelser.
+      Det finns även ett stort urval av tillbehör som hjälper personer med olika behov att interagera med sin dator, såsom möss som automatiskt stabiliserar skakiga handrörelser, anpassningsbara mjuk- och hårdvarutangentbord samt  kameralösningar som låter användaren styra muspekaren med blicken eller huvudrörelser.
     </p>
 
     <p>
-      I listan nedan presenteras länkar till tillgänglighetsinformation för några av de stora aktörerna och deras verktyg.
+      I listan nedan presenteras länkar till tillgänglighetsinformation för några av de stora aktörerna och deras verktyg:
     </p>
 
     <ul>
@@ -187,6 +212,10 @@
 
     <p>
       Många webbläsartillägg är kostnadsfria men utbudet kan variera kraftigt mellan de olika webbläsarna. Som exempel finns för Google Chrome tillägg för <a href="https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod" target="_blank">ökad läsbarhet</a>, <a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn" target="_blank">uppläsning med talsyntes</a> eller att använda röstigenkänning för <a href="https://chrome.google.com/webstore/detail/ribbing-reader/ipilhfnbdkfbnbnahplmimdilodohknp" target="_blank">automatisk textning av tal</a> i t.ex. klassrummet eller en konferens.
+    </p>
+
+    <p>
+      I listan nedan presenteras länkar till tillgänglighetsinformation för några av de stora webbläsarna och tillgängliga tillägg:
     </p>
 
     <ul>
@@ -269,13 +298,17 @@
     <h3>Talteknologi och röststyrning</h3>
 
     <p>
-      Som en följd av den snabba <a-wiki c="Artificiell_intelligens">AI</a-wiki>-utvecklingen har talteknologi blivit allt bättre och finns idag tillgänglig i mycket av den teknik vi använder dagligen. Smarta telefoner går att styra med enkla röstkommandon för att exempelvis söka efter information, ringa en vän eller starta en applikation. I hemmet är smarta högtalare, såsom <a-wiki c="Amazon_Echo">Amazon Echo</a-wiki>, <a-wiki c="Google_Home">Google Home</a-wiki> och Apples <a-wiki c="HomePod"> HomePod</a-wiki>, allt mer populära, vilka gör det möjligt att med röstkommandon spela musik, läsa upp nyheterna, ställa in alarm och påminnelser, skapa listor, beställa mat och produkter, styra dina smarta-hem-produkter, och mycket mer. För röststyrda enheter erbjuds i vissa fall andra interaktionsmöjligheter, såsom touch eller styrning med externa verktyg, för att även användare med talsvårigheter ska kunna använda dess tjänster.
+      Som en följd av den snabba <a-wiki c="Artificiell_intelligens">AI</a-wiki>-utvecklingen har talteknologi blivit allt bättre och finns idag tillgänglig i mycket av den teknik vi använder dagligen. Smarta telefoner går att styra med enkla röstkommandon för att exempelvis söka efter information, ringa en vän eller starta en applikation. I hemmet är smarta högtalare, såsom <a-wiki c="Amazon_Echo">Amazon Echo</a-wiki>, <a-wiki c="Google_Home">Google Home</a-wiki> och Apples <a-wiki c="HomePod"> HomePod</a-wiki>, allt mer populära, vilka gör det möjligt att med röstkommandon spela musik, läsa upp nyheterna, ställa in alarm och påminnelser, skapa listor, beställa mat och produkter, styra dina smarta-hem-produkter, och mycket mer. Vidare gör taligenkänning det möligt att automatiskt transkribera tal och erbjuda realtidstextning.
+    </p>
+
+    <p>
+      Enligt Svenskarna med funktionshinder och internet använder <a href="https://internet.begripsam.se/#/stats/Dator%2520SMFOI%25202017/1100" target="_blank">var tredje blind person talsyntes/uppläsningsprogram</a> och nästan var fjärde döv person använder tal-till-text som datorhjälpmedel.
     </p>
 
     <media-container class="mediaContainer">
       <div>
         <div class="content">
-          <iframe src="https://www.youtube.com/embed/FQn6aFQwBQU" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/FQn6aFQwBQU" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
         <div class="caption">
           Smarta högtalare såsom Amazon Alexa låter användaren utföra enklare uppgifter och styra smarta-hem-produkter med röstkommandon.
@@ -295,7 +328,7 @@
     </p>
 
     <p>
-      Ett liknande svenskt inititiv är <a href="https://www.textamig.se/" target="_blank">Texta mig!</a> som erbjuder ett fritt verktyg för att generera automatiska undertexter till videoklipp, med hjälp av taligenkänning. Vem som helst kan i verktyget ange webbadressen till ett videoklipp på YouTube eller Vimeo och återfå en tidskodad, redigerbar textfil. För YouTubeklipp kan textfilen sedan laddas upp och tillgängliggöras fritt för allmänheten; för Vimeo kan du endast ladda upp textfiler till dina egna videoklipp.
+      Ett liknande svenskt inititiv är <a href="https://www.textamig.se/" target="_blank">Texta mig!</a> som erbjuder ett fritt verktyg för att automatiskt generera undertexter till videoklipp, med hjälp av taligenkänning. Vem som helst kan i verktyget ange webbadressen till ett videoklipp på YouTube eller Vimeo och återfå en tidskodad, redigerbar textfil. För många YouTubeklipp kan textfilen laddas upp och tillgängliggöras fritt för allmänheten, och för Vimeo kan användare ladda upp textfiler till sina egna videoklipp.
     </p>
 
     <p>
@@ -311,7 +344,7 @@
         </div>
 
         <p>
-          För <a href="https://www.google.se/chrome/" target="_blank">Chrome</a>-användare: använd webbläsarens inbyggda taligenkänningen för att söka med rösten på svenska eller engelska.
+          För <a href="https://www.google.se/chrome/" target="_blank">Chrome</a>-användare: använd webbläsarens inbyggda taligenkänning för att söka med rösten på svenska eller engelska.
         </p>
 
         <ol>
@@ -346,10 +379,10 @@
             Hur är upplevelsen att söka med rösten?
           </li>
           <li>
-            Upplever du att programmet förstod vad du sa sade?
+            Upplever du att programmet förstår vad du säger?
           </li>
           <li>
-            Hur kan denna och liknande program hjälpa olika personer med funktionsnedsättning?
+            Hur kan detta och liknande verktyg hjälpa olika personer med funktionsnedsättning?
           </li>
         </ul>
 
@@ -360,7 +393,7 @@
     <h3>Sociala berättelser</h3>
 
     <p>
-      <a-wiki c="Social_berättelse">Sociala berättelser</a-wiki> och seriesamtal är korta berättelser skrivna, illustrerade eller på annat sätt är personligt anpassade för personer med autismspektrumstörningar. De används i avsikt att hjälpa personer att förstå olika sociala situationer eller för att förbereda inför nya sammankomster eller besök på nya platser. Sociala berättelser kan enkelt skapas genom att rita och skriva med papper och penna, med stöd av digitala verktyg med <a href="https://www.symbolbruket.se/symboler#tab_anvandning" target="_blank">färdiga symboler</a>, eller genom att utveckla interaktiva upplevelser såsom mobilspelet <a href="http://habilitering.se/undra" target="_blank">Undra om habiliteringen</a>.
+      <a-wiki c="Social_berättelse">Sociala berättelser</a-wiki> och seriesamtal är korta berättelser skrivna, illustrerade eller på annat sätt är personligt anpassade för personer med olika funktionsnedsättningar, exempelvis autismspektrumstörningar. De används i avsikt att hjälpa personer att förstå olika sociala situationer eller för att förbereda inför nya sammankomster eller besök på nya platser. Sociala berättelser kan enkelt skapas genom att rita och skriva med papper och penna, med stöd av digitala verktyg med <a href="https://www.symbolbruket.se/symboler#tab_anvandning" target="_blank">färdiga symboler</a>, eller genom att utveckla interaktiva upplevelser, såsom mobilspelet <a href="http://habilitering.se/undra" target="_blank">Undra om habiliteringen</a>.
     </p>
 
     <p>
@@ -478,7 +511,7 @@
             Hur kan personligt anpassade övningar skapa intresse för olika elever med koncentrationssvårigheter?
           </li>
           <li>
-            Hur kan liknande övningar designas för att öva andra grundläggande ämneskunskaper?
+            Hur kan liknande övningar designas för att öva grundläggande kunskaper, även inom andra skolämnen?
           </li>
         </ul>
 
@@ -489,11 +522,19 @@
     <h3>Tillgänglig kultur</h3>
 
     <p>
-      Ovan exempel på digital teknik har till stor del fokuserat på att hjälpa personer klara av vardagen. Men det är viktigt att även områden som förgyller vardagen, såsom kulturlivet, tillgängligörs för personer med särskilda behov. Projektet <a href="http://www.funktek.se" target="_blank">Funktek</a>, som i en treårsperiod arbetade för allas lika rätt att delta i och skapa kulturen, anställde personer med olika funktionsvariationer för att utvärdera tillgängligheten på Göteborgs stadsmuseum. En utgångspunkt var att <i>museet har funktionshinder - inte besökarna</i>.
+      Ovan exempel på digital teknik har till stor del fokuserat på att hjälpa personer klara av vardagen. Men det är viktigt att även andra områden, såsom möjligheten att ta del av nyheter, samhällsinformation och kulturliv, tillgängligörs för personer med särskilda behov. <a href="https://www.mtm.se/" target="_blank">Myndigheten för tillgängliga medier</a> arbetar för att alla ska ha tillgång till litteratur och samhällsinformation utifrån var och ens egna förutsättningar, oavsett läsförmåga eller funktionsnedsättning, och erbjuder bland annat det digitala bilioteket <a href="http://www.legimus.se" target="_blank">Legimus</a> och nyhetssidan <a href="http://8sidor.se/" target="_blank">8 Sidor</a> med nyheter på lättläst svenska.
     </p>
 
     <p>
-      När Tekniska Museet i Stockholm designade och utvecklade utställningen <a href="https://www.tekniskamuseet.se/upplev/utstallningar/megamind/" target="_blank">MegaMind</a> gjordes det med användaren och tillgänglighet i fokus. Utöver att designa för läsbarhet och framkomlighet var det även viktigt att de digitala och interaktiva installationerna inte diskrimerade användaren utifrån exempelvis begränsad tal- eller rörelseförmåga. Installationen Dansa med synapser (utvecklad av Interaktiva rum som driver Mikoteket) använder en <a-wiki c="https://sv.wikipedia.org/wiki/Kinect">Kinectkamera</a-wiki> för att känna av besökarnas positioner och låter dem använda kroppen för att interagera med och styra programmet. Vid den tekniska utvecklingen säkertställdes att tekniken inte förutsatte vissa rörelsemönster och att även rullstulsanvändare kan använda installationen, på lika villkor. En gång i månaden anordnas <a href="https://www.tekniskamuseet.se/skolprogram/megamind-funkis-extra-tillgangliga-onsdagar" target="_blank">MegaMind Funkis</a>, ett tillfälle för skolgrupper med olika funktionsvariationer att besöka museet i lugn och ro.
+      För tillgänglighet inom museisektorn var <a href="http://www.funktek.se" target="_blank">Funktek</a> ett treårigt Göteborgsbaserat projekt som arbetade för allas lika rätt att delta i och skapa kulturen. Med <i>alla</i> museibesökare i åtanke anställdes personer med olika funktionsvariationer, och tillsammans designade projektgruppen olika workshops för att utvärdera tillgängligheten på Göteborgs stadsmuseum. En utgångspunkt var att <i>museet har funktionshinder - inte besökarna</i>.
+    </p>
+
+    <p>
+      När <a href="https://www.tekniskamuseet.se" target="_blank">Tekniska Museet</a> i Stockholm designade och utvecklade utställningen <a href="https://www.tekniskamuseet.se/upplev/utstallningar/megamind/" target="_blank">MegaMind</a> gjordes det med användaren och tillgänglighet i fokus. Utöver att designa för läsbarhet och framkomlighet var det även viktigt att de digitala och interaktiva installationerna inte diskrimerade användaren utifrån exempelvis begränsad tal- eller rörelseförmåga. Installationen Dansa med synapser (utvecklad av <a href="https://www.tii.se/projects/dance-with-synapses" target="_blank">RISE Interactive</a> och Interaktiva rum som driver Mikoteket) använder en <a-wiki c="https://sv.wikipedia.org/wiki/Kinect">Kinectkamera</a-wiki> för att känna av besökarnas positioner och låter dem använda kroppen för att interagera med och styra programmet. Vid den tekniska utvecklingen säkertställdes att tekniken inte förutsatte vissa rörelsemönster och att även rullstulsanvändare kan använda installationen, på lika villkor. En gång i månaden anordnas <a href="https://www.tekniskamuseet.se/skolprogram/megamind-funkis-extra-tillgangliga-onsdagar" target="_blank">MegaMind Funkis</a>, ett tillfälle för skolgrupper med olika funktionsvariationer att besöka museet i lugn och ro.
+    </p>
+
+    <p>
+      På <a href="https://www.akvarellmuseet.org" target="_blank">Nordiska Akvarellmuseet</a> på Tjörn drivs projektet <a href="https://www.akvarellmuseet.org/projekt/distansbesok-pa-konstmuseum" target="_blank">Distansbesök på konstmuseum</a> tillsammans med <a href="https://www.tii.se/projects/en-robot-besoker-museum" target="_blank">RISE Interactive</a>, med syfte att ge personer som har svårt att fysiskt besöka museet en chans till ett möte och museivisning i realtid. Distansvisning med hjälp av en robot, till skillnad från exempelvis inspelad visning, möjliggör aktivt deltagande och samtal, och strävar att efterlikna en visning på plats. Rummet tas in, konstpedagog och deltagare kan se varandra via skärmen och ställa frågor, flika in och samtala kring konsten man gemensamt ser.
     </p>
 
     <p>
@@ -514,6 +555,39 @@
     </p>
 
     <info-fields class="infoFields">
+
+      <div class="excercise">
+
+        <div class="hBox">
+          Vilken kultur konsumerar du?
+        </div>
+
+        <p>
+          Reflektera över den kultur du själv gillar att kommunicera eller aktivt delta i?
+        </p>
+
+        <div class="hBox">
+          DISKUTERA
+        </div>
+
+        <ul>
+          <li>
+            Vilken kultur gillar du själv att konsumera eller aktivt delta i?
+          </li>
+          <li>
+            Vad krävs av dig som konsument eller deltagare, för en fullvärdig upplevelse?
+          </li>
+          <li>
+            Vilka personer kan ha svårt att delta eller få en fullvärdig upplevelse?
+          </li>
+          <li>
+            Vilka digitala verktyg finns, eller kan designas, för ökad tillgänglighet för att inkludera fler?
+          </li>
+
+        </ul>
+
+      </div>
+
 
       <div class="more">
 
@@ -546,6 +620,7 @@ import SoiGraph from '@/components/SoiGraph.vue'
 import SlideComponent from '@/components/learn/SlideComponent.vue'
 import AWiki from '@/components/AWiki.vue'
 import AWikt from '@/components/AWikt.vue'
+import RandomString from '@/components/RandomString.vue'
 import Combat from '../components/Combat.vue'
 
 
@@ -558,13 +633,15 @@ export default {
     SlideComponent,
     AWiki,
     AWikt,
+    RandomString,
     Combat
   },
   data () {
     return {
       'header': 'Digitala hjälpmedel',
       wsr: "",
-      speechResult: ""
+      speechResult: "",
+      jitsi: ""
     }
   },
   methods: {

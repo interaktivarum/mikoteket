@@ -1,16 +1,36 @@
 {
   "log": [
     {
+      "date": "2018-11-30",
+      "items": [
+        {"description": "Digital tillgänglighet: korrigerad information och förtydliganden."}
+      ]
+    },
+    {
+      "date": "2018-11-29",
+      "items": [
+        {"description": "Information om webbläsare, visas endast för användare av den utdaterade webbläsaren Internet Explorer."},
+        {"description": "Digital tillgänglighet: Tillaggt exempel på simulerad färgblindhet för grafer."},
+        {"description": "Digital tillgänglighet: Buggfix för länk till Jitsi-videosamtal."}
+      ]
+    },
+    {
+      "date": "2018-11-28",
+      "items": [
+        {"description": "Nytt spår: Digital tillgänglighet."}
+      ]
+    },
+    {
       "date": "2018-11-21",
       "items": [
-        {"description": "Den här uppdateringsloggen är skapad!"}
+        {"description": "Den här uppdateringsloggen är skapad."}
       ]
     },
     {
       "date": "2018-11-15",
       "items": [
         {"description": "Inbyggda tillgänglighetsverktyg, länk i webbplatsens sidfot."},
-        {"description": "Vissa element har flyttats från webbplatsens sidhuvud till sidfot"}
+        {"description": "Vissa element har flyttats från webbplatsens sidhuvud till sidfot."}
       ]
     }
   ]

@@ -30,7 +30,9 @@
     </div>
 
     <h3>Vem vinner?</h3>
-    {{orcs.amount}} * {{orcs.strength}} - {{elfs.amount}} * {{elfs.strength}} = {{orcs.amount*orcs.strength-elfs.amount*elfs.strength}}
+    <div class="semibold">
+      {{orcs.amount}} * {{orcs.strength}} - {{elfs.amount}} * {{elfs.strength}} = {{orcs.amount*orcs.strength-elfs.amount*elfs.strength}}
+    </div>
 
   </div>
 </template>
@@ -97,6 +99,11 @@ img{
 
 label{
   margin-right: 5px;
+}
+
+input{
+  font-size: 1.2em;
+  padding: 5px;
 }
 
 </style>

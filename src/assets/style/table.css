@@ -1,0 +1,22 @@
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+table.comparison{
+  border: 2px solid gray !important;
+}
+
+table.comparison tr:first-child,td:first-child{
+  font-weight: 400;
+  background: rgb(240,240,240);
+}
+
+table.comparison tr:hover{
+  background: rgb(230,230,230);
+}

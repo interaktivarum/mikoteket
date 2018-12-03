@@ -3,6 +3,8 @@
 
     <!--div id="fb-root"></div-->
 
+    <ie-check></ie-check>
+
     <header-component class="header"></header-component>
 
     <router-view class="mainContent" :class="{'bg-contrast': accessibility.contrast}"/>
@@ -22,6 +24,7 @@
 
 import { store } from './store';
 
+import IeCheck from '@/components/IeCheck.vue'
 import HeaderComponent from '@/components/Header.vue'
 import MikFooter from '@/components/MikFooter.vue'
 
@@ -48,6 +51,7 @@ import Dyslexia from '@/components/accessibility/Dyslexia.vue'
 export default {
   name: 'app',
   components: {
+    IeCheck,
     HeaderComponent,
     MikFooter,
     BackgroundContrast,
@@ -96,12 +100,6 @@ export default {
 @import '/assets/style/flex.css';
 @import '/assets/style/text.css';
 @import '/assets/style/animations.css';
-
-#app{
-  background: red;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
+@import '/assets/style/table.css';
 
 </style>

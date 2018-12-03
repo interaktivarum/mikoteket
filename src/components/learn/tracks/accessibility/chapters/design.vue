@@ -23,7 +23,7 @@
 
       <ol>
         <li>
-          Dålig grafisk design: <span class="bd-links"><a href="http://www.google.com" target="_blank"><span class="pointer">en omarkerad länk</span></a></span>.
+          Dålig grafisk design: <span class="bd-links"><a href="http://www.svt.se" target="_blank"><span class="pointer">en omarkerad länk</span></a></span>.
         </li>
         <li>
           Dålig interaktionsdesign: inmatningsfält med bristande instruktioner och återkoppling.
@@ -43,6 +43,9 @@
         </li>
         <li>
           Hur kan designen förbättras för ökad användbarhet?
+        </li>
+        <li>
+          Vilka personer kan uppleva särskilda svårigheter med den bristande designen?
         </li>
       </ul>
 
@@ -65,7 +68,7 @@
   </p>
 
   <p>
-    Bra design ska vara tillgänglig för alla. Även om våra vardagliga föremål ofta har en genomtänkt design kan de i många fall vara svåra eller rentav farliga att använda för personer med olika funktionsnedsättningar. I videon nedan presenteras en designer i Singapore som, efter att ha noterat sår och ärr på många blinda personers händer och armar till följd av matlagning med köksverktyg utformade för seende personer, började omdesigna många av våra vanliga föremål i köket.
+    Bra design ska vara tillgänglig för alla. Även om våra vardagliga föremål ofta har en genomtänkt design kan de i många fall vara svåra eller rentav farliga att använda för personer med olika funktionsnedsättningar. I videon nedan presenteras en designer i Singapore som, efter att ha noterat sår och ärr på många blinda personers händer och armar till följd av matlagning med köksverktyg utformade för seende personer, började omdesigna vanliga föremål i köket.
   </p>
 
   <media-container class="mediaContainer">
@@ -159,7 +162,7 @@
   </p>
 
   <p>
-    Även om riktlinjerna är framtagna för verktyg och tjänster på webben är de i många fall applicerbara även på andra digitala verktyg, såsom mobilappar, spel, etc. En grundprincip är att användarens kognitiva belastning ska minimeras. Information ska vara enkel att hitta och användaren ska känna att hen är i kontroll.
+    Även om riktlinjerna är framtagna för verktyg och tjänster på webben är de i många fall applicerbara även på andra skärmbaserade verktyg, såsom mobilappar, spel, etc. En grundprincip är att användarens kognitiva belastning ska minimeras. Information ska vara enkel att hitta och användaren ska känna att hen är i kontroll.
   </p>
 
   <p>
@@ -192,7 +195,7 @@
             Språket ska vara anpassat till användaren.
           </li>
           <li>
-            Färger ska användas måttligt, genomtänkt och ge bra kontraster.
+            Färger ska användas genomtänkt och ge bra kontraster.
           </li>
         </ul>
       </li>
@@ -200,13 +203,13 @@
         Designa för mobila och små skärmar
         <ul>
             <li>
-              Layouten ska anpassas automatiskt till olika skärmstorlekar
+              Layouten ska anpassas automatiskt till olika skärmstorlekar.
             </li>
             <li>
-              Knappar och andra interaktiva element ska ha tillräckligt stor klick- och touchyta
+              Knappar och andra interaktiva element ska ha tillräckligt stor klick- och touchyta.
             </li>
             <li>
-              Interaktiva element ska inte ligga för tätt
+              Interaktiva element ska inte ligga för tätt.
             </li>
         </ul>
       </li>
@@ -252,11 +255,11 @@
   </p>
 
   <p>
-    Väl strukturerad information enligt standarder är en förutsättning för många tillgänglighetsverktyg att fungera. Utvecklare av webbplatser kan även bygga in färdigt stöd för tillgänglighetsanpassning, till exempel genom tjänsten <a href="https://www.funka.com/vi-erbjuder/talande-webb/" target="_blank">Talande Webb</a>, som inte kräver att användaren själv installerar nödvändiga verktyg. Detta är särskilt viktigt vid användning av exempelvis publika datorer eller i system där användaren inte själv har behörighet eller möjlighet att installera nya program.
+    Väl strukturerad information enligt standarder är en förutsättning för många tillgänglighetsverktyg att fungera. Nästan <a href="https://internet.begripsam.se/#/stats/Anva%25CC%2588ndning%2520av%2520internet%2520SMFOI%25202017/1052" target="_blank">tre av fyra blinda användare tycker det är svårt att använda internet</a>, och varannan anger som skäl att webbplatser inte fungerar med deras hjälpmedel. Ungefär var femte person med funktionsnedsättning och mer än var tredje person med lässvårigheter upplever att det är svårt att navigera/hitta till rätt ställe på internet.
   </p>
 
   <p>
-    För ökad tillgänglighet bör webbplatsen gå att anpassa efter egna behov, och erbjuda möjligheten att:
+    För ökad tillgänglighet bör en webbplats gå att anpassa efter egna behov, och erbjuda möjligheten att:
     <ul>
       <li>
         Ändra textstorleken.
@@ -280,13 +283,17 @@
   </p>
 
   <p>
+    Utvecklare av webbplatser kan bygga in färdigt stöd för tillgänglighetsanpassning, till exempel genom tjänsten <a href="https://www.funka.com/vi-erbjuder/talande-webb/" target="_blank">Talande Webb</a>, som inte kräver att användaren själv installerar nödvändiga verktyg. Detta är särskilt viktigt vid användning av exempelvis publika datorer eller i system där användaren inte själv har behörighet eller möjlighet att installera nya program.
+  </p>
+
+  <p>
     Mikotekets webbplats erbjuder ett antal <router-link :to="{ name: 'Accessibility'}">inbyggda tillgänglighetsverktyg</router-link> som inte förutsätter att användaren installerar nya program.
   </p>
 
   <media-container class="mediaContainer">
     <div>
       <div class="content">
-        <iframe src="https://player.vimeo.com/video/123300019" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/123300019" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div class="caption">
         E-delegationen presenterar i sin video tre personer som berättar hur deras respektive funktionsnedsättning påverkar deras upplevelse på webben, samt ger förslag på förbättringar.
@@ -385,7 +392,7 @@
           Vem riktar sig webbplatsen till?
         </li>
         <li>
-          Är det enkelt att få en överblick, navigera och hitta den information man söker?
+          Är det enkelt att få en överblick, navigera och hitta den information som söks?
         </li>
         <li>
           Innehåller webbplatsen mycket, för besökaren, irrelevant information?
@@ -429,7 +436,7 @@
   </p>
 
   <p>
-    Enligt Webbriktlinjer har cirka en av fem personer en funktionsnedsättning, och ännu fler har det periodvis i livet. Man brukar skilja på <span class="semibold">permanenta</span> (blindhet, dövhet, etc.), <span class="semibold">temporära</span> (starr, öroninfektion) och <span class="semibold">situationsberoende</span> (bländning, bullriga miljöer) nedsättningar. Genom att designa för ytterligheterna, exempelvis för personer med permanenta nedsättningar, så skapar man ofta även en tillgänglig design för många fler - även för personer utan nedsättning.
+    Enligt Webbriktlinjer har cirka <a href="https://webbriktlinjer.se/webbforalla/" target="_blank">en av fem personer en funktionsnedsättning</a>, och ännu fler har det periodvis i livet. Man brukar skilja på <span class="semibold">permanenta</span> (blindhet, dövhet, saknar en hand, etc.), <span class="semibold">temporära</span> (starr, öroninfektion, gipsad arm) och <span class="semibold">situationsberoende</span> (bländning, bullriga miljöer, bär ett barn) nedsättningar. Genom att designa för ytterligheterna, exempelvis för personer med permanenta nedsättningar, så skapar man ofta även en tillgänglig design för många fler - även för personer utan nedsättning.
   </p>
 
   <p>

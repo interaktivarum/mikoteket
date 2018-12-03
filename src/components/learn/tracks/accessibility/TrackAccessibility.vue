@@ -4,7 +4,6 @@ import TrackAccessibilityIntro from './chapters/intro.vue'
 import Design from './chapters/design.vue'
 import Understanding from './chapters/understanding.vue'
 import Utilities from './chapters/utilities.vue'
-import Discrimination from './chapters/discrimination.vue'
 
 export default {
   name: 'TrackAccessibility',
@@ -27,6 +26,6 @@ export default {
       }
     }
   },
-  disabled: true
+  disabled: false
 }
 </script>
