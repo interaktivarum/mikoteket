@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://www.mikoteket.se/</loc>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://mikoteket.se/digitalkompetens</loc>
+   </url>
+
+   <url>
+      <loc>https://mikoteket.se/digitalkompetens/sok</loc>
+   </url>
+
+   <url>
+      <loc>https://mikoteket.se/digitalkompetens/kallkritik</loc>
+   </url>
+
+   <url>
+      <loc>https://mikoteket.se/workshop</loc>
+   </url>
+
+   <url>
+      <loc>https://mikoteket.se/om</loc>
+   </url>
+
+</urlset>
