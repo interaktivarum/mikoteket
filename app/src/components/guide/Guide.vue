@@ -28,16 +28,16 @@
             För frågor om användning eller samverkan, kontakta mig på <a href="mailto:martin@interaktivarum.se">martin@interaktivarum.se</a>.
           </p>
 
-          <h3>Källkritik och algoritmer på internet</h3>
+          <h3>Digital källkritik</h3>
 
           <p class="links">
-            Ladda ner: <a href="http://handledning.mikoteket.se/nyteknik/Källkritik och algoritmer på internet, v0_1.pdf" target="_blank">Källkritik och algoritmer på internet - 0.1</a>
+            Ladda ner: <a-download href="https://handledning.mikoteket.se/universeum/Digital källkritik, v1_0.pdf">Digital källkritik - 1.0</a-download>
             <br />
             Licens: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.sv" target="_blank">CC BY-NC-SA 4.0</a>
           </p>
 
           <p>
-            Källkritik och algoritmer på internet är ett skolprogram bestående av fyra lektionstillfällen á 60 minuter. Skolprogrammet och tillhörande handledning är framtaget för #nyteknik på Universeum.
+            Digital källkritik är ett skolprogram bestående av fyra lektionstillfällen á 60 minuter. Skolprogrammet och tillhörande handledning är framtaget för <a href="https://www.universeum.se/utstallningar/the-hub/" target="_blank">The Hub</a> på <a href="https://www.universeum.se/" target="_blank">Universeum</a>.
           </p>
 
           <!--h4>Tidigare versioner</h4>
@@ -63,11 +63,13 @@
 
 import CoverImage from '@/components/CoverImage.vue'
 import OgEmbed from '@/components/OgEmbed.vue'
+import ADownload from '@/components/download/ADownload.vue'
 
 export default {
   components: {
     CoverImage,
-    OgEmbed
+    OgEmbed,
+    ADownload
   },
   props: {
     header: {},

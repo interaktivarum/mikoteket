@@ -1,6 +1,26 @@
 {
   "log": [
     {
+      "date": "2018-12-13",
+      "items": [
+        {"description": "Nya workshops för våren 2019."}
+      ]
+    },
+    {
+      "date": "2018-12-11",
+      "items": [
+        {"description": "Insamling för Musikhjälpen"}
+      ]
+    },
+    {
+      "date": "2018-12-05",
+      "items": [
+        {"description": "Karta med kommande och tidigare workshops."},
+        {"description": "Uppdaterad text för samverkan."},
+        {"description": "Pressbild."}
+      ]
+    },
+    {
       "date": "2018-11-30",
       "items": [
         {"description": "Digital tillgänglighet: korrigerad information och förtydliganden."}

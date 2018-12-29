@@ -1,0 +1,247 @@
+{
+  "workshops": [
+    {
+      "name": "",
+      "location": "Kista bibliotek",
+      "latlon": [59.402157, 17.945709],
+      "date": "2017-11-30",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Stockholm Stadsbibliotek"
+    },
+    {
+      "name": "",
+      "location": "Kista bibliotek",
+      "latlon": [59.402157, 17.945909],
+      "date": "2018-02-09",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Stockholm Stadsbibliotek"
+    },
+    {
+      "name": "MIK-dag 2018",
+      "location": "Cnema",
+      "latlon": [58.589256, 16.177261],
+      "date": "2018-02-27",
+      "url": "http://regionbibliotekostergotland.se/events/mikdag-2018/",
+      "type": "Föreläsning, kompetensutveckling",
+      "organizer": "Film i öst"
+    },
+    {
+      "name": "",
+      "location": "Värmdö bibliotek",
+      "latlon": [59.326746, 18.390422],
+      "date": "2018-03-07",
+      "url": "",
+      "type": "Onlineföreläsning",
+      "organizer": "Värmdö bibliotek"
+    },
+    {
+      "name": "Källkritiskt café",
+      "location": "Motala bibliotek",
+      "latlon": [58.535632, 15.035279],
+      "date": "2018-03-28",
+      "url": "https://www.visitostergotland.se/sv/evenemangskalender/264915/Kallkritiskt-caf/",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbibliotek Östergötland"
+    },
+    {
+      "name": "",
+      "location": "Lärvux Stockholm",
+      "latlon": [59.311715, 18.057452],
+      "date": "2018-04-18",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Lärvux Stockholm"
+    },
+    {
+      "name": "",
+      "location": "Ångströmlaboratoriet",
+      "latlon": [59.839440, 17.647117],
+      "date": "2018-06-14",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbibliotek Uppsala"
+    },
+    {
+      "name": "Källkritik för individen",
+      "location": "Almedalen, Länsstyrelsens trädgård",
+      "latlon": [57.637525, 18.288081],
+      "date": "2018-07-04",
+      "url": "http://program.almedalsveckan.info/event/user-view/55218",
+      "type": "Seminarium/föreläsning",
+      "organizer": "Länsstyrelsen Västmanland"
+    },
+    {
+      "name": "",
+      "location": "Lokstallarna",
+      "latlon": [58.996309, 16.219653],
+      "date": "2018-09-12",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Kulturförvaltningen, Katrineholm"
+    },
+    {
+      "name": "",
+      "location": "Missionskyrkan",
+      "latlon": [58.408804, 15.626765],
+      "date": "2018-09-13",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Utbildningsförvaltningen, Linköping"
+    },
+    {
+      "name": "",
+      "location": "Karlsgatan 2",
+      "latlon": [59.609832, 16.552309],
+      "date": "2018-09-19",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Region Västmanland"
+    },
+    {
+      "name": "",
+      "location": "Älvkullegymnasiet",
+      "latlon": [59.393679, 13.509248],
+      "date": "2018-09-21",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Karlstad kommun"
+    },
+    {
+      "name": "Deepfake - kan vi lita på den rörliga bilden?",
+      "location": "Bokmässan, Svenska Mässan",
+      "latlon": [57.697961, 11.989492],
+      "date": "2018-09-28",
+      "url": "https://bokmassan.se/programs/deepfake-kan-vi-lita-pa-den-rorliga-bilden/",
+      "type": "Föreläsning",
+      "organizer": "MEG"
+    },
+    {
+      "name": "Manipulerade nyheter i bild",
+      "location": "Bokmässan, Svenska Mässan",
+      "latlon": [57.697961, 11.989692],
+      "date": "2018-09-29",
+      "url": "https://bokmassan.se/programs/martin-tornros-manipulerade-nyheter-i-bild/",
+      "type": "Föreläsning",
+      "organizer": "Läsrörelsen"
+    },
+    {
+      "name": "",
+      "location": "Södertälje Stadsbibliotek",
+      "latlon": [59.197010, 17.627043],
+      "date": "2018-10-08",
+      "url": "",
+      "type": "Föreläsning",
+      "organizer": "Biblioteken i Södertälje"
+    },
+    {
+      "name": "",
+      "location": "Biblioteket i Ekerö centrum",
+      "latlon": [59.291163, 17.812102],
+      "date": "2018-10-10",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Skolbiblioteken, Ekerö kommun"
+    },
+    {
+      "name": "",
+      "location": "Högskolan i Borås",
+      "latlon": [57.725237, 12.939638],
+      "date": "2018-10-11",
+      "url": "http://www.hb.se/Om-hogskolan/Aktuellt/Evenemang/MIK-Digitalisering-och-Demokrati/",
+      "type": "Föreläsning, kompetensutveckling",
+      "organizer": "Filmpedagogerna / Högskolan i Borås"
+    },
+    {
+      "name": "",
+      "location": "Kalmarsalen",
+      "latlon": [56.664075, 16.370348],
+      "date": "2018-10-16",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbiblioteket i Kalmar län"
+    },
+    {
+      "name": "",
+      "location": "Malmö stadsbibliotek",
+      "latlon": [55.600554, 12.994167],
+      "date": "2018-11-27",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Biblioteken i Malmö"
+    },
+    {
+      "name": "",
+      "location": "Sörmlands museum",
+      "latlon": [58.746463, 17.013677],
+      "date": "2018-11-28",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Länsbibliotek Sörmland"
+    },
+    {
+      "name": "",
+      "location": "Center för skolutveckling",
+      "latlon": [57.704011, 11.983566],
+      "date": "2018-11-29",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Center för skolutveckling"
+    },
+    {
+      "name": "MIK-konferens 2019",
+      "location": "Slottehubben",
+      "latlon": [61.831015, 16.119428],
+      "date": "2019-01-16",
+      "url": "http://www.regiongavleborg.se/kultur/verksamhet/film/media-och-informationskunnighet/",
+      "type": "Föreläsning, kompetensutveckling",
+      "organizer": "Region Gävleborg"
+    },
+    {
+      "name": "",
+      "location": "Kalmar",
+      "latlon": [56.665832, 16.356766],
+      "date": "2019-03-04",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbiblioteket i Kalmar län"
+    },
+    {
+      "name": "",
+      "location": "Oskarshamn",
+      "latlon": [57.267996, 16.447590],
+      "date": "2019-03-05",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbiblioteket i Kalmar län"
+    },
+    {
+      "name": "",
+      "location": "Västervik",
+      "latlon": [57.760468, 16.637495],
+      "date": "2019-03-06",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbiblioteket i Kalmar län"
+    },
+    {
+      "name": "",
+      "location": "Västmanland",
+      "latlon": [59.609832, 16.552309],
+      "date": "2019-03-14",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Region Västmanland"
+    },
+    {
+      "name": "",
+      "location": "Sörmland",
+      "latlon": [58.754955, 17.009028],
+      "date": "2019-05-08",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Region Sörmland"
+    }
+  ]
+}

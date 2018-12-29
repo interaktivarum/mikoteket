@@ -13,7 +13,11 @@
 
           <h4>Kommande evenemang</h4>
 
+          <br />
+
           <workshops></workshops>
+
+          <br />
 
           <h4>Kontakt och bokning</h4>
 
@@ -27,11 +31,18 @@
           <h4>Praktisk information</h4>
           <a href="/static/pdf/mikoteket-workshop-info.pdf" target="_blank">Mikoteket: information inför workshop</a>
 
+          <h4>Pressbild</h4>
+          <a href="https://filer.mikoteket.se/press/bilder/Martin_Törnros_Mikoteket.jpg" target="_blank">Pressbild</a>
+          <br />
+          Ange fotograf: <a href="https://www.data4chan.ge/" target="_blank">DATA4CHAN.GE</a> / Charbel Saade
+
         </div>
 
       </div>
 
       <div class="columnCenter">
+
+        <workshops-map class="ws-map"></workshops-map>
 
         <p>
           Mikoteket erbjuder fortbildning inom <a-wiki c="Medie-_och_informationskunnighet">medie- och informationskunnighet</a-wiki> (MIK) och <a-wiki c="Digital_kompetens">digital kompetens</a-wiki>, särskilt inriktat mot skola och bibliotek.
@@ -123,6 +134,9 @@
               <li>
                 Handledda praktiska övningar och diskussioner i grupp.
               </li>
+              <li>
+                Introduktion till ytterligare praktiska verktyg.
+              </li>
               <!--li>
                 Introduktion till, och kom igång med Slack.
               </li-->
@@ -137,11 +151,14 @@
                 Allt som ingår i halvdagsupplägget.
               </li>
               <li>
-                Föreläsning och handledd workshop i ytterligare spår.
+                Möjlighet till fler och mer djupgående diskussioner.
               </li>
               <li>
-                Workshop med verktyget <a href="http://www.ekokammaren.se" title="Ekokammaren" target="_blank">Ekokammaren</a>.
+                Föreläsning och handledd workshop i ytterligare spår.
               </li>
+              <!--li>
+                Workshop med verktyget <a href="http://www.ekokammaren.se" title="Ekokammaren" target="_blank">Ekokammaren</a>.
+              </li-->
             </ul>
 
             <div class="hBox">
@@ -228,7 +245,7 @@
 
         <p>
           Saknar ni ett spår?
-          <router-link to="om">Sponsra ett nytt spår</router-link> och låt arbetsmaterialet komma fler till nytta.
+          <router-link to="om">Samverka kring ett nytt spår</router-link> och låt arbetsmaterialet komma fler till nytta.
         </p>
 
         <!--h3>Miljöhänsyn och regionala turnéer</h3>
@@ -269,6 +286,7 @@
 
 <script>
 
+import WorkshopsMap from './WorkshopsMap'
 import ARoute from '@/components/ARoute.vue'
 import AWiki from '@/components/AWiki.vue'
 import CoverImage from '../CoverImage.vue'
@@ -279,6 +297,7 @@ import Workshops from '@/components/workshop/Workshops.vue'
 
 export default {
   components: {
+    WorkshopsMap,
     ARoute,
     AWiki,
     CoverImage,
@@ -298,5 +317,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+  .ws-map{
+    height: 350px;
+  }
 </style>

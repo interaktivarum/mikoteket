@@ -6,13 +6,16 @@ import Tracks from '@/components/learn/Tracks'
 import LessonsLayout from '@/components/learn/lessons/LessonsLayout'
 import ExcercisesLayout from '@/components/learn/excercises/ExcercisesLayout'
 import Workshop from '@/components/workshop/WorkshopLanding'
+import WorkshopMap from '@/components/workshop/WorkshopsMap'
 import About from '@/components/about/AboutLanding'
 import Press from '@/components/press/PressLanding'
 import Guide from '@/components/guide/Guide'
 import Accessibility from '@/components/accessibility/Accessibility'
 import UpdateLog from '@/components/updates/UpdateLog'
+import Download from '@/components/download/Download'
 import Survey from '@/components/survey/SurveyLanding'
 import Live from '@/components/live/LiveADW18'
+import MH18 from '@/components/campaigns/MH18'
 import Sandbox from '@/components/sandbox/Sandbox'
 
 Vue.use(Router)
@@ -53,6 +56,12 @@ export default new Router({
       component: Workshop
     },
     {
+      name: 'WorkshopMap',
+      path: '/workshopmap',
+      props: true,
+      component: WorkshopMap
+    },
+    {
       name: 'About',
       path: '/om',
       props: true,
@@ -83,6 +92,12 @@ export default new Router({
       component: UpdateLog
     },
     {
+      name: 'Download',
+      path: '/download',
+      props: true,
+      component: Download
+    },
+    {
       name: 'survey',
       path: '/kunskap',
       props: true,
@@ -93,6 +108,11 @@ export default new Router({
       path: '/live/adw18',
       props: true,
       component: Live
+    },
+    {
+      path: '/mh18',
+      props: true,
+      component: MH18
     },
     {
       path: '/sandbox',

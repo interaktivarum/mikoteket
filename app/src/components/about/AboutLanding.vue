@@ -63,9 +63,9 @@
           Mikoteket utvecklades ursprungligen hösten 2017 i samverkan med <a href="https://biblioteket.stockholm.se" title="Stockholm Stadsbibliotek" target="_blank">Stockholm Stadsbibliotek</a>, som fortbildningsplattform inom MIK för anställd bibliotekspersonal i regionen. Såväl plattformen som arbetsmaterialet utvecklas sedan dess vidare för att komma fler till nytta.
         </p>
 
-        <h3>Sponsra nya spår</h3>
+        <h3>Samverkan kring nya spår</h3>
         <p>
-          Saknar ni ett spår och tror att fler kan ha användning av kunskaperna? I samråd med er tar jag fram nytt arbetsmaterial och praktiska övningar efter behov och önskemål, som sedan blir en del av Mikoteket.
+          Saknar ni ett spår och tror att fler kan ha användning av kunskaperna? I samverkan med er utvecklas nytt arbetsmaterial med praktiska övningar och färdiga diskussionsfrågor. Materialet blir en fritt tillgänglig del av Mikoteket.
         </p>
 
         <p>
@@ -85,9 +85,6 @@
             </li>
             <li>
               <span class="semibold">Datadriven journalistik</span>: storytelling och att skapa engagemang.
-            </li>
-            <li>
-              <span class="semibold">Tillgänglighet på webben</span>: design och demokrati.
             </li>
             <li>
               <span class="semibold">Matematik och fysik</span> i datorspel och Instagramfilter.

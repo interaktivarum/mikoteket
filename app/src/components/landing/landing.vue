@@ -13,7 +13,11 @@
 
           <h4>Kommande evenemang</h4>
 
+          <br />
+
           <workshops></workshops>
+
+          <br />
 
           <p>
             <router-link :to="'/workshop'" class="button">
