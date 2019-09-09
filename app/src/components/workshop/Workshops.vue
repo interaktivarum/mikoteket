@@ -1,11 +1,21 @@
-<template>
+<template class="Workshops">
   <div>
 
+    <h4 v-if="workshops.filter(w => new Date(w.date) >= Date.now()).length">Kommande evenemang</h4>
+
     <div v-for="w in workshops.filter(w => new Date(w.date) >= Date.now())">
-      <a :href="w.url" target="_blank" v-if="w.url">
-        {{w.name}}
-      </a>
       <br />
+      <span v-if="w.name">
+        <span v-if="w.url">
+          <a :href="w.url" target="_blank" >
+            {{w.name}}
+          </a>
+        </span>
+        <span v-else>
+          {{w.name}}
+        </span>
+        <br />
+      </span>
       <span class="semibold">
         {{w.organizer}}
       </span>
@@ -41,5 +51,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
 </style>

@@ -10,6 +10,7 @@ import WorkshopMap from '@/components/workshop/WorkshopsMap'
 import About from '@/components/about/AboutLanding'
 import Press from '@/components/press/PressLanding'
 import Guide from '@/components/guide/Guide'
+import Resources from '@/components/resources/Resources'
 import Accessibility from '@/components/accessibility/Accessibility'
 import UpdateLog from '@/components/updates/UpdateLog'
 import Download from '@/components/download/Download'
@@ -76,8 +77,15 @@ export default new Router({
     {
       name: 'Guide',
       path: '/handledning',
+      //props: true,
+      //component: Guide
+      redirect: '/resurser'
+    },
+    {
+      name: 'Resources',
+      path: '/resurser',
       props: true,
-      component: Guide
+      component: Resources
     },
     {
       name: 'Accessibility',

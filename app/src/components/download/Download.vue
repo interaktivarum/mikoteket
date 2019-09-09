@@ -1,7 +1,13 @@
 <template>
-<div>
+<div class="Download">
 
-  Ladda ner fil
+  <div v-if="!showUrl">
+    Arbetar, vänligen vänta.
+  </div>
+
+  <div v-if="showUrl">
+    Om filen eller sidan inte laddas, klicka på följande länk: <a :href="href">{{href}}</a>
+  </div>
 
 </div>
 </template>
@@ -9,20 +15,32 @@
 <script>
 
 export default {
-  props: {
-    href: ""
+  data: function () {
+    return {
+      href: "",
+      showUrl: false
+    }
   },
   created: function () {
-    let href = this.$route.query["href"];
-    /*console.log(href)
-    console.log(encodeURI(href))
-    console.log(unescape(href));
-    console.log(unescape(encodeURI(href)));
-    console.log(unescape(decodeURIComponent(href)))*/
-    window.open(href, '_blank')
+    this.href = this.$route.query["href"];
+    window.open(this.href,"_self")
+  },
+  methods: {
+    showUrlFunc: function (){
+      this.showUrl = true;
+    }
   },
   mounted: function () {
-    window.close();
+    //window.close();
+    setTimeout(this.showUrlFunc, 3000);
   }
 }
 </script>
+
+<style scoped>
+
+.Download{
+  margin: 50px;
+}
+
+</style>

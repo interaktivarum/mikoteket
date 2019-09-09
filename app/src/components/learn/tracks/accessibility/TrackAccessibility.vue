@@ -22,7 +22,7 @@ export default {
       notions: [1,4,5,6,7],
       sponsor: {
         name: "Länsbibliotek Sörmland",
-        url: "https://landstingetsormland.se/lansbiblioteket"
+        url: "https://regionsormland.se/kultur/biblioteksutveckling/"
       }
     }
   },

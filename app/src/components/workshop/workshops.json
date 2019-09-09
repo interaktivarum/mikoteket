@@ -200,6 +200,24 @@
     },
     {
       "name": "",
+      "location": "City Konferensecenter",
+      "latlon": [59.276721, 15.212415],
+      "date": "2019-02-05",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Region Örebro län"
+    },
+    {
+      "name": "",
+      "location": "Universeum",
+      "latlon": [57.695730, 11.989428],
+      "date": "2019-02-19",
+      "url": "",
+      "type": "Föreläsning",
+      "organizer": "Universeum"
+    },
+    {
+      "name": "",
       "location": "Kalmar",
       "latlon": [56.665832, 16.356766],
       "date": "2019-03-04",
@@ -236,12 +254,166 @@
     },
     {
       "name": "",
+      "location": "Hässleholm",
+      "latlon": [56.157117, 13.763801],
+      "date": "2019-03-20",
+      "url": "",
+      "type": "Föreläsning, kompetensutveckling",
+      "organizer": "Bibblan svarar"
+    },
+    {
+      "name": "Robotar & AI - är framtiden här?",
+      "location": "Sörmland",
+      "latlon": [59.268942, 15.208096],
+      "date": "2019-03-26",
+      "url": "",
+      "type": "Publik föreläsning",
+      "organizer": "Region Örebro län"
+    },
+    {
+      "name": "",
       "location": "Sörmland",
       "latlon": [58.754955, 17.009028],
       "date": "2019-05-08",
       "url": "",
       "type": "Workshop, kompetensutveckling",
       "organizer": "Region Sörmland"
+    },
+    {
+      "name": "",
+      "location": "Kalmar",
+      "latlon": [56.665832, 16.356766],
+      "date": "2019-05-09",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbiblioteket i Kalmar län"
+    },
+    {
+      "name": "MIK-jam",
+      "location": "Norrköping",
+      "latlon": [58.589237, 16.180321],
+      "date": "2019-05-13",
+      "url": "https://mikjam.se",
+      "type": "Kreativ workshop och jam",
+      "organizer": "Film i Öst"
+    },
+    {
+      "name": "",
+      "location": "Ronneby",
+      "latlon": [56.213039, 15.275698],
+      "date": "2019-09-16",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Biblioteksutveckling Blekinge Kronoberg"
+    },
+    {
+      "name": "",
+      "location": "Ronneby",
+      "latlon": [56.213039, 15.275698],
+      "date": "2019-09-17",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Biblioteksutveckling Blekinge Kronoberg"
+    },
+    {
+      "name": "",
+      "location": "Växjö",
+      "latlon": [56.883926, 14.806489],
+      "date": "2019-09-18",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Biblioteksutveckling Blekinge Kronoberg"
+    },
+    {
+      "name": "",
+      "location": "Växjö",
+      "latlon": [56.883926, 14.806489],
+      "date": "2019-09-19",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Biblioteksutveckling Blekinge Kronoberg"
+    },
+    {
+      "name": "Chalmers Annual Library Seminar",
+      "location": "Chalmers, Göteborg",
+      "latlon": [57.705937, 11.963877],
+      "date": "2019-09-25",
+      "url": "http://www.lib.chalmers.se/chals2019",
+      "type": "Föreläsning, AI & biblioteket",
+      "organizer": "ChALS"
+    },
+    {
+      "name": "MIK – verkstad för praktiker",
+      "location": "Bokmässan, Göteborg",
+      "latlon": [57.697980, 11.989059],
+      "date": "2019-09-27",
+      "url": "https://bokmassan.se/programs/mik-verkstad-for-praktiker/",
+      "type": "Workshop: De 5 MIK-lagarna",
+      "organizer": "Statens Medieråd"
+    },
+    {
+      "name": "Biblioteken som nav för digital kompetens",
+      "location": "Bokmässan, Göteborg",
+      "latlon": [57.697980, 11.989059],
+      "date": "2019-09-27",
+      "url": "https://bokmassan.se/programs/biblioteken-som-nav-for-digital-kompetens/",
+      "type": "Seminarium",
+      "organizer": "Digitalt Först"
+    },
+    {
+      "name": "",
+      "location": "Örebro",
+      "latlon": [59.284579, 15.210724],
+      "date": "2019-09-29",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Örebro Tjejjour"
+    },
+    {
+      "name": "",
+      "location": "Umeå",
+      "latlon": [63.834946, 20.261922],
+      "date": "2019-10-08",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Region Västerbotten"
+    },
+    {
+      "name": "",
+      "location": "Umeå",
+      "latlon": [63.834946, 20.261922],
+      "date": "2019-10-08",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "MediaCenter"
+    },
+    {
+      "name": "Digital tillgänglighet",
+      "location": "Uppsala",
+      "latlon": [59.867314, 17.635907],
+      "date": "2019-10-15",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbibliotek Uppsala"
+    },
+    {
+      "name": "",
+      "location": "Malmö",
+      "latlon": [55.615833, 13.005137],
+      "date": "2019-11-13",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Regionbibliotek Uppsala"
+    },
+    {
+      "name": "Skolbiblioteket spelar roll – med MIK i fokus",
+      "location": "Malmö",
+      "latlon": [55.615833, 13.005137],
+      "date": "2019-11-26",
+      "url": "",
+      "type": "Workshop, kompetensutveckling",
+      "organizer": "Malmö Stad"
     }
+
   ]
 }

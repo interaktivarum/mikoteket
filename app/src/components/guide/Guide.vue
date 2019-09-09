@@ -30,14 +30,32 @@
 
           <h3>Digital källkritik</h3>
 
-          <p class="links">
-            Ladda ner: <a-download href="https://handledning.mikoteket.se/universeum/Digital källkritik, v1_0.pdf">Digital källkritik - 1.0</a-download>
+          <p>
+            Ladda ner:
+            <a-download href="https://www.dropbox.com/sh/psmnsw1b3u4sh2l/AAAHKbN2CxOfUsFCh9ZQTc5Ua?dl=0">Handledning och presentation på Dropbox</a-download>
             <br />
             Licens: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.sv" target="_blank">CC BY-NC-SA 4.0</a>
           </p>
 
           <p>
-            Digital källkritik är ett skolprogram bestående av fyra lektionstillfällen á 60 minuter. Skolprogrammet och tillhörande handledning är framtaget för <a href="https://www.universeum.se/utstallningar/the-hub/" target="_blank">The Hub</a> på <a href="https://www.universeum.se/" target="_blank">Universeum</a>.
+            Digital källkritik är ett skolprogram för årskurs 4-9 bestående av fyra lektionstillfällen á 60 minuter:
+
+            <ol>
+              <li>
+                Algoritmer och källkritik
+              </li>
+              <li>
+                Algoritmer i sökmotorer
+              </li>
+              <li>
+                Vem säger det?
+              </li>
+              <li>
+                Ekokammare och filterbubblor
+              </li>
+            </ol>
+
+            Skolprogrammet och tillhörande handledning är framtaget för <a href="https://www.universeum.se/utstallningar/the-hub/" target="_blank">The Hub</a> på <a href="https://www.universeum.se/" target="_blank">Universeum</a>.
           </p>
 
           <!--h4>Tidigare versioner</h4>

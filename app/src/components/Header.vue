@@ -23,6 +23,14 @@
         Workshops & föreläsningar
       </router-link>
 
+      <!--router-link class="menuItem" :to="{name: 'Guide'}">
+        Handledning
+      </router-link-->
+
+      <router-link class="menuItem" :to="{name: 'Resources'}">
+        Resurser
+      </router-link>
+
       <!--router-link class="menuItem" to="/press">
         Press & media
       </router-link-->

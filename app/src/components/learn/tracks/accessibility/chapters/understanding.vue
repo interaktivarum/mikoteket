@@ -170,6 +170,24 @@
       </div>
     </media-container>
 
+    <p>
+      <a href="http://www.notesonblindness.co.uk/" target="_blank">Notes on Blindness</a> är en dokumentär med tillhörande VR-applikation som låter användaren uppleva hur det är att vara blind, och navigera med hörseln som främsta sinne. Programmet baseras på verkliga dagboksanteckningar av John Hull, som blev blind i vuxen ålder, och simulerar hur han, utifrån ljudintryck, målar upp visuella bilder av sin omgivning.
+    </p>
+
+    <media-container class="mediaContainer">
+      <div>
+        <div class="content">
+          <iframe src="https://www.youtube.com/embed/9ViF0GBt6fQ" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div class="caption">
+          Notes on Blindness är en VR-applikation som simulerar blindhet.
+        </div>
+        <div class="source">
+          Källa: <a href="https://www.youtube.com/watch?v=9ViF0GBt6fQ" title="Youtube: Notes on Blindness: Into Darkness VR experience teaser trailer" target="_blank">Curzon (Youtube)</a>
+        </div>
+      </div>
+    </media-container>
+
     <info-fields class="infoFields">
 
       <div class="excercise">

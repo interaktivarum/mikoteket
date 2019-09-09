@@ -11,10 +11,6 @@
 
         <div class="hideOnPhone">
 
-          <h4>Kommande evenemang</h4>
-
-          <br />
-
           <workshops></workshops>
 
           <br />
