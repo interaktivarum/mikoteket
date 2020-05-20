@@ -397,22 +397,22 @@
       "organizer": "Regionbibliotek Uppsala"
     },
     {
-      "name": "",
+      "name": "Skolbiblioteket spelar roll – med MIK i fokus",
       "location": "Malmö",
       "latlon": [55.615833, 13.005137],
       "date": "2019-11-13",
       "url": "",
       "type": "Workshop, kompetensutveckling",
-      "organizer": "Regionbibliotek Uppsala"
+      "organizer": "Malmö Stad"
     },
     {
-      "name": "Skolbiblioteket spelar roll – med MIK i fokus",
+      "name": "",
       "location": "Malmö",
       "latlon": [55.615833, 13.005137],
       "date": "2019-11-26",
       "url": "",
       "type": "Workshop, kompetensutveckling",
-      "organizer": "Malmö Stad"
+      "organizer": "Husieskolan"
     }
 
   ]
